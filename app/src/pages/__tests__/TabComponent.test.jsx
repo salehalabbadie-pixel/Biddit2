@@ -30,6 +30,9 @@ vi.mock("../../components/rightCol/CurriculumMap/CurriculumMap", () => ({
 vi.mock("../../components/rightCol/StudyOverview", () => ({
   default: () => <div>study-overview-stub</div>,
 }));
+vi.mock("../../features/skillMaster/components/SkillGapPanel", () => ({
+  default: () => <div>skill-gap-stub</div>,
+}));
 
 /**
  * The affordance hook measures a real layout, which jsdom does not have — it
@@ -65,6 +68,7 @@ const PANEL_STUB = {
   [TAB.CURRICULUM_MAP]: "curriculum-map-stub",
   [TAB.STUDY_OVERVIEW]: "study-overview-stub",
   [TAB.TRANSCRIPT]: "transcript-stub",
+  [TAB.SKILL_GAP]: "skill-gap-stub",
 };
 
 const renderTabs = ({ selectedTab = 0, initializeState } = {}) =>

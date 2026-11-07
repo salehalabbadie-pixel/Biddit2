@@ -30,6 +30,7 @@ import { log } from "../helpers/log";
 import { formatEcts, toEcts } from "../../domain/credits";
 import { courseKey } from "../../domain/course";
 import { getCourseRatings, getCourseSheet } from "../helpers/courseSheetCache";
+import { SkillMatchCard } from "../../features/skillMaster";
 
 // The course sheet and the ExaminationTypes lookup are fetched independently, so
 // the sheet can arrive first. Until the lookup lands — or if it has no entry for
@@ -232,6 +233,8 @@ export default function CourseInfo() {
                   .join(" • ")}
             </div>
           </div>
+
+          <SkillMatchCard course={selectedCourse} semester={selectedSemester} />
 
           {/* // Course Description // */}
 

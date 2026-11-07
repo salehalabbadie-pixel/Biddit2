@@ -64,6 +64,7 @@ import { LockOpen } from "./LockOpen";
 // Recoil state
 import { isLeftViewVisible } from "../../recoil/isLeftViewVisible";
 import { formatEcts, toEcts } from "../../../domain/credits";
+import { MatchBadge, useSkillMatch } from "../../../features/skillMaster";
 
 // Stable fallback so an empty selector result does not invalidate itemData.
 const NO_ITEMS = [];
@@ -154,6 +155,9 @@ const Row = memo(function Row({ index, style, data }) {
               has no spare column. Distinct from the lock, which carries the
               lecture-overlap signal. heroicons hide their icons from
               assistive technology; this one is the clash's only carrier. */}
+          {data.matchFor && (
+            <MatchBadge match={data.matchFor(event)?.match ?? null} />
+          )}
           {examClash && (
             <ExclamationIcon
               role="img"
@@ -311,6 +315,17 @@ export default function EventListContainer({
   const displayedCourses = smartActive ? smartResults : filteredCourses;
   const isListLoading = isLoading || (smartActive && smartSearch.isLoading);
 
+  // Skill Mapper: same rows, sorted by match to the chosen target role.
+  const skillMode = smartSearch.mode === "skills";
+  const { matchFor } = useSkillMatch(
+    skillMode ? selectedSemesterShortName : null
+  );
+  const listedCourses = useMemo(() => {
+    if (!skillMode) return displayedCourses;
+    const score = (course) => matchFor(course)?.match ?? -1;
+    return [...displayedCourses].sort((a, b) => score(b) - score(a));
+  }, [skillMode, displayedCourses, matchFor]);
+
   // Course selection hook (simplified) - now works with unified state
   const { addOrRemoveCourse } = useCourseSelection({
     selectedCourseIds,
@@ -322,7 +337,8 @@ export default function EventListContainer({
   // Prepare itemData for Row component (includes all needed callbacks and state)
   const itemData = useMemo(
     () => ({
-      filteredCourses: displayedCourses,
+      filteredCourses: listedCourses,
+      matchFor: skillMode ? matchFor : null,
       selectedSemesterShortName,
       selectedSemester,
       selectedCourseIds,
@@ -334,7 +350,9 @@ export default function EventListContainer({
       myCourses,
     }),
     [
-      displayedCourses,
+      listedCourses,
+      skillMode,
+      matchFor,
       selectedSemesterShortName,
       selectedSemester,
       selectedCourseIds,

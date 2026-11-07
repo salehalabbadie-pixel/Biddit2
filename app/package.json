@@ -29,6 +29,7 @@
     "@tabler/icons-react": "^3.46.0",
     "@tailwindcss/forms": "^0.5.11",
     "axios": "^1.20.0",
+    "jotai": "^3.0.1",
     "moment": "^2.31.0",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",

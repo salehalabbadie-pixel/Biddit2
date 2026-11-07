@@ -11,6 +11,7 @@ export const TAB = {
   TRANSCRIPT: "transcript",
   CURRICULUM_MAP: "curriculum-map",
   STUDY_OVERVIEW: "study-overview",
+  SKILL_GAP: "skill-gap",
 };
 
 /** Default label per tab id. The Summary label is made semester-specific at render time. */
@@ -21,6 +22,7 @@ export const TAB_LABELS = {
   [TAB.CURRICULUM_MAP]: "Curriculum Map",
   [TAB.STUDY_OVERVIEW]: "Study Overview",
   [TAB.TRANSCRIPT]: "Transcript",
+  [TAB.SKILL_GAP]: "Skill-Gap",
 };
 
 /**
@@ -35,6 +37,10 @@ export const TAB_GROUPS = [
   {
     label: "My Degree",
     tabs: [TAB.CURRICULUM_MAP, TAB.STUDY_OVERVIEW, TAB.TRANSCRIPT],
+  },
+  {
+    label: "Skill-Master",
+    tabs: [TAB.SKILL_GAP],
   },
 ];
 

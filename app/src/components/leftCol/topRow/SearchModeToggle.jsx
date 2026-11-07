@@ -1,6 +1,7 @@
 import { useRecoilState, useSetRecoilState } from "recoil";
 import { selectionOptionsState } from "../../recoil/selectionOptionsAtom";
 import { smartSearchState } from "../../recoil/smartSearchAtom";
+import { SkillMapperHint } from "../../../features/skillMaster";
 
 const baseStyle =
   "flex-1 py-1 text-xs font-medium rounded-md transition-colors";
@@ -8,6 +9,7 @@ const baseStyle =
 const MODES = [
   ["keyword", "Keyword"],
   ["smart", "Smart ✨"],
+  ["skills", "Skill Mapper"],
 ];
 
 /**
@@ -75,6 +77,7 @@ export default function SearchModeToggle() {
         ))}
       </div>
       {search.mode === "smart" && <SmartSearchHint />}
+      {search.mode === "skills" && <SkillMapperHint />}
     </>
   );
 }

@@ -26,6 +26,9 @@ const CurriculumMap = lazyWithReload(
   () => import("../components/rightCol/CurriculumMap/CurriculumMap"),
 );
 const StudyOverview = lazyWithReload(() => import("../components/rightCol/StudyOverview"));
+const SkillGapPanel = lazyWithReload(
+  () => import("../features/skillMaster/components/SkillGapPanel"),
+);
 
 // For dynamic tab text
 import { selectedSemesterSelector } from "../components/recoil/unifiedCourseDataSelectors";
@@ -80,6 +83,11 @@ const TAB_PANEL_CONTENT = {
   [TAB.TRANSCRIPT]: (
     <Suspense fallback={<LoadingText>Loading Transcript...</LoadingText>}>
       <Transcript />
+    </Suspense>
+  ),
+  [TAB.SKILL_GAP]: (
+    <Suspense fallback={<LoadingText>Loading Skill-Gap...</LoadingText>}>
+      <SkillGapPanel />
     </Suspense>
   ),
 };

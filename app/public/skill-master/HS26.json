@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "semester": "HS26",
+  "generatedAt": "2026-11-07",
+  "escoVersion": "v1.2",
+  "note": "Demo-Daten. Die Kursnummern sind Platzhalter und müssen durch die echten Nummern der MBI-Kurse ersetzt werden.",
+  "courses": [
+    {
+      "courseNumber": "7,001,1.00",
+      "rootKey": "7,001",
+      "title": "Business Innovation I: Geschäftsmodelle entwickeln",
+      "skills": [
+        { "escoUri": "business-models", "contribution": 25, "evidence": "Lernziel: Geschäftsmodelle systematisch entwickeln", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 20, "evidence": "Lernziel: Innovationsprobleme strukturiert lösen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 15, "evidence": "Inhalt: Kundeninterviews", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Schlusspräsentation", "aiAutomation": 30, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,002,1.00",
+      "rootKey": "7,002",
+      "title": "Design Thinking für Digital Innovation",
+      "skills": [
+        { "escoUri": "customer-needs", "contribution": 25, "evidence": "Lernziel: Nutzerbedürfnisse erforschen", "aiAutomation": 20, "status": "confirmed" },
+        { "escoUri": "prototyping", "contribution": 25, "evidence": "Inhalt: Prototypen bauen und testen", "aiAutomation": 35, "status": "confirmed" },
+        { "escoUri": "problem-solving", "contribution": 20, "evidence": "Lernziel: Lösungen iterativ entwickeln", "aiAutomation": 20, "status": "confirmed" },
+        { "escoUri": "team-leadership", "contribution": 15, "evidence": "Gruppenprojekt", "aiAutomation": 10, "status": "confirmed" }
+      ]
+    },
+    {
+      "courseNumber": "7,003,1.00",
+      "rootKey": "7,003",
+      "title": "Decision Making under Risk and Uncertainty",
+      "skills": [
+        { "escoUri": "decision-making", "contribution": 30, "evidence": "Lernziel: Entscheidungen unter Unsicherheit begründen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 20, "evidence": "Lernziel: Annahmen kritisch prüfen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "financial-modelling", "contribution": 10, "evidence": "Inhalt: Erwartungswerte berechnen", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,004,1.00",
+      "rootKey": "7,004",
+      "title": "Business Innovation II: Building and Transforming Business",
+      "skills": [
+        { "escoUri": "context-analysis", "contribution": 20, "evidence": "Lernziel: Transformation im Kontext analysieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "negotiating", "contribution": 20, "evidence": "Inhalt: Stakeholder-Verhandlungen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 15, "evidence": "Inhalt: Change-Projekte leiten", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 10, "evidence": "Inhalt: Kennzahlen auswerten", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,005,1.00",
+      "rootKey": "7,005",
+      "title": "Methods: Scalable Tech Stacks for Business Ideas",
+      "skills": [
+        { "escoUri": "programming", "contribution": 25, "evidence": "Inhalt: Web-Stack aufsetzen", "aiAutomation": 65, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Lernziel: technische Prototypen bauen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 10, "evidence": "Inhalt: Daten auswerten", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,006,1.00",
+      "rootKey": "7,006",
+      "title": "Digital Biomarkers",
+      "skills": [
+        { "escoUri": "data-analysis", "contribution": 25, "evidence": "Inhalt: Sensordaten analysieren", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "programming", "contribution": 15, "evidence": "Inhalt: Auswertung mit Python", "aiAutomation": 65, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Lernziel: Ergebnisse kritisch einordnen", "aiAutomation": 15, "status": "extracted" }
+      ]
+    }
+  ]
+}
