@@ -82,6 +82,13 @@ export default function SkillGapPanel() {
       ...prev,
       selfAssessment: { ...prev.selfAssessment, [skillId]: value },
     }));
+  // Double-click removes the self-assessment of a skill again.
+  const clearAnswer = (skillId) =>
+    setProfile((prev) => {
+      const { [skillId]: _removed, ...rest } = prev.selfAssessment; // eslint-disable-line no-unused-vars
+      return { ...prev, selfAssessment: rest };
+    });
+  const coverage = gapCoverage(targets, levels, withPlan);
 
   return (
     <div className="p-4 space-y-6 text-sm" data-testid="skill-gap-panel">
@@ -112,11 +119,29 @@ export default function SkillGapPanel() {
 
       {targetIds.length > 0 && (
         <section>
-          <div className="flex items-baseline justify-between mb-2">
+          <div className="mb-3">
             <h2 className="text-lg font-semibold">Deine Skill-Lücken</h2>
-            <span className="text-gray-600">
-              Plan deckt <b>{gapCoverage(targets, levels, withPlan)} %</b> der Lücken
-            </span>
+            {planned.length > 0 ? (
+              <p className="mt-1 flex items-center gap-2 text-gray-700">
+                <span
+                  aria-hidden="true"
+                  className="relative inline-block h-2 w-20 shrink-0 rounded-full bg-gray-200"
+                >
+                  <span
+                    className="absolute inset-y-0 left-0 rounded-full bg-green-300"
+                    style={{ width: `${coverage}%` }}
+                  />
+                </span>
+                <span>
+                  Deine gemerkten Kurse schliessen <b>{coverage} %</b> deiner Lücken
+                  zum Rollenziel.
+                </span>
+              </p>
+            ) : (
+              <p className="mt-1 text-gray-600">
+                Merke dir Kurse, um zu sehen, wie viel deiner Lücken sie schliessen.
+              </p>
+            )}
           </div>
           <ul className="space-y-3">
             {targetIds.map((id) => (
@@ -148,6 +173,12 @@ export default function SkillGapPanel() {
                       key={value}
                       type="button"
                       onClick={() => answer(id, value)}
+                      onDoubleClick={() => clearAnswer(id)}
+                      title={
+                        profile.selfAssessment[id] === value
+                          ? "Doppelklick hebt die Auswahl auf"
+                          : undefined
+                      }
                       aria-pressed={profile.selfAssessment[id] === value}
                       className={`px-1.5 py-0.5 rounded text-xs border ${
                         profile.selfAssessment[id] === value
@@ -162,9 +193,23 @@ export default function SkillGapPanel() {
               </li>
             ))}
           </ul>
-          <p className="mt-2 text-xs text-gray-500">
-            Dunkel: heute (Selbsteinschätzung) · Hell: mit gemerkten Kursen · Strich: Ziel der Rolle
-          </p>
+          {/* Swatches reuse the exact classes of the bar above so legend and bar always match. */}
+          <ul className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-xs text-gray-600">
+            <li className="flex items-center gap-1.5">
+              <span aria-hidden="true" className="inline-block h-3 w-6 rounded-full bg-gray-600" />
+              Heute (Selbsteinschätzung)
+            </li>
+            <li className="flex items-center gap-1.5">
+              <span aria-hidden="true" className="inline-block h-3 w-6 rounded-full bg-green-300" />
+              Mit gemerkten Kursen
+            </li>
+            <li className="flex items-center gap-1.5">
+              <span aria-hidden="true" className="relative inline-block h-3 w-6 rounded-full bg-gray-200">
+                <span className="absolute -inset-y-1 left-1/2 w-0.5 bg-gray-900" />
+              </span>
+              Ziel der Rolle
+            </li>
+          </ul>
         </section>
       )}
 

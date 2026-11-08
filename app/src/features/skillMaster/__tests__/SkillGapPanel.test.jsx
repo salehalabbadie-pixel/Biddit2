@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import { RecoilRoot } from "recoil";
 import { Provider, createStore } from "jotai";
 import { http, HttpResponse } from "msw";
@@ -56,5 +56,30 @@ describe("SkillGapPanel", () => {
     expect(screen.getByText("Deine Skill-Lücken")).toBeInTheDocument();
     expect(await screen.findByText("Design Thinking")).toBeInTheDocument();
     expect(screen.getByText("+ Merken")).toBeInTheDocument();
+  });
+
+  it("asks to bookmark courses while none is planned", () => {
+    server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
+    renderPanel();
+    fireEvent.click(screen.getByRole("button", { name: "Product Owner" }));
+
+    expect(screen.getByText(/Merke dir Kurse/)).toBeInTheDocument();
+    expect(screen.queryByText(/gemerkten Kurse schliessen/)).not.toBeInTheDocument();
+  });
+
+  it("clears a self-assessment on double-click", () => {
+    server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
+    renderPanel();
+    fireEvent.click(screen.getByRole("button", { name: "Product Owner" }));
+
+    const row = within(screen.getByText("Kritisches Denken").closest("li"));
+    const basic = row.getByRole("button", { name: "Grundlagen" });
+
+    fireEvent.click(basic);
+    expect(basic).toHaveAttribute("aria-pressed", "true");
+
+    fireEvent.doubleClick(basic);
+    expect(basic).toHaveAttribute("aria-pressed", "false");
+    expect(row.getByRole("button", { name: "Keine" })).toHaveAttribute("aria-pressed", "false");
   });
 });
