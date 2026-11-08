@@ -17,6 +17,9 @@ import {
   targetLevels,
 } from "../domain/match";
 
+/** At most this many target roles can be chosen at once. */
+export const MAX_ROLES = 3;
+
 /** Chosen roles and self-assessment, kept in the browser for the demo. */
 export const skillProfileAtom = atomWithStorage("skillMaster.profile", {
   roleIds: [],
@@ -76,7 +79,8 @@ export function useSkillData(semester) {
 export function useSkillProfile() {
   const profile = useAtomValue(skillProfileAtom);
   return useMemo(() => {
-    const targets = targetLevels(ROLES, profile.roleIds);
+    // A profile stored before the limit existed may hold more roles; only the first count.
+    const targets = targetLevels(ROLES, profile.roleIds.slice(0, MAX_ROLES));
     const levels = currentLevels(profile.selfAssessment);
     return { profile, targets, levels, gapMap: gaps(targets, levels) };
   }, [profile]);

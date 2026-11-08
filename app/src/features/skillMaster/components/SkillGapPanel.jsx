@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import Select from "react-select";
 import { useAtom } from "jotai";
 import { useRecoilValue } from "recoil";
 import { authTokenState } from "../../../components/recoil/authAtom";
@@ -17,6 +18,7 @@ import {
   levelsWithPlan,
 } from "../domain/match";
 import {
+  MAX_ROLES,
   skillProfileAtom,
   useSkillMatch,
   useSkillProfile,
@@ -27,6 +29,23 @@ const ANSWERS = [
   ["basic", "Grundlagen"],
   ["solid", "Sicher"],
 ];
+
+const ROLE_OPTIONS = ROLES.map((role) => ({
+  value: role.id,
+  label: role.label,
+  note: role.esco?.note,
+}));
+
+/** In the open menu each role shows its ESCO note; chips show the label only. */
+const formatRoleOption = (option, { context }) =>
+  context === "menu" ? (
+    <span className="flex items-baseline justify-between gap-3">
+      <span>{option.label}</span>
+      {option.note && <span className="text-xs text-gray-500">{option.note}</span>}
+    </span>
+  ) : (
+    option.label
+  );
 
 const inList = (ids, course) => ids.some((id) => sameCourse(course, { id }));
 
@@ -70,21 +89,22 @@ export default function SkillGapPanel() {
     (a, b) => targets[b] - (levels[b] || 0) - (targets[a] - (levels[a] || 0))
   );
 
-  const toggleRole = (roleId) =>
+  // Only roles that still exist in the catalog count (a stored profile may hold renamed ones).
+  const chosenRoles = profile.roleIds
+    .slice(0, MAX_ROLES)
+    .map((id) => ROLE_OPTIONS.find((option) => option.value === id))
+    .filter(Boolean);
+  const chooseRoles = (options) =>
     setProfile((prev) => ({
       ...prev,
-      roleIds: prev.roleIds.includes(roleId)
-        ? prev.roleIds.filter((id) => id !== roleId)
-        : [...prev.roleIds, roleId],
+      roleIds: (options ?? []).slice(0, MAX_ROLES).map((option) => option.value),
     }));
+  // Clicking the already chosen answer again removes the self-assessment.
   const answer = (skillId, value) =>
-    setProfile((prev) => ({
-      ...prev,
-      selfAssessment: { ...prev.selfAssessment, [skillId]: value },
-    }));
-  // Double-click removes the self-assessment of a skill again.
-  const clearAnswer = (skillId) =>
     setProfile((prev) => {
+      if (prev.selfAssessment[skillId] !== value) {
+        return { ...prev, selfAssessment: { ...prev.selfAssessment, [skillId]: value } };
+      }
       const { [skillId]: _removed, ...rest } = prev.selfAssessment; // eslint-disable-line no-unused-vars
       return { ...prev, selfAssessment: rest };
     });
@@ -93,28 +113,30 @@ export default function SkillGapPanel() {
   return (
     <div className="p-4 space-y-6 text-sm" data-testid="skill-gap-panel">
       <section>
-        <h2 className="mb-1 text-lg font-semibold">Welche Rolle strebst du an?</h2>
+        <h2 className="mb-1 text-lg font-semibold">
+          <label htmlFor="skill-gap-roles">Welche Rolle strebst du an?</label>
+        </h2>
         <p className="mb-3 text-gray-600">
-          Zielrollen aus ESCO-Berufsprofilen. Mehrere sind möglich.
+          Wähle bis zu {MAX_ROLES} Zielrollen. Die meisten beruhen auf ESCO-Berufsprofilen.
         </p>
-        <div className="flex flex-wrap gap-2">
-          {ROLES.map((role) => {
-            const on = profile.roleIds.includes(role.id);
-            return (
-              <button
-                key={role.id}
-                type="button"
-                aria-pressed={on}
-                onClick={() => toggleRole(role.id)}
-                className={`px-3 py-1 rounded-full border ${
-                  on ? "bg-hsg-800 text-white border-hsg-800" : "bg-white text-gray-700"
-                }`}
-              >
-                {role.label}
-              </button>
-            );
-          })}
-        </div>
+        <Select
+          inputId="skill-gap-roles"
+          isMulti
+          isSearchable
+          closeMenuOnSelect={false}
+          placeholder="Zielrolle wählen …"
+          options={ROLE_OPTIONS}
+          value={chosenRoles}
+          onChange={chooseRoles}
+          isOptionDisabled={() => chosenRoles.length >= MAX_ROLES}
+          formatOptionLabel={formatRoleOption}
+          noOptionsMessage={() => "Keine passende Rolle"}
+        />
+        <p className="mt-1 text-xs text-gray-500">
+          {chosenRoles.length >= MAX_ROLES
+            ? `Maximum erreicht: Entferne eine Rolle, um eine andere zu wählen.`
+            : `${chosenRoles.length} von ${MAX_ROLES} gewählt`}
+        </p>
       </section>
 
       {targetIds.length > 0 && (
@@ -173,10 +195,9 @@ export default function SkillGapPanel() {
                       key={value}
                       type="button"
                       onClick={() => answer(id, value)}
-                      onDoubleClick={() => clearAnswer(id)}
                       title={
                         profile.selfAssessment[id] === value
-                          ? "Doppelklick hebt die Auswahl auf"
+                          ? "Nochmals klicken hebt die Auswahl auf"
                           : undefined
                       }
                       aria-pressed={profile.selfAssessment[id] === value}

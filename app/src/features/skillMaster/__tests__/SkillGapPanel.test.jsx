@@ -45,13 +45,19 @@ const renderPanel = () =>
     </Provider>
   );
 
+/** Opens the role dropdown and picks a role by its label. */
+const chooseRole = (label) => {
+  fireEvent.keyDown(screen.getByLabelText("Welche Rolle strebst du an?"), { key: "ArrowDown" });
+  fireEvent.click(screen.getByText(label));
+};
+
 describe("SkillGapPanel", () => {
   it("proposes a course with its match once a target role is chosen", async () => {
     server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
     renderPanel();
 
     expect(screen.queryByText("Deine Skill-Lücken")).not.toBeInTheDocument();
-    fireEvent.click(screen.getByRole("button", { name: "Product Owner" }));
+    chooseRole("Product Owner");
 
     expect(screen.getByText("Deine Skill-Lücken")).toBeInTheDocument();
     expect(await screen.findByText("Design Thinking")).toBeInTheDocument();
@@ -61,16 +67,16 @@ describe("SkillGapPanel", () => {
   it("asks to bookmark courses while none is planned", () => {
     server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
     renderPanel();
-    fireEvent.click(screen.getByRole("button", { name: "Product Owner" }));
+    chooseRole("Product Owner");
 
     expect(screen.getByText(/Merke dir Kurse/)).toBeInTheDocument();
     expect(screen.queryByText(/gemerkten Kurse schliessen/)).not.toBeInTheDocument();
   });
 
-  it("clears a self-assessment on double-click", () => {
+  it("clears a self-assessment when the chosen answer is clicked again", () => {
     server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
     renderPanel();
-    fireEvent.click(screen.getByRole("button", { name: "Product Owner" }));
+    chooseRole("Product Owner");
 
     const row = within(screen.getByText("Kritisches Denken").closest("li"));
     const basic = row.getByRole("button", { name: "Grundlagen" });
@@ -78,8 +84,27 @@ describe("SkillGapPanel", () => {
     fireEvent.click(basic);
     expect(basic).toHaveAttribute("aria-pressed", "true");
 
-    fireEvent.doubleClick(basic);
+    fireEvent.click(row.getByRole("button", { name: "Sicher" }));
+    expect(basic).toHaveAttribute("aria-pressed", "false");
+    expect(row.getByRole("button", { name: "Sicher" })).toHaveAttribute("aria-pressed", "true");
+
+    fireEvent.click(row.getByRole("button", { name: "Sicher" }));
+    expect(row.getByRole("button", { name: "Sicher" })).toHaveAttribute("aria-pressed", "false");
     expect(basic).toHaveAttribute("aria-pressed", "false");
     expect(row.getByRole("button", { name: "Keine" })).toHaveAttribute("aria-pressed", "false");
+  });
+
+  it("allows at most three target roles", () => {
+    server.use(http.get("*/skill-master/HS26.json", () => HttpResponse.json(SKILL_FILE)));
+    renderPanel();
+
+    chooseRole("Product Owner");
+    chooseRole("UX Designer");
+    chooseRole("Data Analyst");
+    expect(screen.getByText(/Maximum erreicht/)).toBeInTheDocument();
+
+    fireEvent.keyDown(screen.getByLabelText("Welche Rolle strebst du an?"), { key: "ArrowDown" });
+    const fourth = screen.getByText("Logistics Analyst").closest('[role="option"]');
+    expect(fourth).toHaveAttribute("aria-disabled", "true");
   });
 });
