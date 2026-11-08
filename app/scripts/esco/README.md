@@ -63,6 +63,9 @@ node scripts/esco/reuse.mjs scripts/esco/data/occupations scripts/esco/data/core
 node scripts/esco/generate-catalog.mjs scripts/esco/data/catalog-pre-esco.js \
   scripts/esco/data/occupations scripts/esco/data/core-skills.json \
   src/features/skillMaster/data/catalog.js
+
+# then check that the semester skill files still fit the catalogue
+node scripts/check-skill-data.mjs
 ```
 
 A new skill or role is added to `data/catalog-pre-esco.js` (id, label,
