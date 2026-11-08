@@ -1,0 +1,228 @@
+{
+  "id": "1488589a-7b83-471d-b094-492f5616f4e0",
+  "uri": "http://data.europa.eu/esco/occupation/1488589a-7b83-471d-b094-492f5616f4e0",
+  "title": "product development manager",
+  "de": "Produktentwicklungsmanager/Produktentwicklungsmanagerin",
+  "code": "1223.2.1",
+  "description": "Product development managers coordinate the development of new products from beginning to end. They receive briefings and start envisioning the new product considering design, technical and cost criteria. They conduct research on market needs and create prototypes of new products for untapped market opportunities. Product development managers also improve and boost technological quality.",
+  "essential": [
+    {
+      "title": "product life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0"
+    },
+    {
+      "title": "calculate production costs",
+      "uri": "http://data.europa.eu/esco/skill/6f8f86f8-0ef9-4dd6-8e29-7d790e65706b"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "design customer experiences",
+      "uri": "http://data.europa.eu/esco/skill/7bb5d9af-0a7e-48a7-a860-0e1ded0f6e75"
+    },
+    {
+      "title": "develop product design",
+      "uri": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6"
+    },
+    {
+      "title": "manage budgets",
+      "uri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea"
+    },
+    {
+      "title": "combine business technology with user experience",
+      "uri": "http://data.europa.eu/esco/skill/08f0af26-2178-40d2-9267-6d50a7346555"
+    },
+    {
+      "title": "follow company standards",
+      "uri": "http://data.europa.eu/esco/skill/f5f5b244-6cea-4fbc-8a50-8f712791bc09"
+    },
+    {
+      "title": "analyse data about clients",
+      "uri": "http://data.europa.eu/esco/skill/d63f49de-cb72-4ce3-9553-a374a4f32f52"
+    },
+    {
+      "title": "design prototypes",
+      "uri": "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2"
+    },
+    {
+      "title": "calculate design costs",
+      "uri": "http://data.europa.eu/esco/skill/72e88c2d-855d-4dbd-b06c-0e1ca748be5e"
+    },
+    {
+      "title": "develop new products",
+      "uri": "http://data.europa.eu/esco/skill/63f224ea-d889-42ea-b3ef-730ef78c7176"
+    },
+    {
+      "title": "market research",
+      "uri": "http://data.europa.eu/esco/skill/8770350e-746f-4adb-9556-18ca68104be6"
+    },
+    {
+      "title": "analyse consumer buying trends",
+      "uri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+    },
+    {
+      "title": "plan product management",
+      "uri": "http://data.europa.eu/esco/skill/29fb886c-6be0-4e93-9ea1-232881f2092a"
+    },
+    {
+      "title": "draw conclusions from market research results",
+      "uri": "http://data.europa.eu/esco/skill/46cb7282-7fb0-4d3c-b6b8-bfe81fab077e"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    }
+  ],
+  "optional": [
+    {
+      "title": "cost management",
+      "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0"
+    },
+    {
+      "title": "design metal components",
+      "uri": "http://data.europa.eu/esco/skill/16886497-e872-421a-8b9c-dc7fbbbb1ba5"
+    },
+    {
+      "title": "work in metal manufacture teams",
+      "uri": "http://data.europa.eu/esco/skill/54936e0e-2e1c-4b04-b73d-720b85a3f907"
+    },
+    {
+      "title": "types of metal manufacturing processes",
+      "uri": "http://data.europa.eu/esco/skill/c01b4549-3bc2-4640-8ecb-ef335fc4445c"
+    },
+    {
+      "title": "liaise with managers",
+      "uri": "http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e"
+    },
+    {
+      "title": "analyse cultural trends",
+      "uri": "http://data.europa.eu/esco/skill/03bc5f23-4317-41c2-9528-2db5c3c87b85"
+    },
+    {
+      "title": "consult with technical staff",
+      "uri": "http://data.europa.eu/esco/skill/2624158e-4a53-4667-8921-96ee7aaea7b3"
+    },
+    {
+      "title": "perform product testing",
+      "uri": "http://data.europa.eu/esco/skill/371d57e6-cc5f-4fc0-9c0c-58feb595cc5b"
+    },
+    {
+      "title": "engineering processes",
+      "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    },
+    {
+      "title": "prepare market research reports",
+      "uri": "http://data.europa.eu/esco/skill/fd843a67-4662-4682-9c7e-b4d794eaff12"
+    },
+    {
+      "title": "conduct metallurgical structural analysis",
+      "uri": "http://data.europa.eu/esco/skill/138aecdf-1b02-4ffc-81c4-0a0461b4f3c0"
+    },
+    {
+      "title": "liaise with engineers",
+      "uri": "http://data.europa.eu/esco/skill/c5c51528-ccfc-4c53-b409-c200aaa44222"
+    },
+    {
+      "title": "create technical plans",
+      "uri": "http://data.europa.eu/esco/skill/5c98825f-146d-4d35-97cf-207b2afd9ae2"
+    },
+    {
+      "title": "marketing principles",
+      "uri": "http://data.europa.eu/esco/skill/de03f4fd-c147-4477-a048-7109e5ba2d6f"
+    },
+    {
+      "title": "liaise with industry experts",
+      "uri": "http://data.europa.eu/esco/skill/8496d258-bf95-4041-a3d7-1cc19b629d14"
+    },
+    {
+      "title": "measure customer feedback",
+      "uri": "http://data.europa.eu/esco/skill/89ba58e8-a67e-4d2b-ad42-6acab25c241b"
+    },
+    {
+      "title": "chemistry",
+      "uri": "http://data.europa.eu/esco/skill/cde9911c-f92e-4de1-811f-336e177ac4ce"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "manage product testing",
+      "uri": "http://data.europa.eu/esco/skill/b7a03115-41c9-4167-a0b6-7e40cf0fd607"
+    },
+    {
+      "title": "ensure compliance with environmental legislation",
+      "uri": "http://data.europa.eu/esco/skill/089ee650-297e-4716-87d1-440743b70a0d"
+    },
+    {
+      "title": "troubleshoot",
+      "uri": "http://data.europa.eu/esco/skill/334e3e49-fb02-4051-809a-f06adfdc1c40"
+    },
+    {
+      "title": "manage the customer experience",
+      "uri": "http://data.europa.eu/esco/skill/4b95c7bb-5672-4e4a-88ea-ba96c12e8ca2"
+    },
+    {
+      "title": "innovation processes",
+      "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68"
+    },
+    {
+      "title": "improve business processes",
+      "uri": "http://data.europa.eu/esco/skill/75b30aeb-34c0-40f4-b77d-271d75a98b14"
+    },
+    {
+      "title": "marketing mix",
+      "uri": "http://data.europa.eu/esco/skill/d3e585e9-3a73-4511-b533-90f095e5aa09"
+    },
+    {
+      "title": "physics",
+      "uri": "http://data.europa.eu/esco/skill/692ace70-7f97-4214-92bd-88f7637d8a44"
+    },
+    {
+      "title": "identify market niches",
+      "uri": "http://data.europa.eu/esco/skill/bf40aa7c-1e99-40bb-a718-1e1492aaf00f"
+    },
+    {
+      "title": "ensure products meet regulatory requirements",
+      "uri": "http://data.europa.eu/esco/skill/f453b1a6-c7db-4d9d-9ba3-47c45159bfe3"
+    },
+    {
+      "title": "develop promotional tools",
+      "uri": "http://data.europa.eu/esco/skill/66fda9e5-f9f7-4342-b4f1-23355bcdd0b9"
+    },
+    {
+      "title": "think analytically",
+      "uri": "http://data.europa.eu/esco/skill/4707da90-9cfc-46ca-8de0-38a0b7bfb137"
+    },
+    {
+      "title": "optimise financial performance",
+      "uri": "http://data.europa.eu/esco/skill/3369d4f5-bfa7-47dc-b61f-e74d0d91bf74"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "lead a team",
+      "uri": "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+    },
+    {
+      "title": "design drawings",
+      "uri": "http://data.europa.eu/esco/skill/3c333552-8d89-43f5-90bd-856e15bec433"
+    },
+    {
+      "title": "legal requirements of ICT products",
+      "uri": "http://data.europa.eu/esco/skill/a846cb9e-c152-41e7-bd34-45e7ff941e3b"
+    },
+    {
+      "title": "maintain relationship with customers",
+      "uri": "http://data.europa.eu/esco/skill/2239694b-771a-4586-8b54-2794e361a9ae"
+    },
+    {
+      "title": "speak different languages",
+      "uri": "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    }
+  ]
+}

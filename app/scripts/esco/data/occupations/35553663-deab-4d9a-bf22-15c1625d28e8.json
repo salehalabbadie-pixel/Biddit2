@@ -1,0 +1,328 @@
+{
+  "id": "35553663-deab-4d9a-bf22-15c1625d28e8",
+  "uri": "http://data.europa.eu/esco/occupation/35553663-deab-4d9a-bf22-15c1625d28e8",
+  "title": "ICT intelligent systems designer",
+  "de": "Entwickler intelligenter IT-Systeme/Entwicklerin intelligenter IT-Systeme",
+  "code": "2511.10",
+  "description": "ICT intelligent systems designers apply methods of artificial intelligence in engineering, robotics and computer science to design programs which simulate intelligence including thinking models, cognitive and knowledge-based systems, problem solving, and decision making. They also integrate structured knowledge into computer systems (ontologies, knowledge bases) in order to solve complex problems normally requiring a high level of human expertise or artificial intelligence methods.",
+  "essential": [
+    {
+      "title": "use markup languages",
+      "uri": "http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26"
+    },
+    {
+      "title": "design application interfaces",
+      "uri": "http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968"
+    },
+    {
+      "title": "systems development life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "natural language processing",
+      "uri": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a"
+    },
+    {
+      "title": "database development tools",
+      "uri": "http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe"
+    },
+    {
+      "title": "ICT security legislation",
+      "uri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42"
+    },
+    {
+      "title": "task algorithmisation",
+      "uri": "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    },
+    {
+      "title": "information structure",
+      "uri": "http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339"
+    },
+    {
+      "title": "web programming",
+      "uri": "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28"
+    },
+    {
+      "title": "manage ICT semantic integration",
+      "uri": "http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966"
+    },
+    {
+      "title": "develop creative ideas",
+      "uri": "http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "systems theory",
+      "uri": "http://data.europa.eu/esco/skill/cdd8b6b2-2fd9-453c-8d62-8a1dc6efcd49"
+    },
+    {
+      "title": "assess ICT knowledge",
+      "uri": "http://data.europa.eu/esco/skill/0dc7aa1b-b5af-4f4b-81ce-ee22ed8b6926"
+    },
+    {
+      "title": "design database scheme",
+      "uri": "http://data.europa.eu/esco/skill/6c08403c-a5bb-4868-b8c2-b7d039c0e511"
+    },
+    {
+      "title": "design process",
+      "uri": "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    },
+    {
+      "title": "apply ICT systems theory",
+      "uri": "http://data.europa.eu/esco/skill/cbe2c304-1e7d-489a-97d9-a7d3e37a9db6"
+    },
+    {
+      "title": "manage database",
+      "uri": "http://data.europa.eu/esco/skill/29fb0fb5-dfc4-4098-ac9b-3a712000f48f"
+    },
+    {
+      "title": "principles of artificial intelligence",
+      "uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2"
+    },
+    {
+      "title": "resource description framework query language",
+      "uri": "http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806"
+    }
+  ],
+  "optional": [
+    {
+      "title": "AJAX",
+      "uri": "http://data.europa.eu/esco/skill/b4dc6e4f-dc7d-445f-8ce2-d7b9d225e282"
+    },
+    {
+      "title": "N1QL",
+      "uri": "http://data.europa.eu/esco/skill/f597f772-24d3-4cec-813c-cf5a7027c794"
+    },
+    {
+      "title": "R",
+      "uri": "http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b"
+    },
+    {
+      "title": "SAP R3",
+      "uri": "http://data.europa.eu/esco/skill/bb99af26-71ff-4dca-bde7-1eb1f6194426"
+    },
+    {
+      "title": "CoffeeScript",
+      "uri": "http://data.europa.eu/esco/skill/993b1e23-f2de-4bd8-b33f-f86dde1c8e9d"
+    },
+    {
+      "title": "Scala",
+      "uri": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6"
+    },
+    {
+      "title": "Ruby (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/0ccdfe98-f845-4598-84a1-3dca66e9d9a3"
+    },
+    {
+      "title": "Agile project management",
+      "uri": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4"
+    },
+    {
+      "title": "Prolog (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/2bde42ae-e776-41c1-9ded-b07b30bfe985"
+    },
+    {
+      "title": "computer programming",
+      "uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+    },
+    {
+      "title": "Groovy",
+      "uri": "http://data.europa.eu/esco/skill/52cf3037-ab53-4806-85ed-7fd21ea7f6a1"
+    },
+    {
+      "title": "information extraction",
+      "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec"
+    },
+    {
+      "title": "SAS language",
+      "uri": "http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93"
+    },
+    {
+      "title": "ASP.NET",
+      "uri": "http://data.europa.eu/esco/skill/56a7f561-1d55-43c9-9cd7-36a0a9bc6c50"
+    },
+    {
+      "title": "data mining",
+      "uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180"
+    },
+    {
+      "title": "Java (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389"
+    },
+    {
+      "title": "business intelligence",
+      "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c"
+    },
+    {
+      "title": "TypeScript",
+      "uri": "http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68"
+    },
+    {
+      "title": "unstructured data",
+      "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666"
+    },
+    {
+      "title": "SPARQL",
+      "uri": "http://data.europa.eu/esco/skill/5da8018b-ae85-4cde-ad93-0394369018f3"
+    },
+    {
+      "title": "Python (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d"
+    },
+    {
+      "title": "MATLAB",
+      "uri": "http://data.europa.eu/esco/skill/c3a03c5a-c260-4c26-9b9a-873abb396f4d"
+    },
+    {
+      "title": "ICT project management methodologies",
+      "uri": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9"
+    },
+    {
+      "title": "ML (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0"
+    },
+    {
+      "title": "C++",
+      "uri": "http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f"
+    },
+    {
+      "title": "manage ICT data classification",
+      "uri": "http://data.europa.eu/esco/skill/03a74eee-2dc6-4147-8667-5cdeb65f122d"
+    },
+    {
+      "title": "COBOL",
+      "uri": "http://data.europa.eu/esco/skill/def007fa-5fed-4a5f-91a2-b0d7e3db1be1"
+    },
+    {
+      "title": "manage business knowledge",
+      "uri": "http://data.europa.eu/esco/skill/41bf7ede-fc84-4a57-8c89-b548d11b0ba1"
+    },
+    {
+      "title": "Visual Studio .NET",
+      "uri": "http://data.europa.eu/esco/skill/13bdd41a-2a18-441f-96db-41252c519413"
+    },
+    {
+      "title": "visual presentation techniques",
+      "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213"
+    },
+    {
+      "title": "Perl",
+      "uri": "http://data.europa.eu/esco/skill/401eb8d8-6daa-4f8b-90ad-60afc71eb4f8"
+    },
+    {
+      "title": "VBScript",
+      "uri": "http://data.europa.eu/esco/skill/dcdd5ddf-82a6-4ac3-8edc-d4b23cae9a88"
+    },
+    {
+      "title": "ABAP",
+      "uri": "http://data.europa.eu/esco/skill/eb0e5615-1575-4a86-a1a2-7d39595033c5"
+    },
+    {
+      "title": "Swift (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/be80acfc-b6f2-4411-9b8d-b19d9cd2556a"
+    },
+    {
+      "title": "information architecture",
+      "uri": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4"
+    },
+    {
+      "title": "Erlang",
+      "uri": "http://data.europa.eu/esco/skill/034c29fa-c3ba-45ea-b8f3-bf8e3705e386"
+    },
+    {
+      "title": "deliver visual presentation of data",
+      "uri": "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389"
+    },
+    {
+      "title": "Lean project management",
+      "uri": "http://data.europa.eu/esco/skill/da6393d5-a53c-4863-abc7-51f36281d74e"
+    },
+    {
+      "title": "Objective-C",
+      "uri": "http://data.europa.eu/esco/skill/9973a5a2-7822-4161-99e9-95c781eb63f8"
+    },
+    {
+      "title": "build business relationships",
+      "uri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1"
+    },
+    {
+      "title": "APL",
+      "uri": "http://data.europa.eu/esco/skill/58d7a289-dafd-4363-833f-d1dc4140885e"
+    },
+    {
+      "title": "JavaScript",
+      "uri": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7"
+    },
+    {
+      "title": "Scratch (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/d56fc2b5-4b0a-4e7e-9bde-a33736f6ff18"
+    },
+    {
+      "title": "Microsoft Visual C++",
+      "uri": "http://data.europa.eu/esco/skill/8369ede5-4200-4a44-be2e-bc60ef959259"
+    },
+    {
+      "title": "Common Lisp",
+      "uri": "http://data.europa.eu/esco/skill/0cd6dcf1-5778-42a5-b685-4d01ae4a4871"
+    },
+    {
+      "title": "C#",
+      "uri": "http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a"
+    },
+    {
+      "title": "Haskell",
+      "uri": "http://data.europa.eu/esco/skill/000f1d3d-220f-4789-9c0a-cc742521fb02"
+    },
+    {
+      "title": "Process-based management",
+      "uri": "http://data.europa.eu/esco/skill/d5a59ca8-2e91-472e-8571-d12ce4478679"
+    },
+    {
+      "title": "data models",
+      "uri": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5"
+    },
+    {
+      "title": "Assembly (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/47b9bbcf-356c-4782-83a4-7f5a1b2b51a3"
+    },
+    {
+      "title": "Smalltalk (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/42ed3bfb-1a01-4c8b-9758-fc6438865734"
+    },
+    {
+      "title": "Pascal (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/e8b89eb6-51e8-4c3a-babb-88b2e110376b"
+    },
+    {
+      "title": "PHP",
+      "uri": "http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f"
+    },
+    {
+      "title": "OpenEdge Advanced Business Language",
+      "uri": "http://data.europa.eu/esco/skill/300d432b-f457-4cd3-9cb1-1858c7d14954"
+    },
+    {
+      "title": "information categorisation",
+      "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6"
+    },
+    {
+      "title": "Lisp",
+      "uri": "http://data.europa.eu/esco/skill/0de61385-de6d-4146-ba32-1cc1bc102220"
+    },
+    {
+      "title": "LINQ",
+      "uri": "http://data.europa.eu/esco/skill/c7d24594-0c11-4b27-9039-fe0bb903da8e"
+    }
+  ]
+}

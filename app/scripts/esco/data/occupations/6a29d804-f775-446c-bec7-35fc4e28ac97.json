@@ -1,0 +1,180 @@
+{
+  "id": "6a29d804-f775-446c-bec7-35fc4e28ac97",
+  "uri": "http://data.europa.eu/esco/occupation/6a29d804-f775-446c-bec7-35fc4e28ac97",
+  "title": "business consultant",
+  "de": "Unternehmensberater/Unternehmensberaterin",
+  "code": "2421.2",
+  "description": "Business consultants analyse the position, structure and processes of businesses and companies and offer services or advice to improve them. They research and identify business processes such as financial inefficiencies or employee management and devise strategical plans to overcome these difficulties. They work in external consulting firms where they provide an objective view on a business and or company's structure and methodological processes.",
+  "essential": [
+    {
+      "title": "advise on efficiency improvements",
+      "uri": "http://data.europa.eu/esco/skill/8bc75dce-beba-40f9-93fc-66c9708ed74b"
+    },
+    {
+      "title": "analyse external factors of companies",
+      "uri": "http://data.europa.eu/esco/skill/ce5b1446-b5e3-4f05-a5ac-83f2ee142a44"
+    },
+    {
+      "title": "conduct quantitative research",
+      "uri": "http://data.europa.eu/esco/skill/8316979b-df5a-4dc7-98ef-61ec6a10df84"
+    },
+    {
+      "title": "build business relationships",
+      "uri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1"
+    },
+    {
+      "title": "advise on personnel management",
+      "uri": "http://data.europa.eu/esco/skill/1212ac42-2564-4fce-80e1-6ce4ea4d9bf5"
+    },
+    {
+      "title": "analyse internal factors of companies",
+      "uri": "http://data.europa.eu/esco/skill/91816e1a-d026-4d21-9b1c-59ca5cf488de"
+    },
+    {
+      "title": "make strategic business decisions",
+      "uri": "http://data.europa.eu/esco/skill/f60c9e52-95fc-4ca1-a73c-18a491153b63"
+    },
+    {
+      "title": "consultation methods",
+      "uri": "http://data.europa.eu/esco/skill/38788a64-6271-40ff-9e0b-5644c38322ff"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "align efforts towards business development",
+      "uri": "http://data.europa.eu/esco/skill/ee7f90cc-922e-4da7-a7ae-83c2688fed10"
+    },
+    {
+      "title": "interpret financial statements",
+      "uri": "http://data.europa.eu/esco/skill/5f1d1319-7954-4a9b-90c7-57668e3a0d4b"
+    },
+    {
+      "title": "analyse business objectives",
+      "uri": "http://data.europa.eu/esco/skill/408fcc8e-d4e6-43e7-ab27-b617a1dced98"
+    },
+    {
+      "title": "analyse business processes",
+      "uri": "http://data.europa.eu/esco/skill/56042303-972b-41be-9310-58467599ff7e"
+    },
+    {
+      "title": "advise on financial matters",
+      "uri": "http://data.europa.eu/esco/skill/79c36c91-28a5-44b7-ab9b-7093b2d4b21e"
+    },
+    {
+      "title": "perform business analysis",
+      "uri": "http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703"
+    },
+    {
+      "title": "analyse the context of an organisation",
+      "uri": "http://data.europa.eu/esco/skill/9714735d-6f60-440b-bdbc-aaf45ebcbe78"
+    },
+    {
+      "title": "business processes",
+      "uri": "http://data.europa.eu/esco/skill/9e84a506-df06-4be3-874a-fa01293e3dd5"
+    },
+    {
+      "title": "liaise with managers",
+      "uri": "http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e"
+    },
+    {
+      "title": "strategic planning",
+      "uri": "http://data.europa.eu/esco/skill/949ced5f-7536-4614-ac60-563ffc91a2f2"
+    },
+    {
+      "title": "identify undetected organisational needs",
+      "uri": "http://data.europa.eu/esco/skill/43d1d56b-ce62-4fe8-8f18-35d92ec73023"
+    },
+    {
+      "title": "analyse financial performance of a company",
+      "uri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c"
+    },
+    {
+      "title": "analyse business plans",
+      "uri": "http://data.europa.eu/esco/skill/5da3c765-10a3-49eb-934c-ec401ceb1a34"
+    },
+    {
+      "title": "conduct qualitative research",
+      "uri": "http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d"
+    },
+    {
+      "title": "business analysis",
+      "uri": "http://data.europa.eu/esco/skill/633a3637-2c6b-40ae-ac38-289eb2a62aa6"
+    }
+  ],
+  "optional": [
+    {
+      "title": "advise client on technical possibilities",
+      "uri": "http://data.europa.eu/esco/skill/7b3abd38-61ae-42a4-88bb-0884784f9ee1"
+    },
+    {
+      "title": "organisational policies",
+      "uri": "http://data.europa.eu/esco/skill/3a5231a0-8c30-48ee-b671-08e2debd4441"
+    },
+    {
+      "title": "business strategy concepts",
+      "uri": "http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95"
+    },
+    {
+      "title": "advise on communication strategies",
+      "uri": "http://data.europa.eu/esco/skill/69f36674-440a-4fa0-89f9-1b70172ebb9d"
+    },
+    {
+      "title": "seek innovation in current practices",
+      "uri": "http://data.europa.eu/esco/skill/f975091a-e5a5-4472-ac17-11680e53e98f"
+    },
+    {
+      "title": "corporate law",
+      "uri": "http://data.europa.eu/esco/skill/d77d7685-04fb-43a4-a1ac-09a10811f646"
+    },
+    {
+      "title": "market entry strategies",
+      "uri": "http://data.europa.eu/esco/skill/62bf2e21-2613-47f1-a624-fe0fc925e671"
+    },
+    {
+      "title": "business law",
+      "uri": "http://data.europa.eu/esco/skill/341c4478-c976-4ff0-a102-cfd92174d873"
+    },
+    {
+      "title": "human resource management",
+      "uri": "http://data.europa.eu/esco/skill/e437eba1-3e22-41f2-8703-741e94785cba"
+    },
+    {
+      "title": "business intelligence",
+      "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c"
+    },
+    {
+      "title": "advise on environmental risk management systems",
+      "uri": "http://data.europa.eu/esco/skill/a366bfc5-8d17-4792-a9f0-db0951528dda"
+    },
+    {
+      "title": "advise on risk management",
+      "uri": "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "interview people",
+      "uri": "http://data.europa.eu/esco/skill/66d47084-9437-48b2-819b-c4c8214ed650"
+    },
+    {
+      "title": "financial statements",
+      "uri": "http://data.europa.eu/esco/skill/4a460161-eaea-4fe2-bd0e-164ccc635be1"
+    },
+    {
+      "title": "define organisational standards",
+      "uri": "http://data.europa.eu/esco/skill/d53b04fb-1bbb-4a25-92f8-8ceb308d276f"
+    },
+    {
+      "title": "report analysis results",
+      "uri": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    }
+  ]
+}

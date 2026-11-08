@@ -1,0 +1,368 @@
+{
+  "id": "96e20037-0a25-4bf6-a25e-808d1605d890",
+  "uri": "http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890",
+  "title": "user interface designer",
+  "de": "Multimedia-Designer/Multimedia-Designerin",
+  "code": "2513.3",
+  "description": "User interface designers are in charge of designing user interfaces for applications and systems. They perform layout, graphics and dialogues design activities as well as adaptation activities.",
+  "essential": [
+    {
+      "title": "build business relationships",
+      "uri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1"
+    },
+    {
+      "title": "use markup languages",
+      "uri": "http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26"
+    },
+    {
+      "title": "task algorithmisation",
+      "uri": "http://data.europa.eu/esco/skill/7482a123-e801-48de-9733-262125671410"
+    },
+    {
+      "title": "utilise methodologies for user centered design",
+      "uri": "http://data.europa.eu/esco/skill/7364cc39-b9c0-449f-9416-57723e2fd9c4"
+    },
+    {
+      "title": "ICT security legislation",
+      "uri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42"
+    },
+    {
+      "title": "draw design sketches",
+      "uri": "http://data.europa.eu/esco/skill/fc4fcb4b-993f-4f2c-b158-c2171ec18ed8"
+    },
+    {
+      "title": "web programming",
+      "uri": "http://data.europa.eu/esco/skill/69bbd53f-fbb0-4476-b4b2-ef7844464e28"
+    },
+    {
+      "title": "assess users' interaction with ICT applications",
+      "uri": "http://data.europa.eu/esco/skill/465e7c78-cd26-4503-a5ca-40009e807705"
+    },
+    {
+      "title": "test system accessibility for users with special needs",
+      "uri": "http://data.europa.eu/esco/skill/be64bb4c-84ac-4c83-8cc7-fc8593e15136"
+    },
+    {
+      "title": "design process",
+      "uri": "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    },
+    {
+      "title": "application usability",
+      "uri": "http://data.europa.eu/esco/skill/c4b626c1-e71c-44ec-9f88-042766f37fcc"
+    },
+    {
+      "title": "design user interface",
+      "uri": "http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e"
+    },
+    {
+      "title": "manage online content",
+      "uri": "http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b"
+    },
+    {
+      "title": "software UI design patterns",
+      "uri": "http://data.europa.eu/esco/skill/1019423b-3368-4f83-b24f-19e5fa23e816"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "translate requirement concepts into visual design",
+      "uri": "http://data.europa.eu/esco/skill/2d6d4784-0992-48e7-b100-22d7229b3f0a"
+    },
+    {
+      "title": "interact with users to gather requirements",
+      "uri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363"
+    },
+    {
+      "title": "create website wireframe",
+      "uri": "http://data.europa.eu/esco/skill/f0f5bb34-71df-4715-9c9e-03567b76ec8f"
+    },
+    {
+      "title": "ICT accessibility standards",
+      "uri": "http://data.europa.eu/esco/skill/3e23db60-0c3d-498a-a6ac-ffbed0ecb033"
+    },
+    {
+      "title": "graphics editor software",
+      "uri": "http://data.europa.eu/esco/skill/a71577b2-7550-4222-88ee-dcbd2d881516"
+    },
+    {
+      "title": "develop creative ideas",
+      "uri": "http://data.europa.eu/esco/skill/8c4c49d4-9708-433f-8ca7-bf2c5211ee49"
+    },
+    {
+      "title": "design graphics",
+      "uri": "http://data.europa.eu/esco/skill/f058bf62-70d1-4f5e-be2a-8b26fac24a96"
+    },
+    {
+      "title": "software interaction design",
+      "uri": "http://data.europa.eu/esco/skill/de0be6e8-644c-4cc9-9c8d-925dd98dda56"
+    },
+    {
+      "title": "World Wide Web Consortium standards",
+      "uri": "http://data.europa.eu/esco/skill/8696aff0-18c0-4ba6-a4d0-9a21861b3e5e"
+    },
+    {
+      "title": "human-computer interaction",
+      "uri": "http://data.europa.eu/esco/skill/9136cbf1-7916-4f1c-bc9a-0318ee1d6016"
+    }
+  ],
+  "optional": [
+    {
+      "title": "Scala",
+      "uri": "http://data.europa.eu/esco/skill/ffddfc7c-a9dd-449f-9e96-882dc447c8b6"
+    },
+    {
+      "title": "software design methodologies",
+      "uri": "http://data.europa.eu/esco/skill/8ff015a0-98ea-4d80-a23e-1f68110a919e"
+    },
+    {
+      "title": "TypeScript",
+      "uri": "http://data.europa.eu/esco/skill/867137fb-ff1b-4ca3-99f3-cb6969aa2c68"
+    },
+    {
+      "title": "Microsoft Visio",
+      "uri": "http://data.europa.eu/esco/skill/86f7126d-97fd-4da5-be96-d1cf6ecd54e6"
+    },
+    {
+      "title": "ABAP",
+      "uri": "http://data.europa.eu/esco/skill/eb0e5615-1575-4a86-a1a2-7d39595033c5"
+    },
+    {
+      "title": "Prolog (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/2bde42ae-e776-41c1-9ded-b07b30bfe985"
+    },
+    {
+      "title": "create software design",
+      "uri": "http://data.europa.eu/esco/skill/3bddfd7c-ab6d-40c2-883d-5e97fb7640ba"
+    },
+    {
+      "title": "Synfig",
+      "uri": "http://data.europa.eu/esco/skill/b0ac313d-de44-4344-ada6-76d2177b6d92"
+    },
+    {
+      "title": "Erlang",
+      "uri": "http://data.europa.eu/esco/skill/034c29fa-c3ba-45ea-b8f3-bf8e3705e386"
+    },
+    {
+      "title": "Prototyping development",
+      "uri": "http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c"
+    },
+    {
+      "title": "Iterative development",
+      "uri": "http://data.europa.eu/esco/skill/33d49d4f-31ec-473f-9b8a-b555aa5116bb"
+    },
+    {
+      "title": "Assembly (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/47b9bbcf-356c-4782-83a4-7f5a1b2b51a3"
+    },
+    {
+      "title": "Perl",
+      "uri": "http://data.europa.eu/esco/skill/401eb8d8-6daa-4f8b-90ad-60afc71eb4f8"
+    },
+    {
+      "title": "COBOL",
+      "uri": "http://data.europa.eu/esco/skill/def007fa-5fed-4a5f-91a2-b0d7e3db1be1"
+    },
+    {
+      "title": "Scratch (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/d56fc2b5-4b0a-4e7e-9bde-a33736f6ff18"
+    },
+    {
+      "title": "Pascal (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/e8b89eb6-51e8-4c3a-babb-88b2e110376b"
+    },
+    {
+      "title": "Waterfall development",
+      "uri": "http://data.europa.eu/esco/skill/6a876489-7ad8-4a13-b09c-c9b8e97a302e"
+    },
+    {
+      "title": "ML (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/a4d336a6-9ffd-402a-91cc-f359716ba4e0"
+    },
+    {
+      "title": "manage localisation",
+      "uri": "http://data.europa.eu/esco/skill/a9bf8565-8a09-4118-9922-932d65a79d69"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "Incremental development",
+      "uri": "http://data.europa.eu/esco/skill/00c04e40-35ea-4ed1-824c-82f936c8f876"
+    },
+    {
+      "title": "Groovy",
+      "uri": "http://data.europa.eu/esco/skill/52cf3037-ab53-4806-85ed-7fd21ea7f6a1"
+    },
+    {
+      "title": "ICT project management methodologies",
+      "uri": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9"
+    },
+    {
+      "title": "VBScript",
+      "uri": "http://data.europa.eu/esco/skill/dcdd5ddf-82a6-4ac3-8edc-d4b23cae9a88"
+    },
+    {
+      "title": "Common Lisp",
+      "uri": "http://data.europa.eu/esco/skill/0cd6dcf1-5778-42a5-b685-4d01ae4a4871"
+    },
+    {
+      "title": "Java (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389"
+    },
+    {
+      "title": "CoffeeScript",
+      "uri": "http://data.europa.eu/esco/skill/993b1e23-f2de-4bd8-b33f-f86dde1c8e9d"
+    },
+    {
+      "title": "AJAX",
+      "uri": "http://data.europa.eu/esco/skill/b4dc6e4f-dc7d-445f-8ce2-d7b9d225e282"
+    },
+    {
+      "title": "SAS language",
+      "uri": "http://data.europa.eu/esco/skill/04f1b938-d4d4-4cb1-a863-982af76b9d93"
+    },
+    {
+      "title": "Smalltalk (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/42ed3bfb-1a01-4c8b-9758-fc6438865734"
+    },
+    {
+      "title": "Visual Studio .NET",
+      "uri": "http://data.europa.eu/esco/skill/13bdd41a-2a18-441f-96db-41252c519413"
+    },
+    {
+      "title": "Lean project management",
+      "uri": "http://data.europa.eu/esco/skill/da6393d5-a53c-4863-abc7-51f36281d74e"
+    },
+    {
+      "title": "perform online data analysis",
+      "uri": "http://data.europa.eu/esco/skill/062320e5-79d1-45e8-8b7e-5deeb53279a2"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "Agile development",
+      "uri": "http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221"
+    },
+    {
+      "title": "SAP R3",
+      "uri": "http://data.europa.eu/esco/skill/bb99af26-71ff-4dca-bde7-1eb1f6194426"
+    },
+    {
+      "title": "Objective-C",
+      "uri": "http://data.europa.eu/esco/skill/9973a5a2-7822-4161-99e9-95c781eb63f8"
+    },
+    {
+      "title": "JavaScript",
+      "uri": "http://data.europa.eu/esco/skill/3cd569a2-4f88-4c1e-9995-8dce8c5e51a7"
+    },
+    {
+      "title": "R",
+      "uri": "http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b"
+    },
+    {
+      "title": "Ruby (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/0ccdfe98-f845-4598-84a1-3dca66e9d9a3"
+    },
+    {
+      "title": "MATLAB",
+      "uri": "http://data.europa.eu/esco/skill/c3a03c5a-c260-4c26-9b9a-873abb396f4d"
+    },
+    {
+      "title": "Process-based management",
+      "uri": "http://data.europa.eu/esco/skill/d5a59ca8-2e91-472e-8571-d12ce4478679"
+    },
+    {
+      "title": "Python (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d"
+    },
+    {
+      "title": "ASP.NET",
+      "uri": "http://data.europa.eu/esco/skill/56a7f561-1d55-43c9-9cd7-36a0a9bc6c50"
+    },
+    {
+      "title": "PHP",
+      "uri": "http://data.europa.eu/esco/skill/4350c38d-0fe9-4ca7-bab9-40ed7f72b04f"
+    },
+    {
+      "title": "natural language processing",
+      "uri": "http://data.europa.eu/esco/skill/fff0e2cd-d0bd-4b02-9daf-158b79d9688a"
+    },
+    {
+      "title": "Spiral development",
+      "uri": "http://data.europa.eu/esco/skill/4840338b-ac6c-486a-be1d-9ddfe00b8bdf"
+    },
+    {
+      "title": "Adobe Photoshop",
+      "uri": "http://data.europa.eu/esco/skill/14ced458-5f4b-495f-bd3d-9c240614bda0"
+    },
+    {
+      "title": "Agile project management",
+      "uri": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4"
+    },
+    {
+      "title": "GIMP (graphics editor software)",
+      "uri": "http://data.europa.eu/esco/skill/4a466c62-db7d-4905-9a41-f23214810acb"
+    },
+    {
+      "title": "Rapid application development",
+      "uri": "http://data.europa.eu/esco/skill/96eb286a-58b7-45ff-a916-5578d0b79b8c"
+    },
+    {
+      "title": "OpenEdge Advanced Business Language",
+      "uri": "http://data.europa.eu/esco/skill/300d432b-f457-4cd3-9cb1-1858c7d14954"
+    },
+    {
+      "title": "Adobe Illustrator",
+      "uri": "http://data.europa.eu/esco/skill/27b913f0-3c52-448b-ad27-fc6ef08fb326"
+    },
+    {
+      "title": "SketchBook Pro",
+      "uri": "http://data.europa.eu/esco/skill/85038d57-1fdd-40de-b908-2c005545a8c3"
+    },
+    {
+      "title": "Swift (computer programming)",
+      "uri": "http://data.europa.eu/esco/skill/be80acfc-b6f2-4411-9b8d-b19d9cd2556a"
+    },
+    {
+      "title": "DevOps",
+      "uri": "http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4"
+    },
+    {
+      "title": "Haskell",
+      "uri": "http://data.europa.eu/esco/skill/000f1d3d-220f-4789-9c0a-cc742521fb02"
+    },
+    {
+      "title": "Lisp",
+      "uri": "http://data.europa.eu/esco/skill/0de61385-de6d-4146-ba32-1cc1bc102220"
+    },
+    {
+      "title": "cognitive psychology",
+      "uri": "http://data.europa.eu/esco/skill/2618f336-8e71-4666-83b5-f368edb0906d"
+    },
+    {
+      "title": "APL",
+      "uri": "http://data.europa.eu/esco/skill/58d7a289-dafd-4363-833f-d1dc4140885e"
+    },
+    {
+      "title": "C++",
+      "uri": "http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f"
+    },
+    {
+      "title": "C#",
+      "uri": "http://data.europa.eu/esco/skill/4c016b68-4116-468c-9dc6-42710c239e4a"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "computer programming",
+      "uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97"
+    }
+  ]
+}

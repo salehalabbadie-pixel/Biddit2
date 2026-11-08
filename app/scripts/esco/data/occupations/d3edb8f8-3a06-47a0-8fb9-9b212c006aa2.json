@@ -1,0 +1,192 @@
+{
+  "id": "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+  "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+  "title": "data analyst",
+  "de": "Datenanalytiker/Datenanalytikerin",
+  "code": "2511.2",
+  "description": "Data analysts import, inspect, clean, transform, validate, model, or interpret collections of data with regard to the business goals of the company. They ensure that the data sources and repositories provide consistent and reliable data. Data analysts use different algorithms and IT tools as demanded by the situation and the current data. They might prepare reports in the form of visualisations such as graphs, charts, and dashboards.",
+  "essential": [
+    {
+      "title": "data quality assessment",
+      "uri": "http://data.europa.eu/esco/skill/cc7370dd-69fa-4c67-a96f-d4d135d38700"
+    },
+    {
+      "title": "apply statistical analysis techniques",
+      "uri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    },
+    {
+      "title": "information confidentiality",
+      "uri": "http://data.europa.eu/esco/skill/a56dec32-05ef-45de-a256-ee6741f356db"
+    },
+    {
+      "title": "integrate ICT data",
+      "uri": "http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc"
+    },
+    {
+      "title": "data models",
+      "uri": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5"
+    },
+    {
+      "title": "business intelligence",
+      "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c"
+    },
+    {
+      "title": "information extraction",
+      "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec"
+    },
+    {
+      "title": "define data quality criteria",
+      "uri": "http://data.europa.eu/esco/skill/54c9c155-9293-4329-8ed2-2e76e8b519d4"
+    },
+    {
+      "title": "normalise data",
+      "uri": "http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc"
+    },
+    {
+      "title": "collect ICT data",
+      "uri": "http://data.europa.eu/esco/skill/79e29b8b-47d1-470d-b7b1-32506bfe7d9a"
+    },
+    {
+      "title": "perform data cleansing",
+      "uri": "http://data.europa.eu/esco/skill/50b100ea-74fd-4706-99db-3e4ca55e51b8"
+    },
+    {
+      "title": "statistics",
+      "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    },
+    {
+      "title": "visual presentation techniques",
+      "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213"
+    },
+    {
+      "title": "data mining",
+      "uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180"
+    },
+    {
+      "title": "establish data processes",
+      "uri": "http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec"
+    },
+    {
+      "title": "documentation types",
+      "uri": "http://data.europa.eu/esco/skill/327d15c8-29ff-4ad4-a4fe-6536d777a45f"
+    },
+    {
+      "title": "implement data quality processes",
+      "uri": "http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5"
+    },
+    {
+      "title": "analyse big data",
+      "uri": "http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5"
+    },
+    {
+      "title": "perform data mining",
+      "uri": "http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278"
+    },
+    {
+      "title": "resource description framework query language",
+      "uri": "http://data.europa.eu/esco/skill/99207709-d076-4cce-ba38-e90d3bb28806"
+    },
+    {
+      "title": "information categorisation",
+      "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6"
+    },
+    {
+      "title": "execute analytical mathematical calculations",
+      "uri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    },
+    {
+      "title": "interpret current data",
+      "uri": "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    },
+    {
+      "title": "unstructured data",
+      "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666"
+    },
+    {
+      "title": "information structure",
+      "uri": "http://data.europa.eu/esco/skill/03ff0d53-573a-47a0-a0ad-1995815a4339"
+    },
+    {
+      "title": "handle data samples",
+      "uri": "http://data.europa.eu/esco/skill/4a193795-fa63-414e-9f2e-bfdb3924571e"
+    },
+    {
+      "title": "query languages",
+      "uri": "http://data.europa.eu/esco/skill/9cf681c7-89ec-470c-b651-7fe03786f586"
+    },
+    {
+      "title": "manage data",
+      "uri": "http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f"
+    }
+  ],
+  "optional": [
+    {
+      "title": "LINQ",
+      "uri": "http://data.europa.eu/esco/skill/c7d24594-0c11-4b27-9039-fe0bb903da8e"
+    },
+    {
+      "title": "SPARQL",
+      "uri": "http://data.europa.eu/esco/skill/5da8018b-ae85-4cde-ad93-0394369018f3"
+    },
+    {
+      "title": "data storage",
+      "uri": "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e"
+    },
+    {
+      "title": "deliver visual presentation of data",
+      "uri": "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389"
+    },
+    {
+      "title": "web analytics",
+      "uri": "http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2"
+    },
+    {
+      "title": "manage data collection systems",
+      "uri": "http://data.europa.eu/esco/skill/a80fb090-63f4-4b05-83a5-2f090deb7757"
+    },
+    {
+      "title": "cloud technologies",
+      "uri": "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+    },
+    {
+      "title": "gather data for forensic purposes",
+      "uri": "http://data.europa.eu/esco/skill/0c766ca3-9364-4203-916b-fed16e4814c1"
+    },
+    {
+      "title": "XQuery",
+      "uri": "http://data.europa.eu/esco/skill/3f4dab51-572b-4e2c-85ef-3b4c3f7094e1"
+    },
+    {
+      "title": "LDAP",
+      "uri": "http://data.europa.eu/esco/skill/a57a54b6-2f2e-43e4-9621-b52f4a63cb08"
+    },
+    {
+      "title": "create data models",
+      "uri": "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779"
+    },
+    {
+      "title": "MDX",
+      "uri": "http://data.europa.eu/esco/skill/1b7c716e-af95-4cda-a42f-6479c8b139f5"
+    },
+    {
+      "title": "report analysis results",
+      "uri": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817"
+    },
+    {
+      "title": "information architecture",
+      "uri": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4"
+    },
+    {
+      "title": "database",
+      "uri": "http://data.europa.eu/esco/skill/43ae58b9-5e56-4524-b45a-b422777a0576"
+    },
+    {
+      "title": "online analytical processing",
+      "uri": "http://data.europa.eu/esco/skill/b0a3bb25-a02f-43ed-ab1f-994fa66a424a"
+    },
+    {
+      "title": "N1QL",
+      "uri": "http://data.europa.eu/esco/skill/f597f772-24d3-4cec-813c-cf5a7027c794"
+    }
+  ]
+}

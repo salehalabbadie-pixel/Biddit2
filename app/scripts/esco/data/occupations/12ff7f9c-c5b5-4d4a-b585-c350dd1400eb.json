@@ -1,0 +1,112 @@
+{
+  "id": "12ff7f9c-c5b5-4d4a-b585-c350dd1400eb",
+  "uri": "http://data.europa.eu/esco/occupation/12ff7f9c-c5b5-4d4a-b585-c350dd1400eb",
+  "title": "business economics researcher",
+  "de": "Betriebswirtschaftsforscher/Betriebswirtschaftsforscherin",
+  "code": "2631.1.1",
+  "description": "Business economics researchers conduct research on topics regarding economy, organisations, and strategy. They analyse macroeconomic and microeconomic trends and use this information to analyse the positions of industries or specific companies in the economy. They provide advice regarding strategic planning, product feasibility, forecast trends, emerging markets, taxing policies, and consumer trends.",
+  "essential": [
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "forecast economic trends",
+      "uri": "http://data.europa.eu/esco/skill/f2a34d6b-131a-4b8f-a110-898b9c91d18f"
+    },
+    {
+      "title": "conduct quantitative research",
+      "uri": "http://data.europa.eu/esco/skill/8316979b-df5a-4dc7-98ef-61ec6a10df84"
+    },
+    {
+      "title": "apply statistical analysis techniques",
+      "uri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    },
+    {
+      "title": "work in an economically efficient manner",
+      "uri": "http://data.europa.eu/esco/skill/03ae1add-eecd-46b1-8117-742b4d7666d4"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "financial markets",
+      "uri": "http://data.europa.eu/esco/skill/905b6acd-377b-46b9-9d80-e47e9ca789ca"
+    },
+    {
+      "title": "economics",
+      "uri": "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    },
+    {
+      "title": "advise on economic development",
+      "uri": "http://data.europa.eu/esco/skill/384ed14c-bf1f-4a65-aef6-6e711f43c4ce"
+    },
+    {
+      "title": "execute analytical mathematical calculations",
+      "uri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    },
+    {
+      "title": "business management principles",
+      "uri": "http://data.europa.eu/esco/skill/0a48d064-dd04-47fb-a00d-85e9b4874033"
+    },
+    {
+      "title": "apply scientific methods",
+      "uri": "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+    }
+  ],
+  "optional": [
+    {
+      "title": "financial analysis",
+      "uri": "http://data.europa.eu/esco/skill/99571e68-801f-49af-a897-5f75996642e1"
+    },
+    {
+      "title": "monitor national economy",
+      "uri": "http://data.europa.eu/esco/skill/d2f95b34-44ca-4902-8252-09c202f46a3d"
+    },
+    {
+      "title": "assess risk factors",
+      "uri": "http://data.europa.eu/esco/skill/d7b66759-c40c-44de-9f31-9418f84e10c5"
+    },
+    {
+      "title": "write research proposals",
+      "uri": "http://data.europa.eu/esco/skill/0ee7b0d6-db98-4785-9948-f2ef415d155a"
+    },
+    {
+      "title": "consider economic criteria in decision making",
+      "uri": "http://data.europa.eu/esco/skill/d41262ae-eca1-4ede-89a8-46d2d99a7a31"
+    },
+    {
+      "title": "commercial law",
+      "uri": "http://data.europa.eu/esco/skill/d63c2bad-817d-4116-b4d8-b927cb01212d"
+    },
+    {
+      "title": "mathematics",
+      "uri": "http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2"
+    },
+    {
+      "title": "conduct qualitative research",
+      "uri": "http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d"
+    },
+    {
+      "title": "statistics",
+      "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    },
+    {
+      "title": "write scientific papers",
+      "uri": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562"
+    },
+    {
+      "title": "financial forecasting",
+      "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e"
+    },
+    {
+      "title": "analyse financial performance of a company",
+      "uri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c"
+    },
+    {
+      "title": "provide cost benefit analysis reports",
+      "uri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a"
+    }
+  ]
+}

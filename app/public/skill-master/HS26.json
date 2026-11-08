@@ -3,69 +3,439 @@
   "semester": "HS26",
   "generatedAt": "2026-11-07",
   "escoVersion": "v1.2",
-  "note": "Demo-Daten. Die Kursnummern sind Platzhalter und müssen durch die echten Nummern der MBI-Kurse ersetzt werden.",
+  "note": "Skills aus den Veranstaltungs- und Prüfungsmerkblättern HS26 extrahiert (Status 'extracted', noch nicht bestätigt). Doppelt geführte Kurse (7,019|8,023, 7,021|8,005, 7,033|8,035, 9,001|8,000) stehen unter beiden Nummern mit identischen Skills.",
   "courses": [
+    {
+      "courseNumber": "7,000,1.00",
+      "rootKey": "7,000",
+      "title": "Grundlagen Business Innovation",
+      "skills": [
+        { "escoUri": "programming", "contribution": 25, "evidence": "Lernziel: Grundkenntnisse in IT und Programmierung, logische Denkstrukturierung in einer Programmiersprache; Inhalt: objektorientierte Programmierung mit Java, Assignments; Prüfung: zwei Zwischenprüfungen IT/Programmierung (je 20%)", "aiAutomation": 65, "status": "extracted" },
+        { "escoUri": "innovation-management", "contribution": 10, "evidence": "Lernziel: Dimensionen der Business Innovation (Produkt-, Prozess-, Geschäftsmodellinnovation); Inhalt: Disruptive Innovation, Ambidexterität, Open Innovation, Innovator Mindset", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 10, "evidence": "Lernziel: Strategielehren (Wertschöpfung, Positionierung) anwenden; Inhalt: Business Innovation als strategische Initiative zum Wandel, Five Forces, Blue Ocean", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "digital-transformation", "contribution": 10, "evidence": "Lernziel: Hintergründe und Herangehensweisen der Digitalen Transformation; Inhalt: Portfolio- und operative Roadmap, Target Operating Model, Digital Platform Model", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 10, "evidence": "Lernziel: agile, klassische und hybride Methoden; Inhalt: agile Produktorganisationen, SAFe, Value Stream, Flight Levels", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 10, "evidence": "Lernziel: strukturierte, evidenzbasierte Problemlösungskompetenzen; Inhalt: Business Innovation als Problemlösungsprozess (Van Aken & Berends)", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "project-management", "contribution": 5, "evidence": "Inhalt: Möglichkeiten und Herausforderungen des klassischen Programm- und Projektmanagements und der Projektsteuerung", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "business-it-alignment", "contribution": 5, "evidence": "Lernziel: Business-to-IT-Management im Zeitalter der Digitalisierung, Zusammenarbeit zwischen geschäftlich und technisch orientierten Mitarbeitenden", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "requirements-engineering", "contribution": 5, "evidence": "Lernziel: Kommunikationstechniken wie Informationsmodellierung und Requirements Engineering; Inhalt: Anforderungsfluss auf Flight Levels", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "change-management", "contribution": 5, "evidence": "Inhalt: Grundlagen für Organisational Change Management; Leadership und Governance in Veränderungsvorhaben", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Inhalt: Motivation, Selbstwahrnehmung, Teambuilding; Entwicklung von Leadershipkompetenzen für Innovationsprozesse", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 5, "evidence": "Prüfung: Selbstreflexion als akademischer Essay (20%)", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
     {
       "courseNumber": "7,001,1.00",
       "rootKey": "7,001",
       "title": "Business Innovation I: Geschäftsmodelle entwickeln",
       "skills": [
-        { "escoUri": "business-models", "contribution": 25, "evidence": "Lernziel: Geschäftsmodelle systematisch entwickeln", "aiAutomation": 40, "status": "extracted" },
-        { "escoUri": "problem-solving", "contribution": 20, "evidence": "Lernziel: Innovationsprobleme strukturiert lösen", "aiAutomation": 20, "status": "extracted" },
-        { "escoUri": "customer-needs", "contribution": 15, "evidence": "Inhalt: Kundeninterviews", "aiAutomation": 20, "status": "extracted" },
-        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Schlusspräsentation", "aiAutomation": 30, "status": "extracted" }
+        { "escoUri": "business-models", "contribution": 30, "evidence": "Lernziel: heutiges Geschäftsmodell identifizieren, mit den 66 Mustern des Business Model Navigators neue Geschäftsmodelle generieren, detaillieren, bewerten und umsetzen; Abgrenzung zu Business Model Canvas und Blue Ocean", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Präsentation (40%) vor Entscheidungsträgern aus der Praxis; Pitch vor Expertenrunde", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 10, "evidence": "Lernziel: Ökosysteme eines Unternehmens systematisch beschreiben; Inhalt: Grundlagenwissen Ecosysteme und Plattformen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "project-management", "contribution": 10, "evidence": "Lernziel: zentrale Methoden des Projektmanagements verstehen und das eigene Projektteam für die Challenge organisieren und managen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "storytelling", "contribution": 10, "evidence": "Lernziel: Storyline, Dramaturgie und visuelle Gestaltung mit Treatment, Skript und Storyboard entwerfen; Prüfung: Video (20%)", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "change-management", "contribution": 10, "evidence": "Lernziel: organisationale Barrieren in Transformationsprozessen benennen; Inhalt: Geschäftsmodellinnovationen organisatorisch verankern", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 5, "evidence": "Literatur: Business Strategy und Ecosystem-Strategie (Teece, Adner, Jacobides), Blue Ocean Strategy", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "experimentation", "contribution": 5, "evidence": "Lernziel: kritische Annahmen eines Geschäftsmodells testen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "innovation-management", "contribution": 5, "evidence": "Lernziel: Muster der Innovationskultur erfolgreicher Unternehmen verstehen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "digital-transformation", "contribution": 5, "evidence": "Lernziel: Einfluss von IT und Digitalisierung auf die Geschäftsmodellinnovation verstehen", "aiAutomation": 25, "status": "extracted" }
       ]
     },
     {
       "courseNumber": "7,002,1.00",
       "rootKey": "7,002",
-      "title": "Design Thinking für Digital Innovation",
-      "skills": [
-        { "escoUri": "customer-needs", "contribution": 25, "evidence": "Lernziel: Nutzerbedürfnisse erforschen", "aiAutomation": 20, "status": "confirmed" },
-        { "escoUri": "prototyping", "contribution": 25, "evidence": "Inhalt: Prototypen bauen und testen", "aiAutomation": 35, "status": "confirmed" },
-        { "escoUri": "problem-solving", "contribution": 20, "evidence": "Lernziel: Lösungen iterativ entwickeln", "aiAutomation": 20, "status": "confirmed" },
-        { "escoUri": "team-leadership", "contribution": 15, "evidence": "Gruppenprojekt", "aiAutomation": 10, "status": "confirmed" }
-      ]
-    },
-    {
-      "courseNumber": "7,003,1.00",
-      "rootKey": "7,003",
-      "title": "Decision Making under Risk and Uncertainty",
-      "skills": [
-        { "escoUri": "decision-making", "contribution": 30, "evidence": "Lernziel: Entscheidungen unter Unsicherheit begründen", "aiAutomation": 20, "status": "extracted" },
-        { "escoUri": "critical-thinking", "contribution": 20, "evidence": "Lernziel: Annahmen kritisch prüfen", "aiAutomation": 15, "status": "extracted" },
-        { "escoUri": "financial-modelling", "contribution": 10, "evidence": "Inhalt: Erwartungswerte berechnen", "aiAutomation": 75, "status": "extracted" }
-      ]
-    },
-    {
-      "courseNumber": "7,004,1.00",
-      "rootKey": "7,004",
       "title": "Business Innovation II: Building and Transforming Business",
       "skills": [
-        { "escoUri": "context-analysis", "contribution": 20, "evidence": "Lernziel: Transformation im Kontext analysieren", "aiAutomation": 15, "status": "extracted" },
-        { "escoUri": "negotiating", "contribution": 20, "evidence": "Inhalt: Stakeholder-Verhandlungen", "aiAutomation": 15, "status": "extracted" },
-        { "escoUri": "team-leadership", "contribution": 15, "evidence": "Inhalt: Change-Projekte leiten", "aiAutomation": 10, "status": "extracted" },
-        { "escoUri": "data-analysis", "contribution": 10, "evidence": "Inhalt: Kennzahlen auswerten", "aiAutomation": 75, "status": "extracted" }
-      ]
-    },
-    {
-      "courseNumber": "7,005,1.00",
-      "rootKey": "7,005",
-      "title": "Methods: Scalable Tech Stacks for Business Ideas",
-      "skills": [
-        { "escoUri": "programming", "contribution": 25, "evidence": "Inhalt: Web-Stack aufsetzen", "aiAutomation": 65, "status": "extracted" },
-        { "escoUri": "prototyping", "contribution": 15, "evidence": "Lernziel: technische Prototypen bauen", "aiAutomation": 35, "status": "extracted" },
-        { "escoUri": "data-analysis", "contribution": 10, "evidence": "Inhalt: Daten auswerten", "aiAutomation": 75, "status": "extracted" }
+        { "escoUri": "digital-transformation", "contribution": 20, "evidence": "Lernziel: Auswirkungen der Digitalisierung auf Unternehmen analysieren, Rolle der IT und Formen digitaler Wertschöpfung erklären; Grundlage: St. Galler House of Digital Business", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "business-it-alignment", "contribution": 15, "evidence": "Lernziel: IT-enabled Front- und Backstage-Logik digitaler Wertschöpfung; LU06 IT Management", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "process-management", "contribution": 15, "evidence": "Lernziel: Geschäftsprozesse analysieren, gestalten, modellieren und bewerten; Modularisierung, Variantenbildung, horizontale und vertikale Integration", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "enterprise-architecture", "contribution": 10, "evidence": "Lernziel: Unternehmens- und IT-Architekturen analysieren und verbessern; LU07 Target Operating Model & Enterprise Architecture", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 10, "evidence": "Lernziel: Konzepte des Data- und AI-Managements erklären, Chancen und Risiken neuer Technologien beurteilen; LU08–LU10 inkl. Agentic Enterprise", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "requirements-engineering", "contribution": 5, "evidence": "Lernziel: Requirements Engineering anwenden, um qualitativ hochwertige Spezifikationen abzuleiten", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "business-models", "contribution": 5, "evidence": "Lernziel: Wertversprechen für Kunden und Nutzer entwickeln und bewerten; LU03 Everything becomes a Service", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 5, "evidence": "Lernziel: Prinzipien der Human-Centeredness bei der Gestaltung von Business-Lösungen anwenden", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 5, "evidence": "Lernziel: Business-Lösungen mit Prototyping und weiteren Methoden gestalten und umsetzen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 5, "evidence": "Lernziel: Veränderungen in Wertschöpfungsketten und Ökosystemen analysieren und modellieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "change-management", "contribution": 5, "evidence": "Lernziel: neue Ansätze der Arbeitsorganisation und die Rolle des Change Managements erklären und anwenden", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 5, "evidence": "Lernziel: Data- und AI-Konzepte kritisch reflektieren; Prüfung: In-Class-Fallstudie (30%)", "aiAutomation": 15, "status": "extracted" }
       ]
     },
     {
       "courseNumber": "7,006,1.00",
       "rootKey": "7,006",
-      "title": "Digital Biomarkers",
+      "title": "FPV: Psychologie der Innovationsprozesse",
       "skills": [
-        { "escoUri": "data-analysis", "contribution": 25, "evidence": "Inhalt: Sensordaten analysieren", "aiAutomation": 75, "status": "extracted" },
-        { "escoUri": "programming", "contribution": 15, "evidence": "Inhalt: Auswertung mit Python", "aiAutomation": 65, "status": "extracted" },
-        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Lernziel: Ergebnisse kritisch einordnen", "aiAutomation": 15, "status": "extracted" }
+        { "escoUri": "innovation-management", "contribution": 25, "evidence": "Lernziel: Innovationsprozesse verstehen, entwerfen und gestalten; Ideen und Veränderungskonzepte erfolgreich umsetzen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "human-behaviour", "contribution": 25, "evidence": "Inhalt: Sozialpsychologie – kognitive, motivationale und affektive Prozesse; Macht des sozialen Einflusses", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 20, "evidence": "Lernziel: Mitarbeitende und Partner:innen motivieren; in einem (Projekt-)Führungsprozess zielführend mit anderen arbeiten", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 10, "evidence": "Inhalt: Handlungsbedingungen und Innovationsbarrieren erkennen, innovationsförderliche Rahmenbedingungen gestalten", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 5, "evidence": "Inhalt: destruktive Denk- und Handlungsmuster reflektieren; Probleme anhand psychologischer Forschung beurteilen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Präsentation des individuellen Innovationsfalls (30%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 10, "evidence": "Prüfung: schriftliche Hausarbeit zum Innovationsfall auf Basis wissenschaftlicher Fachliteratur (70%)", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,007,1.00",
+      "rootKey": "7,007",
+      "title": "RPV: Low Code Development Platforms",
+      "skills": [
+        { "escoUri": "low-code-development", "contribution": 30, "evidence": "Lernziel: digitale Anwendungen mit Low-Code/No-Code-Plattformen, KI-gestütztem Software Engineering und Vibe Coding entwerfen und entwickeln (UI, Datenstrukturen, Applikationslogik); Prüfung: Software-Applikation (70%)", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Lernziel: funktionsfähige Anwendung oder Prototyp bauen; Phase 4: Entwicklungsarbeit in Kleingruppen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "digital-transformation", "contribution": 15, "evidence": "Lernziel: wie Low-Code und KI-Tools digitale Innovation und Transformation in Organisationen unterstützen; Governance, Qualität und Kontrolle", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 10, "evidence": "Inhalt: generative KI-Tools für Ideation, Prototyping, Coding, Debugging und Dokumentation einsetzen", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 10, "evidence": "Lernziel: Prozesse, Nutzerbedürfnisse oder gesellschaftliche Herausforderungen (SDG-Kontext) identifizieren; Phase 3: Nutzer- und Organisationsanforderungen klären", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Lernziel: Auswirkungen auf Effizienz, Softwarequalität, Kontrolle, Gesellschaft und Umwelt kritisch bewerten", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Knowledge Clip und Ein-Minuten-Pitch ohne Folien (30%); Abschlusspräsentation der Anwendung", "aiAutomation": 30, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,008,1.00",
+      "rootKey": "7,008",
+      "title": "RPV: Human-Centered Design of AI Artifacts",
+      "skills": [
+        { "escoUri": "design-thinking", "contribution": 25, "evidence": "Lernziel: Human-Centered-Design-Methodik verstehen und anwenden; kompletter Design-Thinking-Prozess (Inspiration, Ideation, Prototyping)", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 20, "evidence": "Lernziel: analysieren, wo KI-Lösungen helfen, und KI-Lösungen gegeneinander bewerten; KI-Tools für den Prototyp auswählen und einsetzen", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 20, "evidence": "Modul 2 Inspiration: Menschen in ihrem Kontext beobachten, Bedürfnisse und Probleme erfassen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Modul 4 Prototyping: Prototyp eines KI-Artefakts bauen und mit Kunden testen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Gruppenpräsentation (60%) und Pitch-Video (20%); Pitch für verschiedene Zielgruppen", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 10, "evidence": "Modul 3 Ideation: Lösungen für Design-Challenges entwickeln und verfeinern", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,010,1.00",
+      "rootKey": "7,010",
+      "title": "IC: Strategic Management of New Technologies in Companies",
+      "skills": [
+        { "escoUri": "research-design", "contribution": 25, "evidence": "Lernziel: theoretisch fundierte Forschungsfragen formulieren und nach Design Science Research / Engaged Scholarship untersuchen; Prüfung: Forschungsdesign und Methodik begründen", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 20, "evidence": "Prüfung: Zwischenpräsentation (25%) und Schlusspräsentation (50%) als zentrales Deliverable, je 30 Min. + 15 Min. Diskussion", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 15, "evidence": "Prüfung: empirische Methoden wählen (Fallstudie, Interviews, Dokumentenanalyse), Daten erheben und auswerten", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "digital-transformation", "contribution": 15, "evidence": "Inhalt: strategischer Einsatz neuer Technologien in Organisationen – KI-Einführung, Plattform-Transformation, digitale Souveränität", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 10, "evidence": "Lernziel: strategisch relevante Technologiethemen identifizieren; Theorien des strategischen Managements anwenden, Management-Implikationen ableiten", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Prüfung: methodische Strenge, Validität sowie Reichweite und Grenzen der Daten kritisch reflektieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 5, "evidence": "Session 1: Grundlagen agiler Projektarbeit; iterative, agile Projektentwicklung", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,018,1.00",
+      "rootKey": "7,018",
+      "title": "RPV: Digital Business and IT Innovations",
+      "skills": [
+        { "escoUri": "business-models", "contribution": 20, "evidence": "Lernziel: Herausforderungen der Geschäftsmodellinnovation auf Basis moderner Technologien verstehen; Live Case mit Fokus Business Model Innovation", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "business-it-alignment", "contribution": 20, "evidence": "Lernziel: IT und Geschäftslogik zu integrierter Wertschöpfung verbinden; Inhalt: strategisches Business/IT-Management, Methoden des Informationsmanagements", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "digital-transformation", "contribution": 10, "evidence": "Inhalt: Anforderungen der Digitalisierung an Unternehmen; Umsetzung von Strategien auf Basis von IT-Innovationen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 10, "evidence": "Lernziel: Lösungskonzepte für eine reale Herausforderung entwickeln und mit den Projektsponsoren validieren", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "project-management", "contribution": 10, "evidence": "Lernziel: konzeptionelle Grundlagen des Projektmanagements integrieren; Input 'Project Management', Projektplan mit Partnerunternehmen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Zwischen- und Schlusspräsentation beim Partnerunternehmen (50%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 10, "evidence": "Prüfung: schriftliche Projektdokumentation inkl. veröffentlichtem White Paper (50%)", "aiAutomation": 60, "status": "extracted" },
+        { "escoUri": "change-management", "contribution": 5, "evidence": "Lernziel: Grundlagen des Change Managements integrieren und ihre Bedeutung für die Unternehmensentwicklung reflektieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 5, "evidence": "Inhalt: Workshops und Interviews vor Ort beim Partnerunternehmen, Interviewprotokolle", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 5, "evidence": "Lernziel: bestehende Lösungskonzepte kritisch prüfen", "aiAutomation": 15, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,019,1.00",
+      "rootKey": "7,019",
+      "title": "FPV: Design Thinking für Digital Innovation",
+      "skills": [
+        { "escoUri": "design-thinking", "contribution": 25, "evidence": "Lernziel: Design-Thinking-Methoden auf ein vordefiniertes Geschäftsproblem anwenden und reflektieren; Bewertung: Einhaltung der Design-Thinking-Methodik", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 15, "evidence": "Inhalt: sich in Menschen einfühlen, Bedürfnisse erkennen; Dokumentation: Personas und Kundeneinblicke", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Lernziel: strukturierte Entwicklung von Prototypen durch Rapid Prototyping; Ergebnis: getestete Prototypen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Lernziel: Grundlagen der Nutzerforschung durch Interview- und Beobachtungstechniken", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "innovation-management", "contribution": 10, "evidence": "Lernziel: Kenntnisse über Design Thinking und Digital Innovation; Design Thinking mit der Entwicklung neuer Technologien verbinden", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Gruppenpräsentation (50%), bewertet u. a. nach Präsentationsstil und Kreativität", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "usability-evaluation", "contribution": 5, "evidence": "Lernziel: frühe Nutzertests; Dokumentation: Bewertungen von Designs und Prototypen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "market-research", "contribution": 5, "evidence": "Dokumentation: Analyse von Konkurrenzprodukten und Screening neuer Technologien", "aiAutomation": 70, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Bewertung: Tiefe der Problemanalyse; Lösungskonzept für die Herausforderung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Lernziel: soziale Kompetenzen erwerben und Team-Feedback geben (Teams à 4–6)", "aiAutomation": 10, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,020,1.00",
+      "rootKey": "7,020",
+      "title": "IC: Aktuelle Managementfragestellungen im Schweizer Gesundheitswesen",
+      "skills": [
+        { "escoUri": "healthcare-management", "contribution": 20, "evidence": "Lernziel: Mechanismen und Arbeitsweisen von Gesundheitsorganisationen verstehen (strategisch, operativ); Inhalt: Spitalfinanzierung, ambulant/stationär, eHealth", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 20, "evidence": "Inhalt: Strategien für Spitäler ausarbeiten – strategische, operative, kulturelle und technische Faktoren gestalten", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 15, "evidence": "Lernziel: Probleme identifizieren und analysieren, Problemlösung erarbeiten", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Schlusspräsentation vor Spitaldirektoren und Ärzten (100%); Ergebnisse adressatengerecht aufbereiten", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 10, "evidence": "Inhalt: Veränderungen im Gesundheitswesen (Kooperationen, Wettbewerb, Rankings) aus verschiedenen Perspektiven erarbeiten", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Lernziel: geeignete Erhebungs- und Analysemethoden anwenden (Workshops, Interviews, Fokusgruppen)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "project-management", "contribution": 10, "evidence": "Lernziel: projektorientiert und selbstorganisiert mit Auftraggeber zusammenarbeiten (Projektmanagement)", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Lernziel: im Team selbstorganisiert zusammenarbeiten", "aiAutomation": 10, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,021,1.00",
+      "rootKey": "7,021",
+      "title": "FPV: Digitale und Datengetriebene Organisationen gestalten",
+      "skills": [
+        { "escoUri": "digital-transformation", "contribution": 15, "evidence": "Lernziel: strategische, operative und technische Implikationen von Digitalisierung und Daten anwenden, um Transformationsvorhaben kritisch zu prüfen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "decision-making", "contribution": 15, "evidence": "Inhalt: Methodenkoffer datengetriebene Entscheidungsfindung; HS26-Themen: GenAI-Einsatz bei Regionalbank, Investitionspriorisierung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "process-management", "contribution": 15, "evidence": "Lernziel: Wissen über Organisationsgestaltung und Prozessmanagement integrieren; Thema: Prozessdigitalisierung und Automatisierung (RPA)", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Individualpitch/Zwischenpräsentation (15%) und Endpräsentation beim Partnerunternehmen (35%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 10, "evidence": "Inhalt: KI-Anwendungen, -Plattformen und -Governance analysieren, gestalten und erproben; KI-Plattform mit Mehrwertbemessung", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 10, "evidence": "Lernziel: auf Basis der IST-Situation konkrete Umsetzungsvorschläge und Lösungskonzepte für reale Problemstellungen erarbeiten", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 10, "evidence": "Prüfung: schriftliche Projektdokumentation der Zwischen- und Endergebnisse (35% Gruppe, 15% Einzel)", "aiAutomation": 60, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 5, "evidence": "Inhalt: Methodenkoffer Agiles Projektmanagement in der zweiten Sitzung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 5, "evidence": "Inhalt: Interviews und Workshops beim Projektpartner, Interview-/Workshopprotokolle", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 5, "evidence": "Thema: datengetriebene Maturitätsbemessung und Mehrwertbemessung", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,023,1.00",
+      "rootKey": "7,023",
+      "title": "Tech Investing",
+      "skills": [
+        { "escoUri": "venture-financing", "contribution": 25, "evidence": "Lernziel: Finanzierungsbedarf und -strategie eines Start-ups bestimmen; VC Readiness und Gründerfreundlichkeit von Term Sheets bewerten; Inhalt: Finanzierungsarten (Grants, Equity, Loans, SAFE, Crowd, Token)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "investment-analysis", "contribution": 20, "evidence": "Lernziel: Investment Memo schreiben und bewerten; Scale-Up-Navigator-Due-Diligence anwenden; Inhalt: Investmentprozess, Investment-These, Portfolio Management", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Deal Memo vor simuliertem Investment Committee mit europäischen VCs verteidigen (80%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "financial-modelling", "contribution": 5, "evidence": "Inhalt: Bewertung und Ownership Targets, Cap Table, Portfolio Economics", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "negotiating", "contribution": 5, "evidence": "Inhalt: Gründerperspektive – Verhandlung und Bewertung von Konditionen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 5, "evidence": "Prüfung: Strategie des Start-ups bewerten und umsetzbare Verbesserungsmassnahmen vorschlagen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 5, "evidence": "Prüfung: individuelles Paper (3 Seiten) zur kritischen Beurteilung der Start-up-Strategie (20%)", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "entrepreneurship", "contribution": 5, "evidence": "Lernziel: Unterschiede zwischen VC- und Gründer-Denken erklären; Pitches realer Schweizer Seed-Start-ups", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,025,1.00",
+      "rootKey": "7,025",
+      "title": "Methods: Scalable Tech Stacks for Business Ideas",
+      "skills": [
+        { "escoUri": "cloud-architecture", "contribution": 20, "evidence": "Lernziel: Cloud-Services (Vercel, Supabase, Stripe, Algolia) bewerten und integrieren; Drei-Schichten-Architektur Frontend/Infrastruktur/Backend; PaaS vs. Hyperscaler (AWS, Azure)", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "low-code-development", "contribution": 15, "evidence": "Inhalt: Hands-on Vibe-Coding-Sessions mit Lovable.dev, Cursor AI und Microsoft Copilot", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "programming", "contribution": 10, "evidence": "Lernziel: Grundlagen von Next.js, TypeScript und Tailwind; 26 h Online-Tutorials zu Programmierskills", "aiAutomation": 65, "status": "extracted" },
+        { "escoUri": "business-models", "contribution": 10, "evidence": "Lernziel: Technologien in Geschäftsmodelle integrieren; umsatzgenerierende, nutzerzentrierte digitale Lösungen gestalten", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 10, "evidence": "Lernziel: skalierbare Web-App prototypisch entwickeln; Prüfung: eigene Geschäftsidee als Web-App umsetzen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Präsentation von Geschäftsidee und Web-App (100%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 5, "evidence": "Inhalt: A/B-Testing und Nutzerinterviews zur Validierung der Geschäftsidee", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,031,1.00",
+      "rootKey": "7,031",
+      "title": "Methoden: Web, Social und Mobile Analytics",
+      "skills": [
+        { "escoUri": "digital-analytics", "contribution": 30, "evidence": "Lernziel: Webseiten, Social-Media-Auftritte und Apps datenbasiert analysieren und optimieren; Google Analytics (GA4), Facebook-/Instagram-/LinkedIn-Analytics, Google Analytics Academy", "aiAutomation": 60, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 15, "evidence": "Lernziel: Kennzahlen je nach Fragestellung auswählen, berechnen und interpretieren; Prüfung: Analytics-Daten eines Praxispartners auswerten", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "digital-marketing", "contribution": 10, "evidence": "Teil 3: kanalübergreifende Customer Journeys, Kampagnen und Growth Hacking analysieren", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Präsentation der Analyse vor dem Praxispartner (30%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "business-it-alignment", "contribution": 5, "evidence": "Inhalt: betriebswirtschaftliche Ziele in Analytics-Ziele übersetzen; Berufsbild Data Translator", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 5, "evidence": "Inhalt: Analytics-Daten mit generativer KI analysieren und mit klassischen Tools vergleichen", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Prüfung: Verbesserungsvorschläge für den Praxispartner erarbeiten", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,033,1.00",
+      "rootKey": "7,033",
+      "title": "Methods: Integrated Business Planning with Certificate",
+      "skills": [
+        { "escoUri": "operations-planning", "contribution": 25, "evidence": "Lernziel: Planungsprobleme lösen (Demand, Einkauf, Produktion, Ressourcen); Inhalt: monatlicher S&OP-Zyklus, Kapazitätsplanung, Losgrössen, Scheduling, Optimierung", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "erp-systems", "contribution": 15, "evidence": "Lernziel: SAP IBP zur Lösung von Planungsproblemen anwenden; Westernacher SAP IBP Zertifikat", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "supply-chain-management", "contribution": 10, "evidence": "Lernziel: Performance von Supply Chain und Operations messen; Nachfrage und Angebot im Gleichgewicht halten", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "decision-making", "contribution": 10, "evidence": "Inhalt: datenbasierte Produktions- und Beschaffungsentscheide in der Simulation treffen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Präsentation von Demand-, Supply- und optimiertem Plan (50%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "financial-modelling", "contribution": 5, "evidence": "Tag 3: Financial Link herstellen; Sales- und Operations-Planung auf finanzielle Ziele ausrichten", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "stakeholder-management", "contribution": 5, "evidence": "Inhalt: funktionsübergreifendes Rollenspiel (Marketing, Finance, Operations) in S&OP-Meetings", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,035,1.00",
+      "rootKey": "7,035",
+      "title": "Methods: Lean Venturing",
+      "skills": [
+        { "escoUri": "entrepreneurship", "contribution": 25, "evidence": "Lernziel: Lean-Startup-Ansatz; attraktive Opportunity Spaces bestimmen, Geschäftschancen identifizieren und validieren; eigenes Venture-Projekt im Berliner Startup-Ökosystem", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "business-models", "contribution": 15, "evidence": "Lernziel: Geschäftsmodell für das eigene Venture bewerten und validieren", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 10, "evidence": "Inhalt: Geschäftschancen mit realen Kunden validieren (Lean Startup, Customer Development nach Steve Blank)", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "venture-financing", "contribution": 10, "evidence": "Lernziel: Finanzierung, Sales/Marketing und Management des Ventures; Austausch mit Investoren", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Gruppenpräsentation des Venture-Projekts (50%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 5, "evidence": "Lernziel: Wachstumsplan für ein High-Growth-Venture entwickeln", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Lernziel: Anforderungen an Gründungsteams verstehen; Projekt in 3–4er-Gruppen", "aiAutomation": 10, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,047,1.00",
+      "rootKey": "7,047",
+      "title": "IC: Responsible Innovation Lab",
+      "skills": [
+        { "escoUri": "responsible-innovation", "contribution": 20, "evidence": "Lernziel: ethisches Risikobewusstsein entwickeln, Fallstricke unverantwortlicher Innovation vermeiden; Frameworks für Responsible Innovation", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "business-models", "contribution": 20, "evidence": "Tag 2: Geschäftsmodell eines realen Unternehmens aus Responsible-Innovation-Sicht neu gestalten und dokumentieren", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 15, "evidence": "Lernziel: implizite Annahmen über Technologie und Innovation kritisch hinterfragen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 15, "evidence": "Lernziel: ethische, soziale, kulturelle und politische Kontexte von Innovation erkennen; Vorab-Recherche zum adoptierten Unternehmen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "stakeholder-management", "contribution": 10, "evidence": "Lernziel: relevante Stakeholder identifizieren; Wesentlichkeitsanalyse; partizipatives und Value-Sensitive Design", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "innovation-management", "contribution": 5, "evidence": "Lernziel: verstehen, wie reale Unternehmen innovieren (oder scheitern); Innovationsprozesse verantwortungsvoll gestalten", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Gruppenpräsentation (50%) und mündliche Prüfung (50%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 15, "evidence": "Selbststudium: 40 h Recherche und 50 h gemeinsames Schreiben der Group Papers; schriftliche Dokumentation der Geschäftsmodelle", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,235,1.00",
+      "rootKey": "7,235",
+      "title": "Decision Making under Risk and Uncertainty",
+      "skills": [
+        { "escoUri": "decision-making", "contribution": 35, "evidence": "Lernziel: zentrale Konzepte der Entscheidungstheorie, bessere Entscheidungen unter Risiko und Unsicherheit; normative und deskriptive Sicht; Entscheidungsverfahren inkl. formaler Modelle anpassen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 15, "evidence": "Inhalt: Bewusstsein für Biases und Werkzeuge, um sie zu erkennen und zu mitigieren; eigene irrationale Entscheidungen reflektieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "human-behaviour", "contribution": 15, "evidence": "Inhalt: Erkenntnisse aus Ökonomie und Psychologie zu systematischen Verhaltensmustern; In-Class-Experimente und Spiele", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "risk-analysis", "contribution": 15, "evidence": "Inhalt: Situationen mit bekannten (Risiko) und unbekannten Wahrscheinlichkeiten (Unsicherheit); Grundkonzepte von Wahrscheinlichkeit und Statistik", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Gruppenpräsentation (40%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "strategic-thinking", "contribution": 5, "evidence": "Lernziel: komplexe Entscheidungen navigieren und strategisches Denken verbessern", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Prüfung: Business-Anwendung verhaltensökonomischer Theorien entwickeln", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,852,1.00",
+      "rootKey": "7,852",
+      "title": "User-Centred Design",
+      "skills": [
+        { "escoUri": "ux-design", "contribution": 40, "evidence": "Lernziel: einfache Benutzeroberflächen mit hoher Usability und guter User Experience gestalten; Inhalt: Interaction Design Process, Design Rules und HCI-Prinzipien, Interaktionsparadigmen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "usability-evaluation", "contribution": 30, "evidence": "Lernziel: UI-Evaluationen durchführen; Inhalt: UI Evaluation, Analyse von Logdaten; Portfolio: Study Design und Study Evaluation", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 25, "evidence": "Inhalt: Ideation und iteratives Prototyping; Portfolio: Sketching, Paper Prototyping und Figma-Prototypen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "human-behaviour", "contribution": 20, "evidence": "Lernziel: motorische, perzeptive und kognitive Fähigkeiten des Menschen; Inhalt: menschliche Informationsverarbeitung, 7 Stages of Action", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 10, "evidence": "Inhalt: Szenarien entwickeln; Systeme auf Basis eines klaren Verständnisses der Nutzer und ihres Kontexts gestalten", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "design-thinking", "contribution": 10, "evidence": "Lernziel: Kompetenzen im User-Centred Design; strukturierter nutzerzentrierter Designprozess und Ideation-Methoden", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "responsible-innovation", "contribution": 5, "evidence": "Inhalt: Dark Patterns, ethische Herausforderungen und Accessibility", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 5, "evidence": "Inhalt: HCI & AI", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 5, "evidence": "Inhalt: Analyse von Logdaten", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 5, "evidence": "Portfolio: Pitch und Abschlusspräsentation der Gruppenarbeit", "aiAutomation": 30, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "7,862,1.00",
+      "rootKey": "7,862",
+      "title": "Software Assessment: From Planning to Experimentation",
+      "skills": [
+        { "escoUri": "experimentation", "contribution": 30, "evidence": "Lernziel: Experimente zum Testen von Produkthypothesen entwerfen, umsetzen und auswerten; Inhalt: hypothesengetriebene Entwicklung, A/B-Testing, Experimentplanung; Portfolio aus mehreren Build-Measure-Learn-Zyklen (80%)", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "usability-evaluation", "contribution": 20, "evidence": "Inhalt: Rapid User Testing mit Surveys und Fragebögen; Verhaltens- und physiologische Daten (z. B. Eye-Tracking) erheben und interpretieren", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "entrepreneurship", "contribution": 15, "evidence": "Lernziel: Lean-Startup-Methode mit Build-Measure-Learn-Zyklen verstehen und im Projekt anwenden", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 15, "evidence": "Lernziel: agile und Lean-Software-Development-Praktiken in der iterativen Produktentwicklung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 15, "evidence": "Lernziel: Nutzerbedürfnisse mit qualitativen und quantitativen Methoden identifizieren und analysieren", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 15, "evidence": "Inhalt: Verhaltens- und physiologische Daten analysieren; KI-gestützte Datenanalyse", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Inhalt: qualitative Assessment-Methoden", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 10, "evidence": "Lernziel: Rapid Prototyping zum Testen von Hypothesen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "low-code-development", "contribution": 10, "evidence": "Inhalt: KI-gestütztes Prototyping und Software Engineering für schnelle Experimente", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Portfolio: bis zu drei Zwischenpräsentationen und Schlusspräsentation (je 30% der Portfolionote)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "responsible-innovation", "contribution": 5, "evidence": "Inhalt: Ethik von Experimenten", "aiAutomation": 15, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "8,000,1.00",
+      "rootKey": "8,000",
+      "title": "Research Methods for Business Innovation",
+      "skills": [
+        { "escoUri": "research-design", "contribution": 35, "evidence": "Lernziel: Forschungsparadigmen (erklärende und gestaltungsorientierte Forschung) verstehen; Forschungsprojekt entwerfen mit begründeten Entscheidungen zu Forschungsfrage, Ansatz, Beitrag, Datenerhebung und -analyse; Vorbereitung der Masterarbeit", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Lernziel: Methoden und Techniken der Datenerhebung auswählen und anwenden", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Prüfung: methodische Entscheidungen auswählen und begründen; Kombination von Forschungsansätzen rechtfertigen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Voice-over-Präsentation des Gruppenprojekts (60%) und Feedback-Sessions", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 5, "evidence": "Lernziel: Entscheidungen zur Datenanalyse treffen", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Lernziel: Problemanalyse und Formulierung von Forschungszielen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 5, "evidence": "Prüfung: individuelle schriftliche Arbeit zu Forschungsansätzen und Methoden (40%)", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "8,005,1.00",
+      "rootKey": "8,005",
+      "title": "FPV: Digitale und Datengetriebene Organisationen gestalten",
+      "skills": [
+        { "escoUri": "digital-transformation", "contribution": 15, "evidence": "Lernziel: strategische, operative und technische Implikationen von Digitalisierung und Daten anwenden, um Transformationsvorhaben kritisch zu prüfen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "decision-making", "contribution": 15, "evidence": "Inhalt: Methodenkoffer datengetriebene Entscheidungsfindung; HS26-Themen: GenAI-Einsatz bei Regionalbank, Investitionspriorisierung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "process-management", "contribution": 15, "evidence": "Lernziel: Wissen über Organisationsgestaltung und Prozessmanagement integrieren; Thema: Prozessdigitalisierung und Automatisierung (RPA)", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Individualpitch/Zwischenpräsentation (15%) und Endpräsentation beim Partnerunternehmen (35%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "ai-solutions", "contribution": 10, "evidence": "Inhalt: KI-Anwendungen, -Plattformen und -Governance analysieren, gestalten und erproben; KI-Plattform mit Mehrwertbemessung", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 10, "evidence": "Lernziel: auf Basis der IST-Situation konkrete Umsetzungsvorschläge und Lösungskonzepte für reale Problemstellungen erarbeiten", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 10, "evidence": "Prüfung: schriftliche Projektdokumentation der Zwischen- und Endergebnisse (35% Gruppe, 15% Einzel)", "aiAutomation": 60, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 5, "evidence": "Inhalt: Methodenkoffer Agiles Projektmanagement in der zweiten Sitzung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 5, "evidence": "Inhalt: Interviews und Workshops beim Projektpartner, Interview-/Workshopprotokolle", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 5, "evidence": "Thema: datengetriebene Maturitätsbemessung und Mehrwertbemessung", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "8,023,1.00",
+      "rootKey": "8,023",
+      "title": "FPV: Design Thinking für Digital Innovation",
+      "skills": [
+        { "escoUri": "design-thinking", "contribution": 25, "evidence": "Lernziel: Design-Thinking-Methoden auf ein vordefiniertes Geschäftsproblem anwenden und reflektieren; Bewertung: Einhaltung der Design-Thinking-Methodik", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 15, "evidence": "Inhalt: sich in Menschen einfühlen, Bedürfnisse erkennen; Dokumentation: Personas und Kundeneinblicke", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Lernziel: strukturierte Entwicklung von Prototypen durch Rapid Prototyping; Ergebnis: getestete Prototypen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Lernziel: Grundlagen der Nutzerforschung durch Interview- und Beobachtungstechniken", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "innovation-management", "contribution": 10, "evidence": "Lernziel: Kenntnisse über Design Thinking und Digital Innovation; Design Thinking mit der Entwicklung neuer Technologien verbinden", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Gruppenpräsentation (50%), bewertet u. a. nach Präsentationsstil und Kreativität", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "usability-evaluation", "contribution": 5, "evidence": "Lernziel: frühe Nutzertests; Dokumentation: Bewertungen von Designs und Prototypen", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "market-research", "contribution": 5, "evidence": "Dokumentation: Analyse von Konkurrenzprodukten und Screening neuer Technologien", "aiAutomation": 70, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Bewertung: Tiefe der Problemanalyse; Lösungskonzept für die Herausforderung", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Lernziel: soziale Kompetenzen erwerben und Team-Feedback geben (Teams à 4–6)", "aiAutomation": 10, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "8,035,1.00",
+      "rootKey": "8,035",
+      "title": "Methods: Integrated Business Planning with Certificate",
+      "skills": [
+        { "escoUri": "operations-planning", "contribution": 25, "evidence": "Lernziel: Planungsprobleme lösen (Demand, Einkauf, Produktion, Ressourcen); Inhalt: monatlicher S&OP-Zyklus, Kapazitätsplanung, Losgrössen, Scheduling, Optimierung", "aiAutomation": 50, "status": "extracted" },
+        { "escoUri": "erp-systems", "contribution": 15, "evidence": "Lernziel: SAP IBP zur Lösung von Planungsproblemen anwenden; Westernacher SAP IBP Zertifikat", "aiAutomation": 45, "status": "extracted" },
+        { "escoUri": "supply-chain-management", "contribution": 10, "evidence": "Lernziel: Performance von Supply Chain und Operations messen; Nachfrage und Angebot im Gleichgewicht halten", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "decision-making", "contribution": 10, "evidence": "Inhalt: datenbasierte Produktions- und Beschaffungsentscheide in der Simulation treffen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Präsentation von Demand-, Supply- und optimiertem Plan (50%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "financial-modelling", "contribution": 5, "evidence": "Tag 3: Financial Link herstellen; Sales- und Operations-Planung auf finanzielle Ziele ausrichten", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "stakeholder-management", "contribution": 5, "evidence": "Inhalt: funktionsübergreifendes Rollenspiel (Marketing, Finance, Operations) in S&OP-Meetings", "aiAutomation": 20, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "9,001,1.00",
+      "rootKey": "9,001",
+      "title": "Research Methods for Business Innovation",
+      "skills": [
+        { "escoUri": "research-design", "contribution": 35, "evidence": "Lernziel: Forschungsparadigmen (erklärende und gestaltungsorientierte Forschung) verstehen; Forschungsprojekt entwerfen mit begründeten Entscheidungen zu Forschungsfrage, Ansatz, Beitrag, Datenerhebung und -analyse; Vorbereitung der Masterarbeit", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "qualitative-research", "contribution": 10, "evidence": "Lernziel: Methoden und Techniken der Datenerhebung auswählen und anwenden", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 10, "evidence": "Prüfung: methodische Entscheidungen auswählen und begründen; Kombination von Forschungsansätzen rechtfertigen", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Voice-over-Präsentation des Gruppenprojekts (60%) und Feedback-Sessions", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "data-analysis", "contribution": 5, "evidence": "Lernziel: Entscheidungen zur Datenanalyse treffen", "aiAutomation": 75, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 5, "evidence": "Lernziel: Problemanalyse und Formulierung von Forschungszielen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 5, "evidence": "Prüfung: individuelle schriftliche Arbeit zu Forschungsansätzen und Methoden (40%)", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "9,005,1.00",
+      "rootKey": "9,005",
+      "title": "RPV: Aviation and Space Industry",
+      "skills": [
+        { "escoUri": "strategic-thinking", "contribution": 20, "evidence": "Lernziel: umsetzbare Go-to-Market-Strategien formulieren; Projekte: strategische Positionierung, Szenarien und Roadmaps für Beyond Gravity, Starlab oder ESA", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "business-development", "contribution": 15, "evidence": "Lernziel: Business-Development-Tools auf Technologie-Kommerzialisierung anwenden; technische Fähigkeiten in vermarktbare Services übersetzen", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "market-research", "contribution": 15, "evidence": "Lernziel: Branchen- und Stakeholderanalysen inkl. Kundensegmentierung und Pricing; Wettbewerbs- und Wertschöpfungsketten-Analyse", "aiAutomation": 70, "status": "extracted" },
+        { "escoUri": "business-models", "contribution": 10, "evidence": "Lernziel: umsetzbare Geschäftsmodelle für High-Tech-Angebote formulieren; produkt-, lebenszyklus- und servicebasierte Modelle", "aiAutomation": 40, "status": "extracted" },
+        { "escoUri": "aerospace-industry", "contribution": 10, "evidence": "Lernziel: strategische und operative Dynamiken der Luft- und Raumfahrt sowie NewSpace verstehen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "stakeholder-management", "contribution": 10, "evidence": "Projekte: Ökosystem- und Stakeholder-Mapping (Industrie, Hochschulen, Kantone, Investoren, Behörden)", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "project-management", "contribution": 10, "evidence": "Beratungsprojekt mit Meilensteinen (25/50/90%); Prozessmanagement fliesst mit 20% in den Projektbericht ein", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Executive-Präsentation beim Kunden (20%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "financial-modelling", "contribution": 5, "evidence": "Projekt 1: indikativer NPV je strategischer Option, CAPEX-Intensität", "aiAutomation": 75, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "9,008,1.00",
+      "rootKey": "9,008",
+      "title": "IC: Lean Product and Outsourcing Management",
+      "skills": [
+        { "escoUri": "product-management", "contribution": 25, "evidence": "Lernziel: Lean Product Management; von der Produktidee zur priorisierten Anforderungsliste; Produktstrategie und MVP-Features festlegen", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "customer-needs", "contribution": 20, "evidence": "Inhalt: Zielkunden bestimmen, unerfüllte Kundenbedürfnisse identifizieren, MVP mit Kunden testen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "supplier-management", "contribution": 20, "evidence": "Lernziel: Outsourcing vs. Inhouse bewerten und Outsourcing-Projekte steuern; Lecture 3 und Gastvortrag SAP", "aiAutomation": 25, "status": "extracted" },
+        { "escoUri": "prototyping", "contribution": 15, "evidence": "Projektarbeit: eigene IT-Produktidee bis zum MVP-Prototyp entwickeln, iterativ verbessern", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "decision-making", "contribution": 10, "evidence": "Lernziel: Tools anwenden, um datengetriebene Entscheidungen zu treffen", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 10, "evidence": "Prüfung: Schlusspräsentation in der Gruppe (70%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "agile-project-management", "contribution": 5, "evidence": "Inhalt: Coaching Session zu agilen Arbeitsmethoden im Projektmanagement", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 5, "evidence": "Prüfung: individuelles Reflexionspapier zu Vorlesungen, Gastvorträgen und Projekt (30%)", "aiAutomation": 60, "status": "extracted" }
+      ]
+    },
+    {
+      "courseNumber": "9,009,1.00",
+      "rootKey": "9,009",
+      "title": "FPV: Circular Economy - Optimierung im Supply Chain Management",
+      "skills": [
+        { "escoUri": "circular-economy", "contribution": 25, "evidence": "Lernziel: CE-Konzepte verstehen und auf ungenutzte Potentiale übertragen; Inhalt: Reparatur, Remanufacturing, Refurbishing, Recycling", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "supply-chain-management", "contribution": 25, "evidence": "Lernziel: komplexe Wertschöpfungsnetzwerke analysieren und CE-Konzepte in deren Strukturen und Kollaborationsformen integrieren", "aiAutomation": 35, "status": "extracted" },
+        { "escoUri": "problem-solving", "contribution": 15, "evidence": "Lernziel: Problemlösungen erarbeiten, evaluieren und reflektieren; Lösungskonzept mit Innovationsgehalt entwickeln", "aiAutomation": 20, "status": "extracted" },
+        { "escoUri": "presenting", "contribution": 15, "evidence": "Prüfung: Zwischen- und Abschlusspräsentation vor Praxisvertreter:innen (je 25%)", "aiAutomation": 30, "status": "extracted" },
+        { "escoUri": "context-analysis", "contribution": 5, "evidence": "Projektarbeit: Fragestellung des Praxispartners im Supply-Chain-Kontext analysieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "critical-thinking", "contribution": 5, "evidence": "Inhalt: Bewertungskriterien für Supply-Chain-Konzepte definieren; Lösung am Stand der Forschung evaluieren", "aiAutomation": 15, "status": "extracted" },
+        { "escoUri": "team-leadership", "contribution": 5, "evidence": "Lernziel: im Team zielorientiert und selbstorganisiert zusammenarbeiten (ca. 4 Personen)", "aiAutomation": 10, "status": "extracted" },
+        { "escoUri": "academic-writing", "contribution": 10, "evidence": "Prüfung: schriftliche Projektdokumentation mit ausführlicher Methodik und Quellenangaben (50%)", "aiAutomation": 60, "status": "extracted" }
       ]
     }
   ]

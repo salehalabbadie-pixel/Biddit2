@@ -1,0 +1,265 @@
+
+## Innovation Manager  ->  research and development manager  [close]  Übereinstimmung 2/21
+  ≠ business-development       heute: -         ESCO: essential identify new business opportunities
+  ≠ business-models            heute: essential ESCO: -         
+    context-analysis           heute: essential ESCO: essential analyse external factors of companies; analyse internal factors of companies
+  ≠ customer-needs             heute: -         ESCO: optional  identify customer's needs
+  ≠ design-thinking            heute: optional  ESCO: -         
+  ≠ financial-modelling        heute: -         ESCO: optional  create a financial plan
+  ≠ human-behaviour            heute: optional  ESCO: -         
+    innovation-management      heute: essential ESCO: essential innovation processes; seek innovation in current practices
+  ≠ market-research            heute: -         ESCO: essential perform market research; market research
+  ≠ negotiating                heute: optional  ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: essential report analysis results
+  ≠ problem-solving            heute: essential ESCO: -         
+  ≠ product-management         heute: -         ESCO: optional  plan product management
+  ≠ project-management         heute: -         ESCO: essential project management
+  ≠ prototyping                heute: optional  ESCO: -         
+  ≠ qualitative-research       heute: -         ESCO: optional  conduct research interview; interview people
+  ≠ research-design            heute: -         ESCO: optional  apply scientific methods
+  ≠ responsible-innovation     heute: optional  ESCO: essential corporate social responsibility
+  ≠ risk-analysis              heute: -         ESCO: optional  risk management; analyse financial risk
+  ≠ team-leadership            heute: -         ESCO: essential manage staff
+  ≠ venture-financing          heute: -         ESCO: optional  funding methods
+
+## Junior Consultant Strategie  ->  business consultant  [exact]  Übereinstimmung 2/18
+  ≠ academic-writing           heute: optional  ESCO: -         
+  ≠ business-development       heute: -         ESCO: essential align efforts towards business development
+  ≠ business-it-alignment      heute: -         ESCO: essential analyse business requirements
+  ≠ business-models            heute: optional  ESCO: -         
+    context-analysis           heute: essential ESCO: essential analyse the context of an organisation; analyse external factors of companies; analyse internal factors of companies
+  ≠ data-analysis              heute: optional  ESCO: -         
+  ≠ decision-making            heute: -         ESCO: essential make strategic business decisions
+  ≠ innovation-management      heute: -         ESCO: optional  seek innovation in current practices
+  ≠ market-research            heute: optional  ESCO: -         
+  ≠ presenting                 heute: essential ESCO: optional  report analysis results
+  ≠ problem-solving            heute: essential ESCO: -         
+  ≠ process-management         heute: -         ESCO: essential analyse business processes; business processes
+  ≠ project-management         heute: optional  ESCO: -         
+  ≠ qualitative-research       heute: optional  ESCO: essential conduct qualitative research
+  ≠ risk-analysis              heute: -         ESCO: optional  advise on risk management
+  ≠ stakeholder-management     heute: -         ESCO: essential build business relationships
+    strategic-thinking         heute: essential ESCO: essential strategic planning
+  ≠ team-leadership            heute: optional  ESCO: -         
+
+## Product Owner  ->  ICT product manager  [close]  Übereinstimmung 2/21
+    agile-project-management   heute: optional  ESCO: optional  Agile development
+  ≠ business-it-alignment      heute: -         ESCO: essential conduct impact evaluation of ICT processes on business
+  ≠ cloud-architecture         heute: -         ESCO: optional  SaaS (service-oriented modelling)
+  ≠ critical-thinking          heute: optional  ESCO: -         
+  ≠ customer-needs             heute: essential ESCO: -         
+  ≠ digital-analytics          heute: -         ESCO: optional  perform online data analysis
+  ≠ experimentation            heute: optional  ESCO: -         
+  ≠ innovation-management      heute: -         ESCO: optional  innovation processes
+  ≠ low-code-development       heute: -         ESCO: optional  Rapid application development
+  ≠ market-research            heute: -         ESCO: essential perform market research
+  ≠ problem-solving            heute: optional  ESCO: -         
+  ≠ process-management         heute: -         ESCO: optional  business process modelling
+    product-management         heute: essential ESCO: essential plan product management; perform product planning
+  ≠ programming                heute: optional  ESCO: -         
+  ≠ project-management         heute: -         ESCO: optional  ICT project management
+  ≠ prototyping                heute: essential ESCO: optional  Prototyping development
+  ≠ requirements-engineering   heute: optional  ESCO: essential define technical requirements; ICT system user requirements; create project specifications
+  ≠ risk-analysis              heute: -         ESCO: essential perform risk analysis
+  ≠ supplier-management        heute: optional  ESCO: -         
+  ≠ team-leadership            heute: essential ESCO: -         
+  ≠ ux-design                  heute: optional  ESCO: -         
+
+## Risk & Decision Analyst  ->  financial risk analyst  [exact]  Übereinstimmung 1/9
+  ≠ critical-thinking          heute: essential ESCO: -         
+  ≠ data-analysis              heute: essential ESCO: optional  perform data analysis; apply statistical analysis techniques; inspect data
+  ≠ decision-making            heute: essential ESCO: -         
+  ≠ financial-modelling        heute: optional  ESCO: essential financial forecasting
+  ≠ human-behaviour            heute: optional  ESCO: -         
+  ≠ negotiating                heute: -         ESCO: optional  negotiate sales contracts
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ problem-solving            heute: -         ESCO: optional  create solutions to problems
+    risk-analysis              heute: essential ESCO: essential assessment of risks and threats; risk management; analyse financial risk; advise on risk management
+
+## Sustainable Supply Chain Manager  ->  supply chain manager  [exact]  Übereinstimmung 2/19
+  ≠ business-development       heute: -         ESCO: essential strive for company growth
+  ≠ change-management          heute: -         ESCO: optional  apply change management
+  ≠ circular-economy           heute: essential ESCO: optional  promote sustainable management
+  ≠ context-analysis           heute: optional  ESCO: -         
+  ≠ data-analysis              heute: -         ESCO: optional  statistics
+  ≠ erp-systems                heute: -         ESCO: optional  manage standard enterprise resource planning system; transportation software related to an ERP system
+  ≠ financial-modelling        heute: -         ESCO: optional  financial forecasting
+  ≠ investment-analysis        heute: -         ESCO: optional  assess financial viability
+  ≠ market-research            heute: -         ESCO: optional  analyse consumer buying trends
+  ≠ negotiating                heute: -         ESCO: optional  negotiate sales contracts; negotiate supplier arrangements; negotiate buying conditions
+    operations-planning        heute: optional  ESCO: optional  forecast products' demand; plan future capacity requirements; assist in planning production scheduling; perform resource planning; forecast production quantities; forecast sales over periods of time
+  ≠ problem-solving            heute: optional  ESCO: -         
+  ≠ project-management         heute: -         ESCO: optional  perform project management; project management
+  ≠ responsible-innovation     heute: -         ESCO: essential corporate social responsibility
+  ≠ risk-analysis              heute: -         ESCO: optional  risk management; advise on risk management
+  ≠ strategic-thinking         heute: -         ESCO: optional  business strategy concepts
+  ≠ supplier-management        heute: optional  ESCO: essential supplier management; maintain relationship with suppliers; assess supplier risks
+    supply-chain-management    heute: essential ESCO: essential supply chain management; supply chain principles; analyse supply chain strategies; analyse supply chain trends
+  ≠ team-leadership            heute: -         ESCO: optional  manage staff
+
+## AI Product Designer  ->  (kein ESCO-Beruf)  [none]  Übereinstimmung 0/8
+  ≠ ai-solutions               heute: essential ESCO: -         
+  ≠ customer-needs             heute: essential ESCO: -         
+  ≠ design-thinking            heute: essential ESCO: -         
+  ≠ low-code-development       heute: optional  ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ product-management         heute: optional  ESCO: -         
+  ≠ prototyping                heute: optional  ESCO: -         
+  ≠ ux-design                  heute: optional  ESCO: -         
+
+## Healthcare Manager  ->  healthcare institution manager  [exact]  Übereinstimmung 3/10
+    change-management          heute: optional  ESCO: optional  lead healthcare services changes
+  ≠ context-analysis           heute: optional  ESCO: -         
+    healthcare-management      heute: essential ESCO: essential manage operations in healthcare institutions; health care system; health care legislation
+  ≠ negotiating                heute: -         ESCO: optional  negotiate supplier arrangements
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ process-management         heute: optional  ESCO: -         
+  ≠ project-management         heute: essential ESCO: -         
+  ≠ qualitative-research       heute: optional  ESCO: -         
+    strategic-thinking         heute: essential ESCO: essential implement strategic planning
+  ≠ team-leadership            heute: -         ESCO: optional  manage staff
+
+## CSR & Responsible Innovation Manager  ->  corporate social responsibility manager  [exact]  Übereinstimmung 1/12
+  ≠ academic-writing           heute: optional  ESCO: -         
+  ≠ business-it-alignment      heute: -         ESCO: essential analyse business requirements
+  ≠ business-models            heute: optional  ESCO: -         
+  ≠ circular-economy           heute: optional  ESCO: essential promote sustainability
+  ≠ context-analysis           heute: essential ESCO: -         
+  ≠ critical-thinking          heute: optional  ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ project-management         heute: -         ESCO: optional  project management
+    responsible-innovation     heute: essential ESCO: essential corporate social responsibility; monitor social impact; advise on social responsibility and sustainability matters
+  ≠ risk-analysis              heute: -         ESCO: optional  advise on risk management
+  ≠ stakeholder-management     heute: essential ESCO: -         
+  ≠ strategic-thinking         heute: -         ESCO: essential strategic planning; develop company strategies
+
+## Business Development Manager (Tech)  ->  ICT business development manager  [exact]  Übereinstimmung 4/15
+  ≠ aerospace-industry         heute: optional  ESCO: -         
+    business-development       heute: essential ESCO: essential identify new business opportunities
+  ≠ business-it-alignment      heute: -         ESCO: essential business ICT systems; analyse business requirements
+  ≠ business-models            heute: optional  ESCO: -         
+  ≠ data-analysis              heute: -         ESCO: essential interpret current data
+  ≠ financial-modelling        heute: optional  ESCO: -         
+  ≠ innovation-management      heute: -         ESCO: essential innovation processes; seek innovation in current practices; innovate in ICT
+  ≠ investment-analysis        heute: -         ESCO: optional  investment analysis
+    market-research            heute: essential ESCO: essential perform market research
+  ≠ presenting                 heute: optional  ESCO: essential give live presentation
+  ≠ process-management         heute: -         ESCO: essential business processes
+    stakeholder-management     heute: optional  ESCO: optional  build business relationships
+  ≠ storytelling               heute: optional  ESCO: -         
+    strategic-thinking         heute: essential ESCO: essential business strategy concepts
+  ≠ supplier-management        heute: -         ESCO: optional  outsourcing strategy
+
+## Digital Transformation Manager  ->  ICT business analysis manager  [close]  Übereinstimmung 2/16
+  ≠ ai-solutions               heute: optional  ESCO: -         
+  ≠ business-it-alignment      heute: optional  ESCO: essential analyse business requirements
+    change-management          heute: optional  ESCO: optional  apply change management
+  ≠ cloud-architecture         heute: optional  ESCO: -         
+  ≠ customer-needs             heute: optional  ESCO: -         
+  ≠ decision-making            heute: -         ESCO: essential make strategic business decisions
+  ≠ digital-transformation     heute: essential ESCO: -         
+  ≠ enterprise-architecture    heute: optional  ESCO: -         
+  ≠ low-code-development       heute: essential ESCO: -         
+  ≠ problem-solving            heute: -         ESCO: essential propose ICT solutions to business problems
+  ≠ process-management         heute: optional  ESCO: essential business process modelling; create business process models; business processes; improve business processes
+    project-management         heute: essential ESCO: essential manage ICT project
+  ≠ prototyping                heute: optional  ESCO: -         
+  ≠ requirements-engineering   heute: -         ESCO: essential define technical requirements
+  ≠ stakeholder-management     heute: optional  ESCO: -         
+  ≠ strategic-thinking         heute: -         ESCO: essential implement strategic planning
+
+## Research Associate (Digital Business)  ->  university research assistant  [exact]  Übereinstimmung 3/7
+    academic-writing           heute: essential ESCO: essential write scientific papers; write research proposals
+  ≠ critical-thinking          heute: optional  ESCO: -         
+    data-analysis              heute: optional  ESCO: optional  apply statistical analysis techniques; statistics
+  ≠ digital-transformation     heute: optional  ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ qualitative-research       heute: essential ESCO: optional  conduct qualitative research
+    research-design            heute: essential ESCO: essential scientific research methodology; apply scientific methods; conduct scholarly research
+
+## Business Analyst (Digital)  ->  ICT business analyst  [exact]  Übereinstimmung 5/15
+    business-it-alignment      heute: essential ESCO: essential analyse business requirements; business requirements techniques
+  ≠ change-management          heute: -         ESCO: essential apply change management
+  ≠ cloud-architecture         heute: -         ESCO: optional  cloud technologies
+  ≠ context-analysis           heute: -         ESCO: essential analyse the context of an organisation
+    customer-needs             heute: essential ESCO: essential identify customer requirements
+  ≠ data-analysis              heute: optional  ESCO: -         
+  ≠ digital-transformation     heute: optional  ESCO: -         
+    enterprise-architecture    heute: optional  ESCO: optional  information architecture
+  ≠ innovation-management      heute: -         ESCO: optional  innovation processes
+    problem-solving            heute: essential ESCO: essential propose ICT solutions to business problems
+  ≠ process-management         heute: optional  ESCO: essential business process modelling; create business process models; analyse business processes
+    project-management         heute: optional  ESCO: optional  manage ICT project
+  ≠ qualitative-research       heute: optional  ESCO: -         
+  ≠ requirements-engineering   heute: optional  ESCO: essential define technical requirements; interact with users to gather requirements
+  ≠ strategic-thinking         heute: -         ESCO: essential implement strategic planning
+
+## Tech Startup Founder  ->  (kein ESCO-Beruf)  [none]  Übereinstimmung 0/12
+  ≠ business-development       heute: optional  ESCO: -         
+  ≠ business-models            heute: essential ESCO: -         
+  ≠ cloud-architecture         heute: optional  ESCO: -         
+  ≠ customer-needs             heute: optional  ESCO: -         
+  ≠ entrepreneurship           heute: essential ESCO: -         
+  ≠ experimentation            heute: optional  ESCO: -         
+  ≠ low-code-development       heute: essential ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ programming                heute: optional  ESCO: -         
+  ≠ prototyping                heute: essential ESCO: -         
+  ≠ storytelling               heute: optional  ESCO: -         
+  ≠ venture-financing          heute: optional  ESCO: -         
+
+## Data Translator / Digital Analyst  ->  data analyst  [exact]  Übereinstimmung 2/9
+  ≠ ai-solutions               heute: optional  ESCO: -         
+  ≠ business-it-alignment      heute: essential ESCO: -         
+  ≠ cloud-architecture         heute: -         ESCO: optional  cloud technologies
+  ≠ critical-thinking          heute: optional  ESCO: -         
+    data-analysis              heute: essential ESCO: essential interpret current data; apply statistical analysis techniques; statistics; analyse big data
+  ≠ digital-analytics          heute: essential ESCO: optional  web analytics
+  ≠ digital-marketing          heute: optional  ESCO: -         
+  ≠ enterprise-architecture    heute: -         ESCO: optional  information architecture
+    presenting                 heute: optional  ESCO: optional  report analysis results
+
+## Supply Chain Planner  ->  logistics analyst  [exact]  Übereinstimmung 2/9
+  ≠ critical-thinking          heute: -         ESCO: optional  think analytically
+    data-analysis              heute: optional  ESCO: optional  perform data analysis
+  ≠ decision-making            heute: optional  ESCO: -         
+  ≠ erp-systems                heute: essential ESCO: -         
+  ≠ financial-modelling        heute: optional  ESCO: -         
+  ≠ operations-planning        heute: essential ESCO: -         
+  ≠ process-management         heute: optional  ESCO: -         
+  ≠ risk-analysis              heute: -         ESCO: optional  assess risk factors
+    supply-chain-management    heute: essential ESCO: essential supply chain management; analyse supply chain strategies; analyse supply chain trends
+
+## UX Designer  ->  user experience analyst + user interface designer  [exact]  Übereinstimmung 3/19
+  ≠ agile-project-management   heute: -         ESCO: optional  Agile project management; Agile development; Lean project management
+  ≠ business-it-alignment      heute: -         ESCO: essential analyse business requirements
+  ≠ customer-needs             heute: optional  ESCO: essential measure customer feedback
+  ≠ design-thinking            heute: optional  ESCO: essential utilise methodologies for user centered design; develop creative ideas
+  ≠ digital-analytics          heute: -         ESCO: optional  web analytics; perform online data analysis
+  ≠ erp-systems                heute: -         ESCO: optional  SAP R3
+  ≠ experimentation            heute: optional  ESCO: -         
+  ≠ human-behaviour            heute: optional  ESCO: essential behavioural science; cognitive psychology
+  ≠ low-code-development       heute: -         ESCO: optional  Rapid application development
+  ≠ market-research            heute: -         ESCO: optional  perform market research
+  ≠ presenting                 heute: -         ESCO: essential report analysis results
+  ≠ process-management         heute: -         ESCO: optional  business process modelling; Process-based management
+  ≠ programming                heute: -         ESCO: essential web programming; task algorithmisation
+    prototyping                heute: essential ESCO: essential create prototype of user experience solutions
+  ≠ qualitative-research       heute: optional  ESCO: essential conduct qualitative research; conduct research interview; execute ICT user research activities
+  ≠ requirements-engineering   heute: -         ESCO: essential define technical requirements; interact with users to gather requirements
+  ≠ stakeholder-management     heute: -         ESCO: essential build business relationships
+    usability-evaluation       heute: essential ESCO: essential measure software usability; application usability; assess users' interaction with ICT applications; test system accessibility for users with special needs
+    ux-design                  heute: essential ESCO: essential design user interface; software interaction design; human-computer interaction; software UI design patterns; create website wireframe
+
+## Venture Capital Analyst  ->  venture capitalist  [exact]  Übereinstimmung 3/11
+  ≠ decision-making            heute: -         ESCO: essential make strategic business decisions
+  ≠ entrepreneurship           heute: optional  ESCO: -         
+    financial-modelling        heute: essential ESCO: essential create a financial plan
+    investment-analysis        heute: essential ESCO: essential investment analysis; business valuation techniques; assess financial viability; decide on providing funds
+  ≠ market-research            heute: optional  ESCO: -         
+  ≠ negotiating                heute: optional  ESCO: -         
+  ≠ presenting                 heute: optional  ESCO: -         
+  ≠ risk-analysis              heute: optional  ESCO: essential analyse financial risk
+  ≠ stakeholder-management     heute: -         ESCO: essential build business relationships
+  ≠ strategic-thinking         heute: optional  ESCO: -         
+    venture-financing          heute: essential ESCO: essential funding methods

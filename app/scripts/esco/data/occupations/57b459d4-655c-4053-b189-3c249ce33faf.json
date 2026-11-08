@@ -1,0 +1,140 @@
+{
+  "id": "57b459d4-655c-4053-b189-3c249ce33faf",
+  "uri": "http://data.europa.eu/esco/occupation/57b459d4-655c-4053-b189-3c249ce33faf",
+  "title": "ICT business development manager",
+  "de": "Leiter Geschäftsentwicklung IKT/Leiterin Geschäftsentwicklung IKT",
+  "code": "2434.2",
+  "description": "ICT business development managers increase business opportunities for the organisation and develop strategies that will enhance the smooth running of the organisation, product development and product distribution. They negotiate prices and establish contract terms.",
+  "essential": [
+    {
+      "title": "business strategy concepts",
+      "uri": "http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95"
+    },
+    {
+      "title": "monitor technology trends",
+      "uri": "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+    },
+    {
+      "title": "innovate in ICT",
+      "uri": "http://data.europa.eu/esco/skill/8327754d-3990-4056-b07e-4faa49cfcd26"
+    },
+    {
+      "title": "seek innovation in current practices",
+      "uri": "http://data.europa.eu/esco/skill/f975091a-e5a5-4472-ac17-11680e53e98f"
+    },
+    {
+      "title": "decision support systems",
+      "uri": "http://data.europa.eu/esco/skill/3ce1fe19-7f9e-4070-941d-651673a5693b"
+    },
+    {
+      "title": "business processes",
+      "uri": "http://data.europa.eu/esco/skill/9e84a506-df06-4be3-874a-fa01293e3dd5"
+    },
+    {
+      "title": "interpret current data",
+      "uri": "http://data.europa.eu/esco/skill/1e77e42a-181f-4b48-8e74-201ce50ffc29"
+    },
+    {
+      "title": "identify new business opportunities",
+      "uri": "http://data.europa.eu/esco/skill/d207a30b-2f80-4138-9b77-f88d549b8768"
+    },
+    {
+      "title": "collect customer feedback on applications",
+      "uri": "http://data.europa.eu/esco/skill/71746a0b-e58d-4dc4-ad03-bd84082eae21"
+    },
+    {
+      "title": "perform business analysis",
+      "uri": "http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703"
+    },
+    {
+      "title": "innovation processes",
+      "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "business ICT systems",
+      "uri": "http://data.europa.eu/esco/skill/ccdbd9bb-4faf-403c-a968-e8bf487f8a53"
+    },
+    {
+      "title": "ICT market",
+      "uri": "http://data.europa.eu/esco/skill/e5609f89-0daf-40bb-bd6b-94f5d7498131"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    },
+    {
+      "title": "give live presentation",
+      "uri": "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+    }
+  ],
+  "optional": [
+    {
+      "title": "use different communication channels",
+      "uri": "http://data.europa.eu/esco/skill/415abd43-e8e5-4643-b5da-5f11307af57a"
+    },
+    {
+      "title": "ICT capacity planning strategies",
+      "uri": "http://data.europa.eu/esco/skill/60d48be0-4260-4b2e-85b9-aedff7a9b7d9"
+    },
+    {
+      "title": "build business relationships",
+      "uri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "outsourcing strategy",
+      "uri": "http://data.europa.eu/esco/skill/6f8baa62-bc2b-4cc1-942b-f540c837cfa2"
+    },
+    {
+      "title": "visual presentation techniques",
+      "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213"
+    },
+    {
+      "title": "coordinate technological activities",
+      "uri": "http://data.europa.eu/esco/skill/af607e5e-4ba1-4e5f-a2a6-dc05806567c7"
+    },
+    {
+      "title": "sales argumentation",
+      "uri": "http://data.europa.eu/esco/skill/0c0488b3-fca5-4deb-865b-8dc605c3d909"
+    },
+    {
+      "title": "manage contracts",
+      "uri": "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+    },
+    {
+      "title": "crowdsourcing strategy",
+      "uri": "http://data.europa.eu/esco/skill/694dc996-52f3-4afa-a802-672e19f061b7"
+    },
+    {
+      "title": "insourcing strategy",
+      "uri": "http://data.europa.eu/esco/skill/eff1bb34-b454-4482-8c29-65f820619f3c"
+    },
+    {
+      "title": "information extraction",
+      "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec"
+    },
+    {
+      "title": "investment analysis",
+      "uri": "http://data.europa.eu/esco/skill/bf12b461-1c53-4d81-a395-8ba77f7483c4"
+    },
+    {
+      "title": "business requirements techniques",
+      "uri": "http://data.europa.eu/esco/skill/0ee94c0a-3716-494a-95a2-dcbab9e58be2"
+    },
+    {
+      "title": "business intelligence",
+      "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c"
+    },
+    {
+      "title": "communicate with customers",
+      "uri": "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127"
+    }
+  ]
+}

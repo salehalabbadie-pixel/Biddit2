@@ -1,0 +1,156 @@
+{
+  "id": "fe0fa514-b48d-4a53-9757-a283c0baacf0",
+  "uri": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+  "title": "ICT business analyst",
+  "de": "IT-Business-Analyst",
+  "code": "2511.8",
+  "description": "ICT business analysts are in charge of analysing and designing an organisation's processes and systems, assessing the business model and its integration with technology. They also identify change needs, assess the impact of the change, capture and document requirements and then ensure that these requirements are delivered whilst supporting the business through the implementation process.",
+  "essential": [
+    {
+      "title": "analyse the context of an organisation",
+      "uri": "http://data.europa.eu/esco/skill/9714735d-6f60-440b-bdbc-aaf45ebcbe78"
+    },
+    {
+      "title": "implement strategic planning",
+      "uri": "http://data.europa.eu/esco/skill/f7b5d916-52f0-4865-b6a6-e1a3b711cb5e"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "provide cost benefit analysis reports",
+      "uri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a"
+    },
+    {
+      "title": "propose ICT solutions to business problems",
+      "uri": "http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "business requirements techniques",
+      "uri": "http://data.europa.eu/esco/skill/0ee94c0a-3716-494a-95a2-dcbab9e58be2"
+    },
+    {
+      "title": "legal requirements of ICT products",
+      "uri": "http://data.europa.eu/esco/skill/a846cb9e-c152-41e7-bd34-45e7ff941e3b"
+    },
+    {
+      "title": "identify legal requirements",
+      "uri": "http://data.europa.eu/esco/skill/b9bf9e17-ae47-417b-bbb1-e8b7c263ccac"
+    },
+    {
+      "title": "translate requirement concepts into visual design",
+      "uri": "http://data.europa.eu/esco/skill/2d6d4784-0992-48e7-b100-22d7229b3f0a"
+    },
+    {
+      "title": "analyse business processes",
+      "uri": "http://data.europa.eu/esco/skill/56042303-972b-41be-9310-58467599ff7e"
+    },
+    {
+      "title": "interact with users to gather requirements",
+      "uri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "identify customer requirements",
+      "uri": "http://data.europa.eu/esco/skill/0e0c9c11-b39e-43cf-ba95-2fe646f5de64"
+    },
+    {
+      "title": "apply change management",
+      "uri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca"
+    },
+    {
+      "title": "product usage risks analysis",
+      "uri": "http://data.europa.eu/esco/skill/4913d0c0-133a-4c46-aac3-f5d4989a982e"
+    },
+    {
+      "title": "create business process models",
+      "uri": "http://data.europa.eu/esco/skill/6a7792a9-888a-46ad-afc9-2c0d94c8fde6"
+    }
+  ],
+  "optional": [
+    {
+      "title": "internal risk management policy",
+      "uri": "http://data.europa.eu/esco/skill/0daaf096-1639-461c-bf1a-bbeea77e6b67"
+    },
+    {
+      "title": "business intelligence",
+      "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c"
+    },
+    {
+      "title": "design process",
+      "uri": "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    },
+    {
+      "title": "information categorisation",
+      "uri": "http://data.europa.eu/esco/skill/93aaf65c-5aad-4e6f-a7ba-ce9bf7c0e6e6"
+    },
+    {
+      "title": "unstructured data",
+      "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666"
+    },
+    {
+      "title": "information extraction",
+      "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec"
+    },
+    {
+      "title": "execute analytical mathematical calculations",
+      "uri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    },
+    {
+      "title": "systems development life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575"
+    },
+    {
+      "title": "organisational resilience",
+      "uri": "http://data.europa.eu/esco/skill/79f24a62-7718-46e1-9b41-37be0560a5ca"
+    },
+    {
+      "title": "decision support systems",
+      "uri": "http://data.europa.eu/esco/skill/3ce1fe19-7f9e-4070-941d-651673a5693b"
+    },
+    {
+      "title": "provide user documentation",
+      "uri": "http://data.europa.eu/esco/skill/385479b7-5da5-4367-9763-0d15b41bb65b"
+    },
+    {
+      "title": "visual presentation techniques",
+      "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213"
+    },
+    {
+      "title": "information architecture",
+      "uri": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4"
+    },
+    {
+      "title": "business ICT systems",
+      "uri": "http://data.europa.eu/esco/skill/ccdbd9bb-4faf-403c-a968-e8bf487f8a53"
+    },
+    {
+      "title": "manage ICT project",
+      "uri": "http://data.europa.eu/esco/skill/3c76296d-4bbd-44ba-8eaa-95bf275f79b7"
+    },
+    {
+      "title": "innovation processes",
+      "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68"
+    },
+    {
+      "title": "ICT market",
+      "uri": "http://data.europa.eu/esco/skill/e5609f89-0daf-40bb-bd6b-94f5d7498131"
+    },
+    {
+      "title": "cloud technologies",
+      "uri": "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0"
+    },
+    {
+      "title": "business strategy concepts",
+      "uri": "http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95"
+    }
+  ]
+}

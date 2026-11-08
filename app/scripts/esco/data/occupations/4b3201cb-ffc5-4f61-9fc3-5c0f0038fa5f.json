@@ -1,0 +1,140 @@
+{
+  "id": "4b3201cb-ffc5-4f61-9fc3-5c0f0038fa5f",
+  "uri": "http://data.europa.eu/esco/occupation/4b3201cb-ffc5-4f61-9fc3-5c0f0038fa5f",
+  "title": "ICT business analysis manager",
+  "de": "Leiter Businessanalyse (IKT)/Leiterin Businessanalyse (IKT)",
+  "code": "2511.7",
+  "description": "ICT business analysis managers identify areas where information system changes are needed to support business plans and monitor the impact in terms of change management. They contribute to the general ICT functional requirements of the business organisation. ICT business analysis managers analyse business needs and translate them into ICT solutions.",
+  "essential": [
+    {
+      "title": "write work-related reports",
+      "uri": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
+    },
+    {
+      "title": "implement strategic planning",
+      "uri": "http://data.europa.eu/esco/skill/f7b5d916-52f0-4865-b6a6-e1a3b711cb5e"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "propose ICT solutions to business problems",
+      "uri": "http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328"
+    },
+    {
+      "title": "provide ICT consulting advice",
+      "uri": "http://data.europa.eu/esco/skill/283cbcd3-7101-4dbb-be37-56f3625515b1"
+    },
+    {
+      "title": "manage ICT project",
+      "uri": "http://data.europa.eu/esco/skill/3c76296d-4bbd-44ba-8eaa-95bf275f79b7"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "improve business processes",
+      "uri": "http://data.europa.eu/esco/skill/75b30aeb-34c0-40f4-b77d-271d75a98b14"
+    },
+    {
+      "title": "track key performance indicators",
+      "uri": "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40"
+    },
+    {
+      "title": "ICT security legislation",
+      "uri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42"
+    },
+    {
+      "title": "create business process models",
+      "uri": "http://data.europa.eu/esco/skill/6a7792a9-888a-46ad-afc9-2c0d94c8fde6"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "provide cost benefit analysis reports",
+      "uri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a"
+    },
+    {
+      "title": "coordinate technological activities",
+      "uri": "http://data.europa.eu/esco/skill/af607e5e-4ba1-4e5f-a2a6-dc05806567c7"
+    },
+    {
+      "title": "business processes",
+      "uri": "http://data.europa.eu/esco/skill/9e84a506-df06-4be3-874a-fa01293e3dd5"
+    },
+    {
+      "title": "decision support systems",
+      "uri": "http://data.europa.eu/esco/skill/3ce1fe19-7f9e-4070-941d-651673a5693b"
+    },
+    {
+      "title": "perform business analysis",
+      "uri": "http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703"
+    },
+    {
+      "title": "design process",
+      "uri": "http://data.europa.eu/esco/skill/2c28fc20-8a60-4311-8899-5ef8729c05b3"
+    },
+    {
+      "title": "make strategic business decisions",
+      "uri": "http://data.europa.eu/esco/skill/f60c9e52-95fc-4ca1-a73c-18a491153b63"
+    }
+  ],
+  "optional": [
+    {
+      "title": "use different communication channels",
+      "uri": "http://data.europa.eu/esco/skill/415abd43-e8e5-4643-b5da-5f11307af57a"
+    },
+    {
+      "title": "business strategy concepts",
+      "uri": "http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95"
+    },
+    {
+      "title": "communicate with customers",
+      "uri": "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127"
+    },
+    {
+      "title": "apply change management",
+      "uri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca"
+    },
+    {
+      "title": "perform data mining",
+      "uri": "http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278"
+    },
+    {
+      "title": "execute analytical mathematical calculations",
+      "uri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    },
+    {
+      "title": "adapt to changing situations",
+      "uri": "http://data.europa.eu/esco/skill/5592ab32-4e7a-4cda-8e64-ca36d5de8a10"
+    },
+    {
+      "title": "visual presentation techniques",
+      "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213"
+    },
+    {
+      "title": "data mining",
+      "uri": "http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180"
+    },
+    {
+      "title": "ICT market",
+      "uri": "http://data.europa.eu/esco/skill/e5609f89-0daf-40bb-bd6b-94f5d7498131"
+    },
+    {
+      "title": "systems development life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575"
+    },
+    {
+      "title": "provide training on technological business developments",
+      "uri": "http://data.europa.eu/esco/skill/4c216189-4116-4e49-9557-8360378ea717"
+    },
+    {
+      "title": "information extraction",
+      "uri": "http://data.europa.eu/esco/skill/696e3b5b-8b61-45af-ae4c-3ab700f197ec"
+    }
+  ]
+}

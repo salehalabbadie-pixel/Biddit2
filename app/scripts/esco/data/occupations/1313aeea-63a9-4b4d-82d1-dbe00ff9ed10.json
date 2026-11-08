@@ -1,0 +1,140 @@
+{
+  "id": "1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+  "uri": "http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+  "title": "corporate social responsibility manager",
+  "de": "Beauftragter für die soziale Verantwortung der Unternehmen/Beauftragte für die soziale Verantwortung der Unternehmen",
+  "code": "1219.2",
+  "description": "Corporate social responsibility managers monitor the practices of organisations and companies with regard to ethics and impact on the larger community. They advise on social responsibility and sustainability matters depending on the company's needs. Corporate social responsibility managers promote actions that are environmentally conscious, philanthropic or related to human rights.",
+  "essential": [
+    {
+      "title": "follow company standards",
+      "uri": "http://data.europa.eu/esco/skill/f5f5b244-6cea-4fbc-8a50-8f712791bc09"
+    },
+    {
+      "title": "corporate law",
+      "uri": "http://data.europa.eu/esco/skill/d77d7685-04fb-43a4-a1ac-09a10811f646"
+    },
+    {
+      "title": "strategic planning",
+      "uri": "http://data.europa.eu/esco/skill/949ced5f-7536-4614-ac60-563ffc91a2f2"
+    },
+    {
+      "title": "coordinate operational activities",
+      "uri": "http://data.europa.eu/esco/skill/afdb41dd-5dd5-4fbb-bf9e-e041422698b4"
+    },
+    {
+      "title": "promote environmental awareness",
+      "uri": "http://data.europa.eu/esco/skill/8abdc43c-2bfd-417c-97c2-27fcdaf53171"
+    },
+    {
+      "title": "advise on government policy compliance",
+      "uri": "http://data.europa.eu/esco/skill/c362f415-9cdf-4328-9cf0-651443857a48"
+    },
+    {
+      "title": "promote human rights implementation",
+      "uri": "http://data.europa.eu/esco/skill/5ff0df56-48a7-4f84-937f-ba9a88182f3f"
+    },
+    {
+      "title": "promote inclusion",
+      "uri": "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+    },
+    {
+      "title": "define the corporate structure",
+      "uri": "http://data.europa.eu/esco/skill/72731261-d7b0-4e6d-bbde-5c76c85934d0"
+    },
+    {
+      "title": "analyse business requirements",
+      "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17"
+    },
+    {
+      "title": "provide improvement strategies",
+      "uri": "http://data.europa.eu/esco/skill/d4cc5022-7801-4885-bcff-166552788d35"
+    },
+    {
+      "title": "develop company strategies",
+      "uri": "http://data.europa.eu/esco/skill/ba2c6181-b036-40b4-8f6d-51499463ccbb"
+    },
+    {
+      "title": "monitor social impact",
+      "uri": "http://data.europa.eu/esco/skill/696e604d-53d2-4243-a6cb-a99663caa119"
+    },
+    {
+      "title": "evaluate company needs",
+      "uri": "http://data.europa.eu/esco/skill/969ebc5a-e486-41b7-9a3d-15f9aa61680d"
+    },
+    {
+      "title": "promote social awareness",
+      "uri": "http://data.europa.eu/esco/skill/bf5ab3df-9589-4e99-b8f6-a83b494f40be"
+    },
+    {
+      "title": "corporate social responsibility",
+      "uri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61"
+    },
+    {
+      "title": "advise on social responsibility and sustainability matters",
+      "uri": "http://data.europa.eu/esco/skill/b2f05068-c409-43ec-ba58-b5dfe991ca5e"
+    },
+    {
+      "title": "promote sustainability",
+      "uri": "http://data.europa.eu/esco/skill/469e19ed-a0bd-445a-ae2d-4ba9430e296b"
+    }
+  ],
+  "optional": [
+    {
+      "title": "communication principles",
+      "uri": "http://data.europa.eu/esco/skill/fe30a4b0-1a99-4fc7-afff-b162b8c834ba"
+    },
+    {
+      "title": "project management",
+      "uri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388"
+    },
+    {
+      "title": "liaise with cultural partners",
+      "uri": "http://data.europa.eu/esco/skill/20e7c937-a5e5-4a27-bb87-ddda5826f777"
+    },
+    {
+      "title": "advise on risk management",
+      "uri": "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4"
+    },
+    {
+      "title": "oversee quality control",
+      "uri": "http://data.europa.eu/esco/skill/5d34adde-0b78-42b4-9d3d-69e9388d8398"
+    },
+    {
+      "title": "integrate community outreach",
+      "uri": "http://data.europa.eu/esco/skill/594a002c-de7a-4805-8cb9-a4c6283b61c3"
+    },
+    {
+      "title": "environmental policy",
+      "uri": "http://data.europa.eu/esco/skill/081d7679-5070-4777-bece-a28c49f15636"
+    },
+    {
+      "title": "advise on public relations",
+      "uri": "http://data.europa.eu/esco/skill/2691f4d8-d090-423f-afd7-9e721f562e8d"
+    },
+    {
+      "title": "implement marketing strategies",
+      "uri": "http://data.europa.eu/esco/skill/13e2378e-0d10-450d-843a-b3592575826e"
+    },
+    {
+      "title": "public relations",
+      "uri": "http://data.europa.eu/esco/skill/5330b70e-16f5-43a7-a6de-18fd6a4bd063"
+    },
+    {
+      "title": "liaise with government officials",
+      "uri": "http://data.europa.eu/esco/skill/4bf0a15a-be84-4560-b64c-9556781a0d60"
+    },
+    {
+      "title": "ensure cross-department cooperation",
+      "uri": "http://data.europa.eu/esco/skill/b216d9a2-7d4e-4312-8d05-e375f4ab44d8"
+    },
+    {
+      "title": "build community relations",
+      "uri": "http://data.europa.eu/esco/skill/28f98c7e-b89c-4b4d-ae0a-0c5a6328992e"
+    },
+    {
+      "title": "analyse community needs",
+      "uri": "http://data.europa.eu/esco/skill/fbe6232a-e2b2-4830-a5e6-ed6415f01e85"
+    }
+  ]
+}

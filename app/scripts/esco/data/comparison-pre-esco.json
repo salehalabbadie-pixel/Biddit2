@@ -1,0 +1,2645 @@
+{
+  "skills": {
+    "decision-making": {
+      "core": [
+        "make decisions",
+        "d62d2b4c-a6f8-439e-8a1b-4f29ab5f2c47"
+      ],
+      "fit": "exact",
+      "variants": [
+        "make strategic business decisions"
+      ]
+    },
+    "context-analysis": {
+      "core": [
+        "analyse the context of an organisation",
+        "9714735d-6f60-440b-bdbc-aaf45ebcbe78"
+      ],
+      "fit": "exact",
+      "variants": [
+        "analyse external factors of companies",
+        "analyse internal factors of companies"
+      ]
+    },
+    "problem-solving": {
+      "core": [
+        "create solutions to problems",
+        "03b9b491-fc9b-4868-914a-bf7cd47b5041"
+      ],
+      "fit": "exact",
+      "variants": [
+        "propose ICT solutions to business problems"
+      ]
+    },
+    "presenting": {
+      "core": [
+        "give live presentation",
+        "c55caed2-de9e-4a25-819e-a0b0e83fba1b"
+      ],
+      "fit": "exact",
+      "variants": [
+        "conduct public presentations",
+        "report analysis results"
+      ]
+    },
+    "team-leadership": {
+      "core": [
+        "lead a team",
+        "1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb"
+      ],
+      "fit": "exact",
+      "variants": [
+        "manage staff",
+        "coach employees"
+      ]
+    },
+    "critical-thinking": {
+      "core": [
+        "address problems critically",
+        "b9f16465-56a9-426b-a047-0f9f1f95ec92"
+      ],
+      "fit": "exact",
+      "variants": [
+        "think analytically",
+        "use logical reasoning",
+        "evaluate information"
+      ]
+    },
+    "customer-needs": {
+      "core": [
+        "identify customer's needs",
+        "68698869-c13c-4563-adc7-118b7644f45d"
+      ],
+      "fit": "exact",
+      "variants": [
+        "identify customer requirements",
+        "analyse data about clients",
+        "identify ICT user needs",
+        "measure customer feedback"
+      ]
+    },
+    "negotiating": {
+      "core": [
+        "negotiate with stakeholders",
+        "87de6e49-ca1c-42a4-8751-5ff0b991966b"
+      ],
+      "fit": "exact",
+      "variants": [
+        "negotiate sales contracts",
+        "negotiate supplier arrangements",
+        "negotiate buying conditions"
+      ]
+    },
+    "business-models": {
+      "core": [
+        "business model",
+        "3c1cbc5e-2220-4f45-bcc8-3d52c8c9cae0"
+      ],
+      "fit": "exact",
+      "variants": [
+        "develop business plans",
+        "develop revenue generation strategies"
+      ]
+    },
+    "prototyping": {
+      "core": [
+        "design prototypes",
+        "bacbfc27-4b5d-47de-8bfd-af5fa27562a2"
+      ],
+      "fit": "exact",
+      "variants": [
+        "create prototype of user experience solutions",
+        "Prototyping development"
+      ]
+    },
+    "data-analysis": {
+      "core": [
+        "perform data analysis",
+        "2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+      ],
+      "fit": "exact",
+      "variants": [
+        "interpret current data",
+        "apply statistical analysis techniques",
+        "statistics",
+        "inspect data",
+        "analyse big data"
+      ]
+    },
+    "market-research": {
+      "core": [
+        "perform market research",
+        "fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+      ],
+      "fit": "exact",
+      "variants": [
+        "market research",
+        "prepare market research reports",
+        "draw conclusions from market research results",
+        "analyse consumer buying trends"
+      ]
+    },
+    "financial-modelling": {
+      "core": [
+        "financial forecasting",
+        "4b2db903-cd8e-48ce-97fb-a92db4def54e"
+      ],
+      "fit": "exact",
+      "variants": [
+        "create a financial plan",
+        "provide support in financial calculation"
+      ]
+    },
+    "programming": {
+      "core": [
+        "computer programming",
+        null
+      ],
+      "fit": "exact",
+      "variants": [
+        "web programming",
+        "task algorithmisation"
+      ]
+    },
+    "product-management": {
+      "core": [
+        "plan product management",
+        "29fb886c-6be0-4e93-9ea1-232881f2092a"
+      ],
+      "fit": "exact",
+      "variants": [
+        "product life-cycle",
+        "perform product planning",
+        "develop new products"
+      ]
+    },
+    "supplier-management": {
+      "core": [
+        "supplier management",
+        "fe1ec582-d63b-466c-9149-e7fc4fe93e22"
+      ],
+      "fit": "exact",
+      "variants": [
+        "maintain relationship with suppliers",
+        "assess supplier risks",
+        "outsourcing strategy",
+        "identify suppliers"
+      ]
+    },
+    "agile-project-management": {
+      "core": [
+        "Agile project management",
+        "0a9acb6b-1139-4be9-b431-3a80a959f2f4"
+      ],
+      "fit": "exact",
+      "variants": [
+        "Agile development",
+        "Lean project management"
+      ]
+    },
+    "supply-chain-management": {
+      "core": [
+        "supply chain management",
+        "f929c89e-c363-4132-a918-e021d57b307c"
+      ],
+      "fit": "exact",
+      "variants": [
+        "supply chain principles",
+        "analyse supply chain strategies",
+        "analyse supply chain trends"
+      ]
+    },
+    "circular-economy": {
+      "core": [
+        "assess the life cycle of resources",
+        "4e87c852-602a-4a0e-b8d8-20709ce14ac5"
+      ],
+      "fit": "approx",
+      "variants": [
+        "promote sustainable management",
+        "promote sustainability"
+      ]
+    },
+    "innovation-management": {
+      "core": [
+        "innovation processes",
+        "2fb8480e-de3c-462b-b169-e8bbb344da68"
+      ],
+      "fit": "exact",
+      "variants": [
+        "seek innovation in current practices",
+        "innovate in ICT"
+      ]
+    },
+    "human-behaviour": {
+      "core": [
+        "apply knowledge of human behaviour",
+        "a0e23745-6ba4-45e2-9510-df6e71ed1230"
+      ],
+      "fit": "exact",
+      "variants": [
+        "behavioural science",
+        "cognitive psychology"
+      ]
+    },
+    "design-thinking": {
+      "core": [
+        "utilise methodologies for user centered design",
+        "7364cc39-b9c0-449f-9416-57723e2fd9c4"
+      ],
+      "fit": "approx",
+      "variants": [
+        "think creatively",
+        "develop creative ideas"
+      ]
+    },
+    "ai-solutions": {
+      "core": [
+        "principles of artificial intelligence",
+        "e465a154-93f7-4973-9ce1-31659fe16dd2"
+      ],
+      "fit": "close",
+      "variants": [
+        "utilise machine learning",
+        "emergent technologies"
+      ]
+    },
+    "healthcare-management": {
+      "core": [
+        "manage operations in healthcare institutions",
+        "7d77f9d8-4f9e-4b8f-aa93-bcc1c8ac2173"
+      ],
+      "fit": "exact",
+      "variants": [
+        "health care system",
+        "health care legislation"
+      ]
+    },
+    "strategic-thinking": {
+      "core": [
+        "apply strategic thinking",
+        "6c870993-9341-438b-91c0-c7fe4f96d8f5"
+      ],
+      "fit": "exact",
+      "variants": [
+        "strategic planning",
+        "implement strategic planning",
+        "develop company strategies",
+        "business strategy concepts"
+      ]
+    },
+    "qualitative-research": {
+      "core": [
+        "conduct qualitative research",
+        "fa465db3-56e8-4b5d-a781-e2a313a4ed2d"
+      ],
+      "fit": "exact",
+      "variants": [
+        "conduct research interview",
+        "interview people",
+        "execute ICT user research activities"
+      ]
+    },
+    "project-management": {
+      "core": [
+        "perform project management",
+        "cd5efa8c-e44d-4cbc-91c6-796018dbed68"
+      ],
+      "fit": "exact",
+      "variants": [
+        "project management",
+        "ICT project management",
+        "manage ICT project",
+        "project management principles"
+      ]
+    },
+    "responsible-innovation": {
+      "core": [
+        "corporate social responsibility",
+        "66db424f-2abe-420d-8e5b-186607266b61"
+      ],
+      "fit": "approx",
+      "variants": [
+        "ethics",
+        "monitor social impact",
+        "advise on social responsibility and sustainability matters"
+      ]
+    },
+    "stakeholder-management": {
+      "core": [
+        "maintain relationships with stakeholders",
+        "999286f1-22d9-4950-9422-89bd45265a5f"
+      ],
+      "fit": "exact",
+      "variants": [
+        "build business relationships"
+      ]
+    },
+    "academic-writing": {
+      "core": [
+        "write scientific papers",
+        "c3c2420c-ce9a-4371-8eed-1db479c3a562"
+      ],
+      "fit": "exact",
+      "variants": [
+        "write research proposals",
+        "publish academic research"
+      ]
+    },
+    "business-development": {
+      "core": [
+        "identify new business opportunities",
+        "d207a30b-2f80-4138-9b77-f88d549b8768"
+      ],
+      "fit": "close",
+      "variants": [
+        "align efforts towards business development",
+        "strive for company growth"
+      ]
+    },
+    "aerospace-industry": {
+      "core": [
+        null,
+        null
+      ],
+      "fit": "none",
+      "variants": []
+    },
+    "low-code-development": {
+      "core": [
+        "Rapid application development",
+        "96eb286a-58b7-45ff-a916-5578d0b79b8c"
+      ],
+      "fit": "approx",
+      "variants": [
+        "use automatic programming"
+      ]
+    },
+    "digital-transformation": {
+      "core": [
+        "keep up with digital transformation of industrial processes",
+        "0458f6a0-cb54-4ff5-a543-b2c5354e17c0"
+      ],
+      "fit": "approx",
+      "variants": [
+        "define technology strategy"
+      ]
+    },
+    "research-design": {
+      "core": [
+        "scientific research methodology",
+        "ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8"
+      ],
+      "fit": "exact",
+      "variants": [
+        "plan research process",
+        "apply scientific methods",
+        "conduct scholarly research"
+      ]
+    },
+    "business-it-alignment": {
+      "core": [
+        "business ICT systems",
+        "ccdbd9bb-4faf-403c-a968-e8bf487f8a53"
+      ],
+      "fit": "close",
+      "variants": [
+        "analyse business requirements",
+        "business requirements techniques",
+        "conduct impact evaluation of ICT processes on business"
+      ]
+    },
+    "change-management": {
+      "core": [
+        "apply change management",
+        "3c03ee71-4a23-448f-b79e-81fd75d27dca"
+      ],
+      "fit": "exact",
+      "variants": [
+        "lead healthcare services changes"
+      ]
+    },
+    "process-management": {
+      "core": [
+        "business process modelling",
+        "98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+      ],
+      "fit": "exact",
+      "variants": [
+        "create business process models",
+        "analyse business processes",
+        "business processes",
+        "improve business processes",
+        "Process-based management"
+      ]
+    },
+    "cloud-architecture": {
+      "core": [
+        "cloud technologies",
+        "bd14968e-e409-45af-b362-3495ed7b10e0"
+      ],
+      "fit": "close",
+      "variants": [
+        "software architecture models",
+        "SaaS (service-oriented modelling)"
+      ]
+    },
+    "entrepreneurship": {
+      "core": [
+        "entrepreneurship",
+        "658605f2-1c95-49f0-bd98-0af7b15ad0b0"
+      ],
+      "fit": "exact",
+      "variants": []
+    },
+    "venture-financing": {
+      "core": [
+        "funding methods",
+        "3556c075-eee0-4549-b730-48ae70cb5af9"
+      ],
+      "fit": "close",
+      "variants": []
+    },
+    "digital-analytics": {
+      "core": [
+        "web analytics",
+        "1605025e-a179-421f-8f35-5b07d182a6b2"
+      ],
+      "fit": "exact",
+      "variants": [
+        "perform online data analysis"
+      ]
+    },
+    "digital-marketing": {
+      "core": [
+        "digital marketing techniques",
+        "43dfbe7f-9e10-4871-b171-e5076737b4cf"
+      ],
+      "fit": "exact",
+      "variants": [
+        "plan digital marketing",
+        "conduct search engine optimisation",
+        "mobile marketing"
+      ]
+    },
+    "operations-planning": {
+      "core": [
+        "forecast products' demand",
+        "68e73bf6-2838-4705-86f4-e4bda4ac8a6f"
+      ],
+      "fit": "close",
+      "variants": [
+        "plan future capacity requirements",
+        "assist in planning production scheduling",
+        "schedule production",
+        "perform resource planning",
+        "forecast production quantities",
+        "forecast sales over periods of time"
+      ]
+    },
+    "erp-systems": {
+      "core": [
+        "manage standard enterprise resource planning system",
+        "f0393af3-bcd9-41af-a36e-0cfb83b60081"
+      ],
+      "fit": "exact",
+      "variants": [
+        "transportation software related to an ERP system",
+        "SAP R3"
+      ]
+    },
+    "ux-design": {
+      "core": [
+        "design user interface",
+        "fd33c66c-70c4-40e6-b87c-5495bd3bf26e"
+      ],
+      "fit": "exact",
+      "variants": [
+        "software interaction design",
+        "human-computer interaction",
+        "software UI design patterns",
+        "design customer experiences",
+        "create website wireframe",
+        "combine business technology with user experience"
+      ]
+    },
+    "usability-evaluation": {
+      "core": [
+        "measure software usability",
+        "be0ff6d8-5e61-4021-9c89-e40cf0b75cc6"
+      ],
+      "fit": "exact",
+      "variants": [
+        "application usability",
+        "assess users' interaction with ICT applications",
+        "test system accessibility for users with special needs"
+      ]
+    },
+    "experimentation": {
+      "core": [
+        null,
+        null
+      ],
+      "fit": "none",
+      "variants": []
+    },
+    "investment-analysis": {
+      "core": [
+        "investment analysis",
+        "bf12b461-1c53-4d81-a395-8ba77f7483c4"
+      ],
+      "fit": "exact",
+      "variants": [
+        "business valuation techniques",
+        "assess financial viability",
+        "review investment portfolios",
+        "decide on providing funds"
+      ]
+    },
+    "storytelling": {
+      "core": [
+        null,
+        null
+      ],
+      "fit": "none",
+      "variants": []
+    },
+    "enterprise-architecture": {
+      "core": [
+        "ICT architectural frameworks",
+        "c453cf81-6197-428e-84c6-70c773b63f27"
+      ],
+      "fit": "close",
+      "variants": [
+        "information architecture"
+      ]
+    },
+    "requirements-engineering": {
+      "core": [
+        "define technical requirements",
+        "d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+      ],
+      "fit": "close",
+      "variants": [
+        "ICT system user requirements",
+        "interact with users to gather requirements",
+        "create project specifications"
+      ]
+    },
+    "risk-analysis": {
+      "core": [
+        "perform risk analysis",
+        "1dd23dba-dd00-45ab-abf4-642902538317"
+      ],
+      "fit": "exact",
+      "variants": [
+        "assessment of risks and threats",
+        "risk management",
+        "analyse financial risk",
+        "assess risk factors",
+        "advise on risk management"
+      ]
+    }
+  },
+  "roles": [
+    {
+      "role": "innovation-manager",
+      "label": "Innovation Manager",
+      "occupations": [
+        {
+          "title": "research and development manager",
+          "code": "1223.2",
+          "uri": "http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+          "de": "Forschungs- und Entwicklungsleiter/Forschungs- und Entwicklungsleiterin"
+        }
+      ],
+      "fit": "close",
+      "note": "research and development manager (1223.2); ESCO has no generic innovation manager",
+      "rows": [
+        {
+          "skill": "problem-solving",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "business-models",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "context-analysis",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "analyse external factors of companies",
+            "analyse internal factors of companies"
+          ]
+        },
+        {
+          "skill": "innovation-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "innovation processes",
+            "seek innovation in current practices"
+          ]
+        },
+        {
+          "skill": "negotiating",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "prototyping",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "report analysis results"
+          ]
+        },
+        {
+          "skill": "human-behaviour",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "design-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "responsible-innovation",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "corporate social responsibility"
+          ]
+        },
+        {
+          "skill": "team-leadership",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "manage staff"
+          ]
+        },
+        {
+          "skill": "customer-needs",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "identify customer's needs"
+          ]
+        },
+        {
+          "skill": "market-research",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "perform market research",
+            "market research"
+          ]
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "create a financial plan"
+          ]
+        },
+        {
+          "skill": "product-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "plan product management"
+          ]
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "conduct research interview",
+            "interview people"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "project management"
+          ]
+        },
+        {
+          "skill": "business-development",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "identify new business opportunities"
+          ]
+        },
+        {
+          "skill": "research-design",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "apply scientific methods"
+          ]
+        },
+        {
+          "skill": "venture-financing",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "funding methods"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "risk management",
+            "analyse financial risk"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 21
+    },
+    {
+      "role": "strategy-consultant",
+      "label": "Junior Consultant Strategie",
+      "occupations": [
+        {
+          "title": "business consultant",
+          "code": "2421.2",
+          "uri": "http://data.europa.eu/esco/occupation/6a29d804-f775-446c-bec7-35fc4e28ac97",
+          "de": "Unternehmensberater/Unternehmensberaterin"
+        }
+      ],
+      "fit": "exact",
+      "note": "business consultant (2421.2)",
+      "rows": [
+        {
+          "skill": "context-analysis",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "analyse the context of an organisation",
+            "analyse external factors of companies",
+            "analyse internal factors of companies"
+          ]
+        },
+        {
+          "skill": "presenting",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "report analysis results"
+          ]
+        },
+        {
+          "skill": "problem-solving",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "strategic planning"
+          ]
+        },
+        {
+          "skill": "team-leadership",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "business-models",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "conduct qualitative research"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "market-research",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "academic-writing",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "decision-making",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "make strategic business decisions"
+          ]
+        },
+        {
+          "skill": "innovation-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "seek innovation in current practices"
+          ]
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "build business relationships"
+          ]
+        },
+        {
+          "skill": "business-development",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "align efforts towards business development"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "analyse business requirements"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "analyse business processes",
+            "business processes"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "advise on risk management"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 18
+    },
+    {
+      "role": "product-owner",
+      "label": "Product Owner",
+      "occupations": [
+        {
+          "title": "ICT product manager",
+          "code": "1330.6",
+          "uri": "http://data.europa.eu/esco/occupation/a79170ad-0b7b-4697-864f-1748359aa10a",
+          "de": "IT-Produktmanager/IT-Produktmanagerin"
+        }
+      ],
+      "fit": "close",
+      "note": "ICT product manager (1330.6); ESCO has no product owner",
+      "rows": [
+        {
+          "skill": "customer-needs",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "prototyping",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "Prototyping development"
+          ]
+        },
+        {
+          "skill": "team-leadership",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "product-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "plan product management",
+            "perform product planning"
+          ]
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "programming",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "problem-solving",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "agile-project-management",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "Agile development"
+          ]
+        },
+        {
+          "skill": "supplier-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "ux-design",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "experimentation",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "requirements-engineering",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "define technical requirements",
+            "ICT system user requirements",
+            "create project specifications"
+          ]
+        },
+        {
+          "skill": "market-research",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "perform market research"
+          ]
+        },
+        {
+          "skill": "innovation-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "innovation processes"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "ICT project management"
+          ]
+        },
+        {
+          "skill": "low-code-development",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "Rapid application development"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "conduct impact evaluation of ICT processes on business"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "business process modelling"
+          ]
+        },
+        {
+          "skill": "cloud-architecture",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "SaaS (service-oriented modelling)"
+          ]
+        },
+        {
+          "skill": "digital-analytics",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "perform online data analysis"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "perform risk analysis"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 21
+    },
+    {
+      "role": "risk-analyst",
+      "label": "Risk & Decision Analyst",
+      "occupations": [
+        {
+          "title": "financial risk analyst",
+          "code": "2413.1.1",
+          "uri": "http://data.europa.eu/esco/occupation/7a6ca615-a2bc-499d-8288-d186ce2594ea",
+          "de": "Financial Risk Analyst/Financial Risk Analystin"
+        }
+      ],
+      "fit": "exact",
+      "note": "financial risk analyst (2413.1.1)",
+      "rows": [
+        {
+          "skill": "decision-making",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "perform data analysis",
+            "apply statistical analysis techniques",
+            "inspect data"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "assessment of risks and threats",
+            "risk management",
+            "analyse financial risk",
+            "advise on risk management"
+          ]
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "financial forecasting"
+          ]
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "human-behaviour",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "problem-solving",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "create solutions to problems"
+          ]
+        },
+        {
+          "skill": "negotiating",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "negotiate sales contracts"
+          ]
+        }
+      ],
+      "agree": 1,
+      "total": 9
+    },
+    {
+      "role": "sustainable-supply-chain-manager",
+      "label": "Sustainable Supply Chain Manager",
+      "occupations": [
+        {
+          "title": "supply chain manager",
+          "code": "1324.3.4",
+          "uri": "http://data.europa.eu/esco/occupation/aacc3918-b5d3-484b-9480-5d29aa550d74",
+          "de": "Supply-Chain-Manager/Supply-Chain-Managerin"
+        }
+      ],
+      "fit": "exact",
+      "note": "supply chain manager (1324.3.4)",
+      "rows": [
+        {
+          "skill": "supply-chain-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "supply chain management",
+            "supply chain principles",
+            "analyse supply chain strategies",
+            "analyse supply chain trends"
+          ]
+        },
+        {
+          "skill": "circular-economy",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "promote sustainable management"
+          ]
+        },
+        {
+          "skill": "supplier-management",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "supplier management",
+            "maintain relationship with suppliers",
+            "assess supplier risks"
+          ]
+        },
+        {
+          "skill": "context-analysis",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "problem-solving",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "operations-planning",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "forecast products' demand",
+            "plan future capacity requirements",
+            "assist in planning production scheduling",
+            "perform resource planning",
+            "forecast production quantities",
+            "forecast sales over periods of time"
+          ]
+        },
+        {
+          "skill": "team-leadership",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "manage staff"
+          ]
+        },
+        {
+          "skill": "negotiating",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "negotiate sales contracts",
+            "negotiate supplier arrangements",
+            "negotiate buying conditions"
+          ]
+        },
+        {
+          "skill": "data-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "statistics"
+          ]
+        },
+        {
+          "skill": "market-research",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "analyse consumer buying trends"
+          ]
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "financial forecasting"
+          ]
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "business strategy concepts"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "perform project management",
+            "project management"
+          ]
+        },
+        {
+          "skill": "responsible-innovation",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "corporate social responsibility"
+          ]
+        },
+        {
+          "skill": "business-development",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "strive for company growth"
+          ]
+        },
+        {
+          "skill": "change-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "apply change management"
+          ]
+        },
+        {
+          "skill": "erp-systems",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "manage standard enterprise resource planning system",
+            "transportation software related to an ERP system"
+          ]
+        },
+        {
+          "skill": "investment-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "assess financial viability"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "risk management",
+            "advise on risk management"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 19
+    },
+    {
+      "role": "ai-product-designer",
+      "label": "AI Product Designer",
+      "occupations": [],
+      "fit": "none",
+      "note": "no ESCO occupation",
+      "rows": [
+        {
+          "skill": "design-thinking",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "ai-solutions",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "customer-needs",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "prototyping",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "product-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "low-code-development",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "ux-design",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        }
+      ],
+      "agree": 0,
+      "total": 8
+    },
+    {
+      "role": "healthcare-manager",
+      "label": "Healthcare Manager",
+      "occupations": [
+        {
+          "title": "healthcare institution manager",
+          "code": "1342.2",
+          "uri": "http://data.europa.eu/esco/occupation/4a29eab1-5f02-4723-a863-e2d5a0614dfa",
+          "de": "Leiter einer Gesundheitseinrichtung/Leiterin einer Gesundheitseinrichtung"
+        }
+      ],
+      "fit": "exact",
+      "note": "healthcare institution manager (1342.2)",
+      "rows": [
+        {
+          "skill": "healthcare-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "manage operations in healthcare institutions",
+            "health care system",
+            "health care legislation"
+          ]
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "implement strategic planning"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "context-analysis",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "change-management",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "lead healthcare services changes"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "team-leadership",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "manage staff"
+          ]
+        },
+        {
+          "skill": "negotiating",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "negotiate supplier arrangements"
+          ]
+        }
+      ],
+      "agree": 3,
+      "total": 10
+    },
+    {
+      "role": "csr-manager",
+      "label": "CSR & Responsible Innovation Manager",
+      "occupations": [
+        {
+          "title": "corporate social responsibility manager",
+          "code": "1219.2",
+          "uri": "http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+          "de": "Beauftragter für die soziale Verantwortung der Unternehmen/Beauftragte für die soziale Verantwortung der Unternehmen"
+        }
+      ],
+      "fit": "exact",
+      "note": "corporate social responsibility manager (1219.2)",
+      "rows": [
+        {
+          "skill": "responsible-innovation",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "corporate social responsibility",
+            "monitor social impact",
+            "advise on social responsibility and sustainability matters"
+          ]
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "context-analysis",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "circular-economy",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "promote sustainability"
+          ]
+        },
+        {
+          "skill": "business-models",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "academic-writing",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "strategic planning",
+            "develop company strategies"
+          ]
+        },
+        {
+          "skill": "project-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "project management"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "analyse business requirements"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "advise on risk management"
+          ]
+        }
+      ],
+      "agree": 1,
+      "total": 12
+    },
+    {
+      "role": "business-development-manager",
+      "label": "Business Development Manager (Tech)",
+      "occupations": [
+        {
+          "title": "ICT business development manager",
+          "code": "2434.2",
+          "uri": "http://data.europa.eu/esco/occupation/57b459d4-655c-4053-b189-3c249ce33faf",
+          "de": "Leiter Geschäftsentwicklung IKT/Leiterin Geschäftsentwicklung IKT"
+        }
+      ],
+      "fit": "exact",
+      "note": "ICT business development manager (2434.2)",
+      "rows": [
+        {
+          "skill": "business-development",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "identify new business opportunities"
+          ]
+        },
+        {
+          "skill": "market-research",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "perform market research"
+          ]
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "business strategy concepts"
+          ]
+        },
+        {
+          "skill": "business-models",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "build business relationships"
+          ]
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "give live presentation"
+          ]
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "aerospace-industry",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "storytelling",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "interpret current data"
+          ]
+        },
+        {
+          "skill": "supplier-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "outsourcing strategy"
+          ]
+        },
+        {
+          "skill": "innovation-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "innovation processes",
+            "seek innovation in current practices",
+            "innovate in ICT"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "business ICT systems",
+            "analyse business requirements"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "business processes"
+          ]
+        },
+        {
+          "skill": "investment-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "investment analysis"
+          ]
+        }
+      ],
+      "agree": 4,
+      "total": 15
+    },
+    {
+      "role": "digital-transformation-manager",
+      "label": "Digital Transformation Manager",
+      "occupations": [
+        {
+          "title": "ICT business analysis manager",
+          "code": "2511.7",
+          "uri": "http://data.europa.eu/esco/occupation/4b3201cb-ffc5-4f61-9fc3-5c0f0038fa5f",
+          "de": "Leiter Businessanalyse (IKT)/Leiterin Businessanalyse (IKT)"
+        }
+      ],
+      "fit": "close",
+      "note": "ICT business analysis manager (2511.7); ESCO has no digital transformation manager",
+      "rows": [
+        {
+          "skill": "digital-transformation",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "low-code-development",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "project-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "manage ICT project"
+          ]
+        },
+        {
+          "skill": "ai-solutions",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "prototyping",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "customer-needs",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "analyse business requirements"
+          ]
+        },
+        {
+          "skill": "change-management",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "apply change management"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "business process modelling",
+            "create business process models",
+            "business processes",
+            "improve business processes"
+          ]
+        },
+        {
+          "skill": "cloud-architecture",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "enterprise-architecture",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "decision-making",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "make strategic business decisions"
+          ]
+        },
+        {
+          "skill": "problem-solving",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "propose ICT solutions to business problems"
+          ]
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "implement strategic planning"
+          ]
+        },
+        {
+          "skill": "requirements-engineering",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "define technical requirements"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 16
+    },
+    {
+      "role": "research-associate",
+      "label": "Research Associate (Digital Business)",
+      "occupations": [
+        {
+          "title": "university research assistant",
+          "code": "2310.1.41",
+          "uri": "http://data.europa.eu/esco/occupation/5ac65daa-0896-4193-9f0e-8b00746b78a1",
+          "de": "Forschungsassistent/Forschungsassistentin"
+        }
+      ],
+      "fit": "exact",
+      "note": "university research assistant (2310.1.41)",
+      "rows": [
+        {
+          "skill": "research-design",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "scientific research methodology",
+            "apply scientific methods",
+            "conduct scholarly research"
+          ]
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "conduct qualitative research"
+          ]
+        },
+        {
+          "skill": "academic-writing",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "write scientific papers",
+            "write research proposals"
+          ]
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "apply statistical analysis techniques",
+            "statistics"
+          ]
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "digital-transformation",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        }
+      ],
+      "agree": 3,
+      "total": 7
+    },
+    {
+      "role": "business-analyst",
+      "label": "Business Analyst (Digital)",
+      "occupations": [
+        {
+          "title": "ICT business analyst",
+          "code": "2511.8",
+          "uri": "http://data.europa.eu/esco/occupation/fe0fa514-b48d-4a53-9757-a283c0baacf0",
+          "de": "IT-Business-Analyst"
+        }
+      ],
+      "fit": "exact",
+      "note": "ICT business analyst (2511.8)",
+      "rows": [
+        {
+          "skill": "business-it-alignment",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "analyse business requirements",
+            "business requirements techniques"
+          ]
+        },
+        {
+          "skill": "customer-needs",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "identify customer requirements"
+          ]
+        },
+        {
+          "skill": "problem-solving",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "propose ICT solutions to business problems"
+          ]
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "project-management",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "manage ICT project"
+          ]
+        },
+        {
+          "skill": "digital-transformation",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "process-management",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "business process modelling",
+            "create business process models",
+            "analyse business processes"
+          ]
+        },
+        {
+          "skill": "requirements-engineering",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "define technical requirements",
+            "interact with users to gather requirements"
+          ]
+        },
+        {
+          "skill": "enterprise-architecture",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "information architecture"
+          ]
+        },
+        {
+          "skill": "context-analysis",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "analyse the context of an organisation"
+          ]
+        },
+        {
+          "skill": "innovation-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "innovation processes"
+          ]
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "implement strategic planning"
+          ]
+        },
+        {
+          "skill": "change-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "apply change management"
+          ]
+        },
+        {
+          "skill": "cloud-architecture",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "cloud technologies"
+          ]
+        }
+      ],
+      "agree": 5,
+      "total": 15
+    },
+    {
+      "role": "tech-founder",
+      "label": "Tech Startup Founder",
+      "occupations": [],
+      "fit": "none",
+      "note": "ESCO has no founder/entrepreneur occupation",
+      "rows": [
+        {
+          "skill": "entrepreneurship",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "business-models",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "prototyping",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "low-code-development",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "cloud-architecture",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "customer-needs",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "programming",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "business-development",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "venture-financing",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "experimentation",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "storytelling",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        }
+      ],
+      "agree": 0,
+      "total": 12
+    },
+    {
+      "role": "data-translator",
+      "label": "Data Translator / Digital Analyst",
+      "occupations": [
+        {
+          "title": "data analyst",
+          "code": "2511.2",
+          "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+          "de": "Datenanalytiker/Datenanalytikerin"
+        }
+      ],
+      "fit": "exact",
+      "note": "data analyst (2511.2)",
+      "rows": [
+        {
+          "skill": "digital-analytics",
+          "current": "essential",
+          "esco": "optional",
+          "evidence": [
+            "web analytics"
+          ]
+        },
+        {
+          "skill": "data-analysis",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "interpret current data",
+            "apply statistical analysis techniques",
+            "statistics",
+            "analyse big data"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "digital-marketing",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "report analysis results"
+          ]
+        },
+        {
+          "skill": "ai-solutions",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "cloud-architecture",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "cloud technologies"
+          ]
+        },
+        {
+          "skill": "enterprise-architecture",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "information architecture"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 9
+    },
+    {
+      "role": "supply-chain-planner",
+      "label": "Supply Chain Planner",
+      "occupations": [
+        {
+          "title": "logistics analyst",
+          "code": "2141.6",
+          "uri": "http://data.europa.eu/esco/occupation/51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+          "de": "Logistik-Analyst/Logistik-Analystin"
+        }
+      ],
+      "fit": "exact",
+      "note": "logistics analyst (2141.6)",
+      "rows": [
+        {
+          "skill": "operations-planning",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "supply-chain-management",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "supply chain management",
+            "analyse supply chain strategies",
+            "analyse supply chain trends"
+          ]
+        },
+        {
+          "skill": "erp-systems",
+          "current": "essential",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "data-analysis",
+          "current": "optional",
+          "esco": "optional",
+          "evidence": [
+            "perform data analysis"
+          ]
+        },
+        {
+          "skill": "decision-making",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "process-management",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "critical-thinking",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "think analytically"
+          ]
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "assess risk factors"
+          ]
+        }
+      ],
+      "agree": 2,
+      "total": 9
+    },
+    {
+      "role": "ux-designer",
+      "label": "UX Designer",
+      "occupations": [
+        {
+          "title": "user experience analyst",
+          "code": "2511.18",
+          "uri": "http://data.europa.eu/esco/occupation/faed411a-f920-4100-86a8-b877928b429c",
+          "de": "User Experience Analyst"
+        },
+        {
+          "title": "user interface designer",
+          "code": "2513.3",
+          "uri": "http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890",
+          "de": "Multimedia-Designer/Multimedia-Designerin"
+        }
+      ],
+      "fit": "exact",
+      "note": "user experience analyst (2511.18) + user interface designer (2513.3)",
+      "rows": [
+        {
+          "skill": "ux-design",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "design user interface",
+            "software interaction design",
+            "human-computer interaction",
+            "software UI design patterns",
+            "create website wireframe"
+          ]
+        },
+        {
+          "skill": "usability-evaluation",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "measure software usability",
+            "application usability",
+            "assess users' interaction with ICT applications",
+            "test system accessibility for users with special needs"
+          ]
+        },
+        {
+          "skill": "prototyping",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "create prototype of user experience solutions"
+          ]
+        },
+        {
+          "skill": "customer-needs",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "measure customer feedback"
+          ]
+        },
+        {
+          "skill": "design-thinking",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "utilise methodologies for user centered design",
+            "develop creative ideas"
+          ]
+        },
+        {
+          "skill": "human-behaviour",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "behavioural science",
+            "cognitive psychology"
+          ]
+        },
+        {
+          "skill": "qualitative-research",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "conduct qualitative research",
+            "conduct research interview",
+            "execute ICT user research activities"
+          ]
+        },
+        {
+          "skill": "experimentation",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "report analysis results"
+          ]
+        },
+        {
+          "skill": "market-research",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "perform market research"
+          ]
+        },
+        {
+          "skill": "programming",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "web programming",
+            "task algorithmisation"
+          ]
+        },
+        {
+          "skill": "agile-project-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "Agile project management",
+            "Agile development",
+            "Lean project management"
+          ]
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "build business relationships"
+          ]
+        },
+        {
+          "skill": "low-code-development",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "Rapid application development"
+          ]
+        },
+        {
+          "skill": "business-it-alignment",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "analyse business requirements"
+          ]
+        },
+        {
+          "skill": "process-management",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "business process modelling",
+            "Process-based management"
+          ]
+        },
+        {
+          "skill": "digital-analytics",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "web analytics",
+            "perform online data analysis"
+          ]
+        },
+        {
+          "skill": "erp-systems",
+          "current": "-",
+          "esco": "optional",
+          "evidence": [
+            "SAP R3"
+          ]
+        },
+        {
+          "skill": "requirements-engineering",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "define technical requirements",
+            "interact with users to gather requirements"
+          ]
+        }
+      ],
+      "agree": 3,
+      "total": 19
+    },
+    {
+      "role": "vc-analyst",
+      "label": "Venture Capital Analyst",
+      "occupations": [
+        {
+          "title": "venture capitalist",
+          "code": "2412.11",
+          "uri": "http://data.europa.eu/esco/occupation/659b0ffd-337c-4a1f-82e3-2730812279de",
+          "de": "Risikokapitalgeber/Risikokapitalgeberin"
+        }
+      ],
+      "fit": "exact",
+      "note": "venture capitalist (2412.11)",
+      "rows": [
+        {
+          "skill": "investment-analysis",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "investment analysis",
+            "business valuation techniques",
+            "assess financial viability",
+            "decide on providing funds"
+          ]
+        },
+        {
+          "skill": "venture-financing",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "funding methods"
+          ]
+        },
+        {
+          "skill": "financial-modelling",
+          "current": "essential",
+          "esco": "essential",
+          "evidence": [
+            "create a financial plan"
+          ]
+        },
+        {
+          "skill": "entrepreneurship",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "market-research",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "strategic-thinking",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "negotiating",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "presenting",
+          "current": "optional",
+          "esco": "-",
+          "evidence": []
+        },
+        {
+          "skill": "risk-analysis",
+          "current": "optional",
+          "esco": "essential",
+          "evidence": [
+            "analyse financial risk"
+          ]
+        },
+        {
+          "skill": "decision-making",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "make strategic business decisions"
+          ]
+        },
+        {
+          "skill": "stakeholder-management",
+          "current": "-",
+          "esco": "essential",
+          "evidence": [
+            "build business relationships"
+          ]
+        }
+      ],
+      "agree": 3,
+      "total": 11
+    }
+  ]
+}

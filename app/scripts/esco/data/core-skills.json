@@ -1,0 +1,461 @@
+{
+  "decision-making": {
+    "fit": "exact",
+    "title": "make decisions",
+    "uri": "http://data.europa.eu/esco/skill/d62d2b4c-a6f8-439e-8a1b-4f29ab5f2c47",
+    "de": "Entscheidungen treffen",
+    "type": "skill",
+    "reuse": "transversal skills and competences",
+    "group": "making decisions"
+  },
+  "context-analysis": {
+    "fit": "exact",
+    "title": "analyse the context of an organisation",
+    "uri": "http://data.europa.eu/esco/skill/9714735d-6f60-440b-bdbc-aaf45ebcbe78",
+    "de": "IuK-Kontext einer Organisation analysieren",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "analysing business operations"
+  },
+  "problem-solving": {
+    "fit": "exact",
+    "title": "create solutions to problems",
+    "uri": "http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041",
+    "de": "Problemlösungen finden",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "developing solutions"
+  },
+  "presenting": {
+    "fit": "exact",
+    "title": "give live presentation",
+    "uri": "http://data.europa.eu/esco/skill/c55caed2-de9e-4a25-819e-a0b0e83fba1b",
+    "de": "Live-Präsentation geben",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "presenting general information"
+  },
+  "team-leadership": {
+    "fit": "exact",
+    "title": "lead a team",
+    "uri": "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb",
+    "de": "ein Team führen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "supervising a team or group"
+  },
+  "critical-thinking": {
+    "fit": "exact",
+    "title": "address problems critically",
+    "uri": "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+    "de": "sich kritisch mit Problemen auseinandersetzen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "developing solutions"
+  },
+  "customer-needs": {
+    "fit": "exact",
+    "title": "identify customer's needs",
+    "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+    "de": "Kundenbedürfnisse feststellen",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "engaging with others to identify needs"
+  },
+  "negotiating": {
+    "fit": "exact",
+    "title": "negotiate with stakeholders",
+    "uri": "http://data.europa.eu/esco/skill/87de6e49-ca1c-42a4-8751-5ff0b991966b",
+    "de": "mit Interessenträgern verhandeln",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "negotiating and managing contracts and agreements"
+  },
+  "business-models": {
+    "fit": "exact",
+    "title": "business model",
+    "uri": "http://data.europa.eu/esco/skill/3c1cbc5e-2220-4f45-bcc8-3d52c8c9cae0",
+    "de": "Geschäftsmodell",
+    "type": "knowledge",
+    "reuse": "occupation specific skills and competences",
+    "group": "management and administration"
+  },
+  "prototyping": {
+    "fit": "exact",
+    "title": "design prototypes",
+    "uri": "http://data.europa.eu/esco/skill/bacbfc27-4b5d-47de-8bfd-af5fa27562a2",
+    "de": "Prototyp entwerfen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "designing systems and products"
+  },
+  "data-analysis": {
+    "fit": "exact",
+    "title": "perform data analysis",
+    "uri": "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+    "de": "Datenanalyse durchführen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "managing and analysing digital data"
+  },
+  "market-research": {
+    "fit": "exact",
+    "title": "perform market research",
+    "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13",
+    "de": "Marktforschung durchführen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "conducting investigations"
+  },
+  "financial-modelling": {
+    "fit": "exact",
+    "title": "financial forecasting",
+    "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e",
+    "de": "Finanzprognose",
+    "type": "knowledge",
+    "reuse": "cross-sector skills and competences",
+    "group": "finance, banking and insurance"
+  },
+  "programming": {
+    "fit": "exact",
+    "title": "computer programming",
+    "uri": "http://data.europa.eu/esco/skill/21d2f96d-35f7-4e3f-9745-c533d2dd6e97",
+    "de": "Computerprogrammierung",
+    "type": "knowledge",
+    "reuse": "transversal skills and competences",
+    "group": "software and applications development and analysis"
+  },
+  "product-management": {
+    "fit": "exact",
+    "title": "plan product management",
+    "uri": "http://data.europa.eu/esco/skill/29fb886c-6be0-4e93-9ea1-232881f2092a",
+    "de": "Produktmanagement planen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "planning and scheduling events and activities"
+  },
+  "supplier-management": {
+    "fit": "exact",
+    "title": "supplier management",
+    "uri": "http://data.europa.eu/esco/skill/fe1ec582-d63b-466c-9149-e7fc4fe93e22",
+    "de": "Lieferantenmanagement",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "management and administration"
+  },
+  "agile-project-management": {
+    "fit": "exact",
+    "title": "Agile project management",
+    "uri": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+    "de": "agiles Projektmanagement",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "management and administration"
+  },
+  "supply-chain-management": {
+    "fit": "exact",
+    "title": "supply chain management",
+    "uri": "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c",
+    "de": "Lieferkettenmanagement",
+    "type": "knowledge",
+    "reuse": "cross-sector skills and competences",
+    "group": "management and administration"
+  },
+  "circular-economy": {
+    "fit": "approx",
+    "title": "assess the life cycle of resources",
+    "uri": "http://data.europa.eu/esco/skill/4e87c852-602a-4a0e-b8d8-20709ce14ac5",
+    "de": "den Lebenszyklus von Ressourcen bewerten",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "advising on environmental issues"
+  },
+  "innovation-management": {
+    "fit": "exact",
+    "title": "innovation processes",
+    "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68",
+    "de": "Innovationsprozesse",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "management and administration"
+  },
+  "human-behaviour": {
+    "fit": "exact",
+    "title": "apply knowledge of human behaviour",
+    "uri": "http://data.europa.eu/esco/skill/a0e23745-6ba4-45e2-9510-df6e71ed1230",
+    "de": "Kenntnisse über das menschliche Verhalten anwenden",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "advocating for individual or community needs"
+  },
+  "design-thinking": {
+    "fit": "approx",
+    "title": "utilise methodologies for user centered design",
+    "uri": "http://data.europa.eu/esco/skill/7364cc39-b9c0-449f-9416-57723e2fd9c4",
+    "de": "Methodik für nutzerorientierte Gestaltung anwenden",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "designing industrial materials, systems or products"
+  },
+  "ai-solutions": {
+    "fit": "close",
+    "title": "principles of artificial intelligence",
+    "uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+    "de": "Grundlagen der künstlichen Intelligenz",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "information and communication technologies not elsewhere classified"
+  },
+  "healthcare-management": {
+    "fit": "exact",
+    "title": "manage operations in healthcare institutions",
+    "uri": "http://data.europa.eu/esco/skill/7d77f9d8-4f9e-4b8f-aa93-bcc1c8ac2173",
+    "de": "Betrieb in Gesundheitsdiensteinrichtung verwalten",
+    "type": "skill",
+    "reuse": "occupation specific skills and competences",
+    "group": "directing operational activities"
+  },
+  "strategic-thinking": {
+    "fit": "exact",
+    "title": "apply strategic thinking",
+    "uri": "http://data.europa.eu/esco/skill/6c870993-9341-438b-91c0-c7fe4f96d8f5",
+    "de": "strategisch denken",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "developing objectives and strategies"
+  },
+  "qualitative-research": {
+    "fit": "exact",
+    "title": "conduct qualitative research",
+    "uri": "http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d",
+    "de": "qualitative Forschung betreiben",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "gathering information from physical or electronic sources"
+  },
+  "project-management": {
+    "fit": "exact",
+    "title": "perform project management",
+    "uri": "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68",
+    "de": "Projekte managen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "directing operational activities"
+  },
+  "responsible-innovation": {
+    "fit": "approx",
+    "title": "corporate social responsibility",
+    "uri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61",
+    "de": "gesellschaftliche Verantwortung von Unternehmen",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "management and administration"
+  },
+  "stakeholder-management": {
+    "fit": "exact",
+    "title": "maintain relationships with stakeholders",
+    "uri": "http://data.europa.eu/esco/skill/999286f1-22d9-4950-9422-89bd45265a5f",
+    "de": "Verbindung zu Interessengruppen aufrechterhalten",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "coordinating activities with others"
+  },
+  "academic-writing": {
+    "fit": "exact",
+    "title": "write scientific papers",
+    "uri": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562",
+    "de": "wissenschaftliche Arbeiten schreiben",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "technical or academic writing"
+  },
+  "business-development": {
+    "fit": "close",
+    "title": "identify new business opportunities",
+    "uri": "http://data.europa.eu/esco/skill/d207a30b-2f80-4138-9b77-f88d549b8768",
+    "de": "neue Geschäftsgelegenheiten ermitteln",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "identifying opportunities"
+  },
+  "aerospace-industry": {
+    "fit": "none"
+  },
+  "low-code-development": {
+    "fit": "approx",
+    "title": "Rapid application development",
+    "uri": "http://data.europa.eu/esco/skill/96eb286a-58b7-45ff-a916-5578d0b79b8c",
+    "de": "Rapid Application Development",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "software and applications development and analysis"
+  },
+  "digital-transformation": {
+    "fit": "approx",
+    "title": "keep up with digital transformation of industrial processes",
+    "uri": "http://data.europa.eu/esco/skill/0458f6a0-cb54-4ff5-a543-b2c5354e17c0",
+    "de": "beim digitalen Wandel industrieller Prozesse auf dem neuesten Stand sein",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "monitoring developments in area of expertise"
+  },
+  "research-design": {
+    "fit": "exact",
+    "title": "scientific research methodology",
+    "uri": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+    "de": "wissenschaftliche Forschung",
+    "type": "knowledge",
+    "reuse": "cross-sector skills and competences",
+    "group": "education science"
+  },
+  "business-it-alignment": {
+    "fit": "close",
+    "title": "business ICT systems",
+    "uri": "http://data.europa.eu/esco/skill/ccdbd9bb-4faf-403c-a968-e8bf487f8a53",
+    "de": "betriebliche IKT-Systeme",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "computer use"
+  },
+  "change-management": {
+    "fit": "exact",
+    "title": "apply change management",
+    "uri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca",
+    "de": "Änderungsmanagement anwenden",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "management skills"
+  },
+  "process-management": {
+    "fit": "exact",
+    "title": "business process modelling",
+    "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb",
+    "de": "Geschäftsprozessmodellierung",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "management and administration"
+  },
+  "cloud-architecture": {
+    "fit": "close",
+    "title": "cloud technologies",
+    "uri": "http://data.europa.eu/esco/skill/bd14968e-e409-45af-b362-3495ed7b10e0",
+    "de": "Cloud-Technologien",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "database and network design and administration"
+  },
+  "entrepreneurship": {
+    "fit": "exact",
+    "title": "entrepreneurship",
+    "uri": "http://data.europa.eu/esco/skill/658605f2-1c95-49f0-bd98-0af7b15ad0b0",
+    "de": "Unternehmertum",
+    "type": "knowledge",
+    "reuse": "transversal skills and competences",
+    "group": "management and administration"
+  },
+  "venture-financing": {
+    "fit": "close",
+    "title": "funding methods",
+    "uri": "http://data.europa.eu/esco/skill/3556c075-eee0-4549-b730-48ae70cb5af9",
+    "de": "Methoden der Mittelbeschaffung",
+    "type": "knowledge",
+    "reuse": "cross-sector skills and competences",
+    "group": "finance, banking and insurance"
+  },
+  "digital-analytics": {
+    "fit": "exact",
+    "title": "web analytics",
+    "uri": "http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2",
+    "de": "Web-Analyse",
+    "type": "knowledge",
+    "reuse": "cross-sector skills and competences",
+    "group": "database and network design and administration"
+  },
+  "digital-marketing": {
+    "fit": "exact",
+    "title": "digital marketing techniques",
+    "uri": "http://data.europa.eu/esco/skill/43dfbe7f-9e10-4871-b171-e5076737b4cf",
+    "de": "digitale Vermarktungsmethoden",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "marketing and advertising"
+  },
+  "operations-planning": {
+    "fit": "close",
+    "title": "forecast products' demand",
+    "uri": "http://data.europa.eu/esco/skill/68e73bf6-2838-4705-86f4-e4bda4ac8a6f",
+    "de": "Prognose für Produktnachfrage erstellen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "allocating and controlling physical resources"
+  },
+  "erp-systems": {
+    "fit": "exact",
+    "title": "manage standard enterprise resource planning system",
+    "uri": "http://data.europa.eu/esco/skill/f0393af3-bcd9-41af-a36e-0cfb83b60081",
+    "de": "Standard-Warenwirtschaftssystem verwalten",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "managing and analysing digital data"
+  },
+  "ux-design": {
+    "fit": "exact",
+    "title": "design user interface",
+    "uri": "http://data.europa.eu/esco/skill/fd33c66c-70c4-40e6-b87c-5495bd3bf26e",
+    "de": "Benutzerschnittstelle konzipieren",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "designing ict systems or applications"
+  },
+  "usability-evaluation": {
+    "fit": "exact",
+    "title": "measure software usability",
+    "uri": "http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6",
+    "de": "Software-Gebrauchstauglichkeit messen",
+    "type": "skill",
+    "reuse": "sector specific skills and competences",
+    "group": "monitoring, inspecting and testing equipment, systems and products"
+  },
+  "experimentation": {
+    "fit": "none"
+  },
+  "investment-analysis": {
+    "fit": "exact",
+    "title": "investment analysis",
+    "uri": "http://data.europa.eu/esco/skill/bf12b461-1c53-4d81-a395-8ba77f7483c4",
+    "de": "Investmentanalyse",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "finance, banking and insurance"
+  },
+  "storytelling": {
+    "fit": "none"
+  },
+  "enterprise-architecture": {
+    "fit": "close",
+    "title": "ICT architectural frameworks",
+    "uri": "http://data.europa.eu/esco/skill/c453cf81-6197-428e-84c6-70c773b63f27",
+    "de": "IKT-Architekturrahmen",
+    "type": "knowledge",
+    "reuse": "sector specific skills and competences",
+    "group": "software and applications development and analysis"
+  },
+  "requirements-engineering": {
+    "fit": "close",
+    "title": "define technical requirements",
+    "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2",
+    "de": "technische Anforderungen definieren",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "developing operational policies and procedures"
+  },
+  "risk-analysis": {
+    "fit": "exact",
+    "title": "perform risk analysis",
+    "uri": "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317",
+    "de": "Risikoanalyse durchführen",
+    "type": "skill",
+    "reuse": "cross-sector skills and competences",
+    "group": "performing risk analysis and management"
+  }
+}

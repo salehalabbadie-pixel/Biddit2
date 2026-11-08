@@ -1,0 +1,148 @@
+{
+  "id": "659b0ffd-337c-4a1f-82e3-2730812279de",
+  "uri": "http://data.europa.eu/esco/occupation/659b0ffd-337c-4a1f-82e3-2730812279de",
+  "title": "venture capitalist",
+  "de": "Risikokapitalgeber/Risikokapitalgeberin",
+  "code": "2412.11",
+  "description": "Venture capitalists invest in young or small startup companies by providing private funding. They research potential markets and particular product opportunities to help business owners develop or expand a business. They provide business advice, technical expertise, and network contacts based on their experience and activities. They do not assume executive managerial positions within the company, but have a say in its strategic direction.",
+  "essential": [
+    {
+      "title": "analyse business plans",
+      "uri": "http://data.europa.eu/esco/skill/5da3c765-10a3-49eb-934c-ec401ceb1a34"
+    },
+    {
+      "title": "make strategic business decisions",
+      "uri": "http://data.europa.eu/esco/skill/f60c9e52-95fc-4ca1-a73c-18a491153b63"
+    },
+    {
+      "title": "funding methods",
+      "uri": "http://data.europa.eu/esco/skill/3556c075-eee0-4549-b730-48ae70cb5af9"
+    },
+    {
+      "title": "build business relationships",
+      "uri": "http://data.europa.eu/esco/skill/dc72ad0a-c5dc-4abd-bc0d-ca43e82162e1"
+    },
+    {
+      "title": "business valuation techniques",
+      "uri": "http://data.europa.eu/esco/skill/4e02ce5a-7321-426b-a809-6c507f30ef52"
+    },
+    {
+      "title": "analyse financial risk",
+      "uri": "http://data.europa.eu/esco/skill/eb8babfb-ab91-4937-a032-6a79f82e9b7f"
+    },
+    {
+      "title": "apply technical communication skills",
+      "uri": "http://data.europa.eu/esco/skill/c32ad607-0c4d-4e34-b73f-668298f7bf13"
+    },
+    {
+      "title": "create a financial plan",
+      "uri": "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"
+    },
+    {
+      "title": "assess financial viability",
+      "uri": "http://data.europa.eu/esco/skill/e95058a6-e139-42e7-a470-72038a606649"
+    },
+    {
+      "title": "investment analysis",
+      "uri": "http://data.europa.eu/esco/skill/bf12b461-1c53-4d81-a395-8ba77f7483c4"
+    },
+    {
+      "title": "perform business analysis",
+      "uri": "http://data.europa.eu/esco/skill/27ed854c-15b8-4ba2-90e9-ae888a219703"
+    },
+    {
+      "title": "analyse financial performance of a company",
+      "uri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c"
+    },
+    {
+      "title": "business analysis",
+      "uri": "http://data.europa.eu/esco/skill/633a3637-2c6b-40ae-ac38-289eb2a62aa6"
+    },
+    {
+      "title": "decide on providing funds",
+      "uri": "http://data.europa.eu/esco/skill/b214f28d-05ab-4f9b-aa9d-53a68bb7279b"
+    }
+  ],
+  "optional": [
+    {
+      "title": "develop investment portfolio",
+      "uri": "http://data.europa.eu/esco/skill/452c4c68-50d7-42ed-8c4e-b437446637d0"
+    },
+    {
+      "title": "examine credit ratings",
+      "uri": "http://data.europa.eu/esco/skill/68babd52-64d1-4904-a476-173828217fd2"
+    },
+    {
+      "title": "credit control processes",
+      "uri": "http://data.europa.eu/esco/skill/e126f782-b4e6-4f7d-8dca-8d2e6778559b"
+    },
+    {
+      "title": "debt systems",
+      "uri": "http://data.europa.eu/esco/skill/b497a163-daf4-4f1b-a6ba-8c640d803979"
+    },
+    {
+      "title": "holding company activities",
+      "uri": "http://data.europa.eu/esco/skill/d163cdab-6b68-4bbd-84cd-aeb75b4a65e2"
+    },
+    {
+      "title": "apply credit risk policy",
+      "uri": "http://data.europa.eu/esco/skill/009db49b-fcf5-4409-b4a5-232d059f3597"
+    },
+    {
+      "title": "actuarial science",
+      "uri": "http://data.europa.eu/esco/skill/c9f4efcd-e16a-4515-a0cb-60c6c479853d"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "maintain client debt records",
+      "uri": "http://data.europa.eu/esco/skill/24016006-c963-4135-a2c5-b1f7740782e2"
+    },
+    {
+      "title": "analyse loans",
+      "uri": "http://data.europa.eu/esco/skill/12d93356-78e7-4857-99a6-f00b4ae2ec77"
+    },
+    {
+      "title": "modern portfolio theory",
+      "uri": "http://data.europa.eu/esco/skill/bcadc519-00f4-43bc-9373-054f4ac717cb"
+    },
+    {
+      "title": "make investment decisions",
+      "uri": "http://data.europa.eu/esco/skill/0c9da986-721e-4f75-b566-0c6c212a8f60"
+    },
+    {
+      "title": "perform debt investigation",
+      "uri": "http://data.europa.eu/esco/skill/9da22795-4383-4bea-9ac5-e80fdf16ece5"
+    },
+    {
+      "title": "review investment portfolios",
+      "uri": "http://data.europa.eu/esco/skill/56426cfa-6e92-4ed9-a632-f08849864588"
+    },
+    {
+      "title": "manage contracts",
+      "uri": "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+    },
+    {
+      "title": "financial forecasting",
+      "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e"
+    },
+    {
+      "title": "obtain financial information",
+      "uri": "http://data.europa.eu/esco/skill/71ae4f64-6505-4b6f-91b9-5acfa5721798"
+    },
+    {
+      "title": "establish investment funds",
+      "uri": "http://data.europa.eu/esco/skill/d9670203-6f1c-45dd-9649-b86ab8dfee57"
+    },
+    {
+      "title": "budget for financial needs",
+      "uri": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+    },
+    {
+      "title": "liaise with financiers",
+      "uri": "http://data.europa.eu/esco/skill/401d8d12-b56d-4c71-ac58-f791e8c085b4"
+    }
+  ]
+}

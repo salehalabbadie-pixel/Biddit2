@@ -1,0 +1,256 @@
+{
+  "id": "7a6ca615-a2bc-499d-8288-d186ce2594ea",
+  "uri": "http://data.europa.eu/esco/occupation/7a6ca615-a2bc-499d-8288-d186ce2594ea",
+  "title": "financial risk analyst",
+  "de": "Financial Risk Analyst/Financial Risk Analystin",
+  "code": "2413.1.1",
+  "description": "Financial risk analysts correctly identify and review potential risk areas threatening the assets or capital of organisations. They specialise in either credit, market, operational or regulatory risk analysis. They use statistical analysis to evaluate risk, make recommendations to reduce and control risk and review documentation for legal compliance.",
+  "essential": [
+    {
+      "title": "risk management",
+      "uri": "http://data.europa.eu/esco/skill/6eff134b-e34f-4d6e-a6e8-5e47cf2228d0"
+    },
+    {
+      "title": "economics",
+      "uri": "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    },
+    {
+      "title": "financial management",
+      "uri": "http://data.europa.eu/esco/skill/52e53619-fa77-4f72-b237-5e4aae784dc2"
+    },
+    {
+      "title": "financial jurisdiction",
+      "uri": "http://data.europa.eu/esco/skill/e4c205f6-55ba-4bed-9c5d-2032058300c0"
+    },
+    {
+      "title": "financial forecasting",
+      "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e"
+    },
+    {
+      "title": "analyse financial risk",
+      "uri": "http://data.europa.eu/esco/skill/eb8babfb-ab91-4937-a032-6a79f82e9b7f"
+    },
+    {
+      "title": "manage financial risk",
+      "uri": "http://data.europa.eu/esco/skill/7f7756fc-d89d-41d5-93ef-85991603f4ad"
+    },
+    {
+      "title": "advise on risk management",
+      "uri": "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "assessment of risks and threats",
+      "uri": "http://data.europa.eu/esco/skill/7f27f1ff-2e17-4b69-990e-c23334478313"
+    },
+    {
+      "title": "financial analysis",
+      "uri": "http://data.europa.eu/esco/skill/99571e68-801f-49af-a897-5f75996642e1"
+    },
+    {
+      "title": "create risk reports",
+      "uri": "http://data.europa.eu/esco/skill/bd832a82-b079-4001-80d1-f59efed33688"
+    },
+    {
+      "title": "risk transfer",
+      "uri": "http://data.europa.eu/esco/skill/0d564cb6-98ef-4c18-9392-dd69e6724cbf"
+    },
+    {
+      "title": "create risk maps",
+      "uri": "http://data.europa.eu/esco/skill/edf081e4-d2dc-4a60-8c49-7b7e45b5ebe3"
+    }
+  ],
+  "optional": [
+    {
+      "title": "assess risks of clients' assets",
+      "uri": "http://data.europa.eu/esco/skill/3eefeaa0-54c0-4199-83a3-0a71078ba1c5"
+    },
+    {
+      "title": "carry out statistical forecasts",
+      "uri": "http://data.europa.eu/esco/skill/be727774-46d7-43d7-aee9-1a51b5cd8c71"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "deliver visual presentation of data",
+      "uri": "http://data.europa.eu/esco/skill/c3e36d05-8ae8-447f-bb2b-6f9409f85389"
+    },
+    {
+      "title": "securities",
+      "uri": "http://data.europa.eu/esco/skill/749ce4c2-4dfd-461a-a8f3-0f6914814d3e"
+    },
+    {
+      "title": "provide support in financial calculation",
+      "uri": "http://data.europa.eu/esco/skill/6bf6b5bd-6658-4338-b0ee-dc143e68e6d3"
+    },
+    {
+      "title": "international commercial transactions rules",
+      "uri": "http://data.europa.eu/esco/skill/6f45a77d-9208-40f2-a116-ac99c77ef580"
+    },
+    {
+      "title": "produce statistical financial records",
+      "uri": "http://data.europa.eu/esco/skill/08ee68b2-0a6d-4bdf-a870-a36c0dc8064e"
+    },
+    {
+      "title": "compile statistical data for insurance purposes",
+      "uri": "http://data.europa.eu/esco/skill/d9cc828c-61fc-422d-91e7-b2e8e4aa48a5"
+    },
+    {
+      "title": "advise on tax planning",
+      "uri": "http://data.europa.eu/esco/skill/161a6c5a-593a-4977-b7b7-49c6a2a2f2a3"
+    },
+    {
+      "title": "optimise financial performance",
+      "uri": "http://data.europa.eu/esco/skill/3369d4f5-bfa7-47dc-b61f-e74d0d91bf74"
+    },
+    {
+      "title": "enforce customer's debt repayment",
+      "uri": "http://data.europa.eu/esco/skill/c26c7d9d-f9cf-4147-b774-c63e050ebe87"
+    },
+    {
+      "title": "debt collection techniques",
+      "uri": "http://data.europa.eu/esco/skill/2fd26ae6-bd98-46c7-b1ba-8a0b52734fac"
+    },
+    {
+      "title": "assess risk factors",
+      "uri": "http://data.europa.eu/esco/skill/d7b66759-c40c-44de-9f31-9418f84e10c5"
+    },
+    {
+      "title": "create solutions to problems",
+      "uri": "http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041"
+    },
+    {
+      "title": "business management principles",
+      "uri": "http://data.europa.eu/esco/skill/0a48d064-dd04-47fb-a00d-85e9b4874033"
+    },
+    {
+      "title": "have computer literacy",
+      "uri": "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60"
+    },
+    {
+      "title": "show diplomacy",
+      "uri": "http://data.europa.eu/esco/skill/ece25f2f-e91a-4186-a221-caa715195fd7"
+    },
+    {
+      "title": "inspect data",
+      "uri": "http://data.europa.eu/esco/skill/a571ae14-3e16-4fd3-a615-5646e0b0b696"
+    },
+    {
+      "title": "assess mortgage risk",
+      "uri": "http://data.europa.eu/esco/skill/6df314cf-be4c-4de4-aa4c-3b562e5d84d2"
+    },
+    {
+      "title": "interpret financial statements",
+      "uri": "http://data.europa.eu/esco/skill/5f1d1319-7954-4a9b-90c7-57668e3a0d4b"
+    },
+    {
+      "title": "manage currency exchange risk mitigation techniques",
+      "uri": "http://data.europa.eu/esco/skill/707c54fb-b6b8-45a4-9abd-030a40a582c9"
+    },
+    {
+      "title": "accounting techniques",
+      "uri": "http://data.europa.eu/esco/skill/880c54f9-866e-4f37-b5fa-25ef8a7d49b6"
+    },
+    {
+      "title": "apply credit risk policy",
+      "uri": "http://data.europa.eu/esco/skill/009db49b-fcf5-4409-b4a5-232d059f3597"
+    },
+    {
+      "title": "prepare financial statements",
+      "uri": "http://data.europa.eu/esco/skill/60f51172-37c0-4933-a27a-cbf55dcd7580"
+    },
+    {
+      "title": "examine credit ratings",
+      "uri": "http://data.europa.eu/esco/skill/68babd52-64d1-4904-a476-173828217fd2"
+    },
+    {
+      "title": "write work-related reports",
+      "uri": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55"
+    },
+    {
+      "title": "apply information security policies",
+      "uri": "http://data.europa.eu/esco/skill/86d2e2ea-1ba2-4aa6-b465-8a1f9abc81b8"
+    },
+    {
+      "title": "teamwork principles",
+      "uri": "http://data.europa.eu/esco/skill/a5b0cd5c-e13a-4ab3-8d93-4d242adcfb01"
+    },
+    {
+      "title": "analyse the credit history of potential customers",
+      "uri": "http://data.europa.eu/esco/skill/afe9c5d2-e8bd-4377-9d2d-49b9589f05f9"
+    },
+    {
+      "title": "apply credit stress testing methodologies",
+      "uri": "http://data.europa.eu/esco/skill/f6068fdb-8033-48ee-9444-5cbd2b40ba64"
+    },
+    {
+      "title": "maintain financial records",
+      "uri": "http://data.europa.eu/esco/skill/faf8943c-72ff-4736-a587-25508695d6f0"
+    },
+    {
+      "title": "create a financial plan",
+      "uri": "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"
+    },
+    {
+      "title": "negotiate sales contracts",
+      "uri": "http://data.europa.eu/esco/skill/71152876-b629-4a99-b9ea-0f25a0d07e4e"
+    },
+    {
+      "title": "analyse financial performance of a company",
+      "uri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c"
+    },
+    {
+      "title": "analyse insurance risk",
+      "uri": "http://data.europa.eu/esco/skill/e4a57b51-16d7-4dfc-bb47-6aa401e39b2e"
+    },
+    {
+      "title": "prepare credit reports",
+      "uri": "http://data.europa.eu/esco/skill/42c3ffa5-d6a9-4a57-942a-6b79f0bbfcd7"
+    },
+    {
+      "title": "prevent fraudulent activities",
+      "uri": "http://data.europa.eu/esco/skill/1781b399-9559-4cec-9bd0-9d007216d4b7"
+    },
+    {
+      "title": "perform data analysis",
+      "uri": "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f"
+    },
+    {
+      "title": "control financial resources",
+      "uri": "http://data.europa.eu/esco/skill/2d008d5a-b7bd-46f7-bbb1-5d70a0af9c84"
+    },
+    {
+      "title": "principles of insurance",
+      "uri": "http://data.europa.eu/esco/skill/ab927ee8-acd9-41c2-aef0-2020364a1003"
+    },
+    {
+      "title": "legal research",
+      "uri": "http://data.europa.eu/esco/skill/a8585efe-4011-47b2-9aed-cd01bd3652c0"
+    },
+    {
+      "title": "develop models",
+      "uri": "http://data.europa.eu/esco/skill/e2887d71-8ff4-4188-9926-22bdaefa7713"
+    },
+    {
+      "title": "information confidentiality",
+      "uri": "http://data.europa.eu/esco/skill/a56dec32-05ef-45de-a256-ee6741f356db"
+    },
+    {
+      "title": "disseminate information on tax legislation",
+      "uri": "http://data.europa.eu/esco/skill/b8656b5c-e3f0-4418-82ff-87b5f677f9e8"
+    },
+    {
+      "title": "apply statistical analysis techniques",
+      "uri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    },
+    {
+      "title": "speak different languages",
+      "uri": "http://data.europa.eu/esco/skill/2de4572a-4724-4f76-afc2-72a568a264ac"
+    }
+  ]
+}

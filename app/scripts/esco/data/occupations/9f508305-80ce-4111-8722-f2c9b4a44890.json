@@ -1,0 +1,228 @@
+{
+  "id": "9f508305-80ce-4111-8722-f2c9b4a44890",
+  "uri": "http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890",
+  "title": "product manager",
+  "de": "Produktleiter/Produktleiterin",
+  "code": "1223.1",
+  "description": "Product development managers are responsible for managing the lifecycle of a product. They research and develop new products in addition to managing existing ones through market research and strategic planning. Product managers perform marketing and planning activities to increase profits.",
+  "essential": [
+    {
+      "title": "prepare market research reports",
+      "uri": "http://data.europa.eu/esco/skill/fd843a67-4662-4682-9c7e-b4d794eaff12"
+    },
+    {
+      "title": "analyse consumer buying trends",
+      "uri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+    },
+    {
+      "title": "design customer experiences",
+      "uri": "http://data.europa.eu/esco/skill/7bb5d9af-0a7e-48a7-a860-0e1ded0f6e75"
+    },
+    {
+      "title": "develop new products",
+      "uri": "http://data.europa.eu/esco/skill/63f224ea-d889-42ea-b3ef-730ef78c7176"
+    },
+    {
+      "title": "develop product design",
+      "uri": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6"
+    },
+    {
+      "title": "plan product management",
+      "uri": "http://data.europa.eu/esco/skill/29fb886c-6be0-4e93-9ea1-232881f2092a"
+    },
+    {
+      "title": "define technology strategy",
+      "uri": "http://data.europa.eu/esco/skill/248894d1-42dc-474f-af6e-2da52ac0c679"
+    },
+    {
+      "title": "execute marketing plan",
+      "uri": "http://data.europa.eu/esco/skill/d5493cca-ee21-4e43-8bcd-ec38680746cc"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "draw conclusions from market research results",
+      "uri": "http://data.europa.eu/esco/skill/46cb7282-7fb0-4d3c-b6b8-bfe81fab077e"
+    },
+    {
+      "title": "develop business plans",
+      "uri": "http://data.europa.eu/esco/skill/ead58f22-0af5-467c-ac1e-b750e4e1ac6a"
+    },
+    {
+      "title": "market research",
+      "uri": "http://data.europa.eu/esco/skill/8770350e-746f-4adb-9556-18ca68104be6"
+    },
+    {
+      "title": "oversee quality control",
+      "uri": "http://data.europa.eu/esco/skill/5d34adde-0b78-42b4-9d3d-69e9388d8398"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    },
+    {
+      "title": "combine business technology with user experience",
+      "uri": "http://data.europa.eu/esco/skill/08f0af26-2178-40d2-9267-6d50a7346555"
+    },
+    {
+      "title": "manage product testing",
+      "uri": "http://data.europa.eu/esco/skill/b7a03115-41c9-4167-a0b6-7e40cf0fd607"
+    },
+    {
+      "title": "develop promotional tools",
+      "uri": "http://data.europa.eu/esco/skill/66fda9e5-f9f7-4342-b4f1-23355bcdd0b9"
+    },
+    {
+      "title": "persuade clients with alternatives",
+      "uri": "http://data.europa.eu/esco/skill/0d11711b-870f-4701-be93-fa175b6e4002"
+    },
+    {
+      "title": "identify market niches",
+      "uri": "http://data.europa.eu/esco/skill/bf40aa7c-1e99-40bb-a718-1e1492aaf00f"
+    },
+    {
+      "title": "manage the customer experience",
+      "uri": "http://data.europa.eu/esco/skill/4b95c7bb-5672-4e4a-88ea-ba96c12e8ca2"
+    },
+    {
+      "title": "socio-economic trends in your sector",
+      "uri": "http://data.europa.eu/esco/skill/463023d0-cc10-45eb-97ba-0be350825cee"
+    },
+    {
+      "title": "product life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0"
+    },
+    {
+      "title": "develop communication strategies",
+      "uri": "http://data.europa.eu/esco/skill/3c834f6e-523a-49ee-8ed1-e073e28ae6fe"
+    }
+  ],
+  "optional": [
+    {
+      "title": "apply strategic thinking",
+      "uri": "http://data.europa.eu/esco/skill/6c870993-9341-438b-91c0-c7fe4f96d8f5"
+    },
+    {
+      "title": "develop revenue generation strategies",
+      "uri": "http://data.europa.eu/esco/skill/ad28c970-6bc7-4fff-9c01-0f4d67769de3"
+    },
+    {
+      "title": "pricing strategies",
+      "uri": "http://data.europa.eu/esco/skill/1c460d2d-90c6-4fc9-ad49-febb6e15605a"
+    },
+    {
+      "title": "track key performance indicators",
+      "uri": "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40"
+    },
+    {
+      "title": "carry out sales analysis",
+      "uri": "http://data.europa.eu/esco/skill/2dd6ecdf-8a08-438b-8b4b-e0374f7b523b"
+    },
+    {
+      "title": "analyse cultural trends",
+      "uri": "http://data.europa.eu/esco/skill/03bc5f23-4317-41c2-9528-2db5c3c87b85"
+    },
+    {
+      "title": "perform product testing",
+      "uri": "http://data.europa.eu/esco/skill/371d57e6-cc5f-4fc0-9c0c-58feb595cc5b"
+    },
+    {
+      "title": "advise on communication strategies",
+      "uri": "http://data.europa.eu/esco/skill/69f36674-440a-4fa0-89f9-1b70172ebb9d"
+    },
+    {
+      "title": "follow production schedule",
+      "uri": "http://data.europa.eu/esco/skill/c8f14c32-7f24-41bb-9e8f-b24d6fd3ca86"
+    },
+    {
+      "title": "sales strategies",
+      "uri": "http://data.europa.eu/esco/skill/e7219848-a27a-4bf4-8775-d367707be7c9"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "coordinate events",
+      "uri": "http://data.europa.eu/esco/skill/2111dff8-f830-46ad-80ce-7885893b3134"
+    },
+    {
+      "title": "product data management",
+      "uri": "http://data.europa.eu/esco/skill/e2d0daae-2aa1-40cc-99e2-b340b02f97d3"
+    },
+    {
+      "title": "create prototype of user experience solutions",
+      "uri": "http://data.europa.eu/esco/skill/07dd856d-6141-48a7-a228-918f88494812"
+    },
+    {
+      "title": "web analytics",
+      "uri": "http://data.europa.eu/esco/skill/1605025e-a179-421f-8f35-5b07d182a6b2"
+    },
+    {
+      "title": "manage the handling of promotional materials",
+      "uri": "http://data.europa.eu/esco/skill/c0799f81-9955-463a-b071-4f1c82719aa8"
+    },
+    {
+      "title": "study sales levels of products",
+      "uri": "http://data.europa.eu/esco/skill/171eee55-19b9-46d6-aded-33193ba8ccf1"
+    },
+    {
+      "title": "maximise sales revenues",
+      "uri": "http://data.europa.eu/esco/skill/9f10e94b-a43d-4772-9f60-24e9bbbdedb7"
+    },
+    {
+      "title": "integrate marketing strategies with the global strategy",
+      "uri": "http://data.europa.eu/esco/skill/aa7eac5f-dc9d-401a-b197-c9c455d78c95"
+    },
+    {
+      "title": "market pricing",
+      "uri": "http://data.europa.eu/esco/skill/d5111703-c344-484d-bef1-9565a278166a"
+    },
+    {
+      "title": "manage profitability",
+      "uri": "http://data.europa.eu/esco/skill/4cfc7ef6-e251-4c93-bd5e-fd6936dee11c"
+    },
+    {
+      "title": "manage feedback",
+      "uri": "http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075"
+    },
+    {
+      "title": "cost management",
+      "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0"
+    },
+    {
+      "title": "production processes",
+      "uri": "http://data.europa.eu/esco/skill/12c7b323-d870-4f5b-9d7d-d9f525206d77"
+    },
+    {
+      "title": "ensure products meet regulatory requirements",
+      "uri": "http://data.europa.eu/esco/skill/f453b1a6-c7db-4d9d-9ba3-47c45159bfe3"
+    },
+    {
+      "title": "manage production systems",
+      "uri": "http://data.europa.eu/esco/skill/b3a75400-103f-42c7-b742-be11d161d05b"
+    },
+    {
+      "title": "schedule production",
+      "uri": "http://data.europa.eu/esco/skill/2a778aeb-f246-4f03-9a96-c60183001037"
+    },
+    {
+      "title": "provide improvement strategies",
+      "uri": "http://data.europa.eu/esco/skill/d4cc5022-7801-4885-bcff-166552788d35"
+    },
+    {
+      "title": "product comprehension",
+      "uri": "http://data.europa.eu/esco/skill/d6d3fee7-47e2-47f4-a0ec-6c75f28c6abd"
+    },
+    {
+      "title": "analyse data about clients",
+      "uri": "http://data.europa.eu/esco/skill/d63f49de-cb72-4ce3-9553-a374a4f32f52"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "id": "5ac65daa-0896-4193-9f0e-8b00746b78a1",
+  "uri": "http://data.europa.eu/esco/occupation/5ac65daa-0896-4193-9f0e-8b00746b78a1",
+  "title": "university research assistant",
+  "de": "Forschungsassistent/Forschungsassistentin",
+  "code": "2310.1.41",
+  "description": "University research assistants conduct academic research for the university or college they are employed in. They may assist professors they are affiliated with, their supervisor, in their research or develop their own in the related field of that professor.",
+  "essential": [
+    {
+      "title": "university procedures",
+      "uri": "http://data.europa.eu/esco/skill/d4e9055e-597f-42ca-98ac-a5e3d8e881e1"
+    },
+    {
+      "title": "archive scientific documentation",
+      "uri": "http://data.europa.eu/esco/skill/b30b6e13-6688-4035-b99b-fb3a1def0833"
+    },
+    {
+      "title": "apply scientific methods",
+      "uri": "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+    },
+    {
+      "title": "assist scientific research",
+      "uri": "http://data.europa.eu/esco/skill/d6179c4b-ff5a-4bbb-a3c8-e0acf0de1f56"
+    },
+    {
+      "title": "develop scientific theories",
+      "uri": "http://data.europa.eu/esco/skill/810134a4-3c40-4140-b8ca-6d6e8d0dc0f1"
+    },
+    {
+      "title": "use data processing techniques",
+      "uri": "http://data.europa.eu/esco/skill/1b70a55d-b8a4-49fc-96c6-15ab4cff2522"
+    },
+    {
+      "title": "write research proposals",
+      "uri": "http://data.europa.eu/esco/skill/0ee7b0d6-db98-4785-9948-f2ef415d155a"
+    },
+    {
+      "title": "scientific research methodology",
+      "uri": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8"
+    },
+    {
+      "title": "conduct scholarly research",
+      "uri": "http://data.europa.eu/esco/skill/485cdafb-3c7f-4104-ab1c-773e6131a39a"
+    },
+    {
+      "title": "discuss research proposals",
+      "uri": "http://data.europa.eu/esco/skill/54e4e941-76cd-4bb7-bf25-019d50b737de"
+    },
+    {
+      "title": "write scientific papers",
+      "uri": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562"
+    },
+    {
+      "title": "monitor developments in field of expertise",
+      "uri": "http://data.europa.eu/esco/skill/23ac233d-84ad-4517-b0f5-8ca19ba2614e"
+    }
+  ],
+  "optional": [
+    {
+      "title": "use a computer",
+      "uri": "http://data.europa.eu/esco/skill/1007aa13-9f18-4bcf-96f3-e108c40baf69"
+    },
+    {
+      "title": "operate scientific measuring equipment",
+      "uri": "http://data.europa.eu/esco/skill/cb1a2fbf-242d-4a4e-a466-588378f124c1"
+    },
+    {
+      "title": "supervise practical courses",
+      "uri": "http://data.europa.eu/esco/skill/d2e42e14-80be-48cd-bb0e-ea2f0892f951"
+    },
+    {
+      "title": "conduct qualitative research",
+      "uri": "http://data.europa.eu/esco/skill/fa465db3-56e8-4b5d-a781-e2a313a4ed2d"
+    },
+    {
+      "title": "execute analytical mathematical calculations",
+      "uri": "http://data.europa.eu/esco/skill/31c69100-b612-4a61-8db5-fd314318854c"
+    },
+    {
+      "title": "collect samples for analysis",
+      "uri": "http://data.europa.eu/esco/skill/4bbb309f-9162-49b9-93da-fb2c371e5c5f"
+    },
+    {
+      "title": "consult students on learning content",
+      "uri": "http://data.europa.eu/esco/skill/1be68ecc-7263-4118-8ca5-254e444f3bc0"
+    },
+    {
+      "title": "search databases",
+      "uri": "http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1"
+    },
+    {
+      "title": "analyse test data",
+      "uri": "http://data.europa.eu/esco/skill/81a2db2c-7e55-44d0-9cd9-74c25147d7cd"
+    },
+    {
+      "title": "provide lesson materials",
+      "uri": "http://data.europa.eu/esco/skill/d39a5880-7d0a-4573-9f70-a75ff875bf83"
+    },
+    {
+      "title": "calibrate laboratory equipment",
+      "uri": "http://data.europa.eu/esco/skill/82fadde2-45cc-4734-bace-dadafdeaa41f"
+    },
+    {
+      "title": "statistics",
+      "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    },
+    {
+      "title": "apply statistical analysis techniques",
+      "uri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c"
+    },
+    {
+      "title": "record test data",
+      "uri": "http://data.europa.eu/esco/skill/328733a7-6d84-420d-a65c-2a8014fadc60"
+    },
+    {
+      "title": "conduct quantitative research",
+      "uri": "http://data.europa.eu/esco/skill/8316979b-df5a-4dc7-98ef-61ec6a10df84"
+    },
+    {
+      "title": "participate in scientific colloquia",
+      "uri": "http://data.europa.eu/esco/skill/6c7e5e01-a372-4674-aa7c-589eb9e9448a"
+    },
+    {
+      "title": "analyse experimental laboratory data",
+      "uri": "http://data.europa.eu/esco/skill/aafbfaa4-5f93-457e-8cb8-d4ed855277f8"
+    },
+    {
+      "title": "carry out internet research",
+      "uri": "http://data.europa.eu/esco/skill/75ef4eed-fe57-47fd-92e9-e63f3121d5b8"
+    },
+    {
+      "title": "publish academic research",
+      "uri": "http://data.europa.eu/esco/skill/979cf728-896f-4f2c-8fa8-2698ca0d4930"
+    },
+    {
+      "title": "prepare lesson content",
+      "uri": "http://data.europa.eu/esco/skill/20f57a7f-b90e-4403-8c77-5ddd89b5835b"
+    },
+    {
+      "title": "develop scientific research protocols",
+      "uri": "http://data.europa.eu/esco/skill/9b9662e0-100a-4314-9bdc-8146a7105c3d"
+    },
+    {
+      "title": "provide assistance to lecturer",
+      "uri": "http://data.europa.eu/esco/skill/cf6dcd52-0641-487e-960f-7f4455aff85d"
+    },
+    {
+      "title": "assist students in their learning",
+      "uri": "http://data.europa.eu/esco/skill/d5e1e30e-44ab-4aba-abab-b8263e801b7a"
+    },
+    {
+      "title": "report test findings",
+      "uri": "http://data.europa.eu/esco/skill/561c2525-5bd8-4d86-8f45-820f4be7db93"
+    },
+    {
+      "title": "assist students with their dissertation",
+      "uri": "http://data.europa.eu/esco/skill/94c42df0-5d8f-42c7-842f-21be2d0e0588"
+    },
+    {
+      "title": "perform laboratory tests",
+      "uri": "http://data.europa.eu/esco/skill/0b917c3e-e49f-40d9-8f95-3bc8e9c06fd2"
+    },
+    {
+      "title": "apply teaching strategies",
+      "uri": "http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d"
+    }
+  ]
+}

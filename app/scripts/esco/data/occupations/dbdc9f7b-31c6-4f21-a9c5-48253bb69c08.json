@@ -1,0 +1,136 @@
+{
+  "id": "dbdc9f7b-31c6-4f21-a9c5-48253bb69c08",
+  "uri": "http://data.europa.eu/esco/occupation/dbdc9f7b-31c6-4f21-a9c5-48253bb69c08",
+  "title": "purchase planner",
+  "de": "Einkaufsdisponent/Einkaufsdisponentin",
+  "code": "3323.2.3",
+  "description": "Purchase planners organise the continuous supply with goods out of existing contracts.",
+  "essential": [
+    {
+      "title": "apply procurement",
+      "uri": "http://data.europa.eu/esco/skill/9e9a4209-c7cf-4f6e-973e-dc2ffadccc74"
+    },
+    {
+      "title": "embargo regulations",
+      "uri": "http://data.europa.eu/esco/skill/04cda8e8-e06b-4c91-bbb5-27414dc1cf14"
+    },
+    {
+      "title": "international import export regulations",
+      "uri": "http://data.europa.eu/esco/skill/c4118654-695f-44bc-b9d3-1b26f3a955f8"
+    },
+    {
+      "title": "assess supplier risks",
+      "uri": "http://data.europa.eu/esco/skill/96ec2d53-4f41-4172-8ef2-70742c4bb540"
+    },
+    {
+      "title": "perform multiple tasks at the same time",
+      "uri": "http://data.europa.eu/esco/skill/0b144726-21c2-46ed-8d13-c03d27f61604"
+    },
+    {
+      "title": "identify suppliers",
+      "uri": "http://data.europa.eu/esco/skill/11747665-0e98-4f27-bd0d-536862cd5746"
+    },
+    {
+      "title": "visit suppliers",
+      "uri": "http://data.europa.eu/esco/skill/2c02fb07-de47-46d3-8a99-b916137951ef"
+    },
+    {
+      "title": "maintain relationship with suppliers",
+      "uri": "http://data.europa.eu/esco/skill/3cd35f5d-ce6d-4f14-9a09-53d7a28d834c"
+    },
+    {
+      "title": "ensure compliance with purchasing and contracting regulations",
+      "uri": "http://data.europa.eu/esco/skill/a6ae7a34-5a5c-48dd-9b82-8beccca63e3c"
+    },
+    {
+      "title": "transportation methods",
+      "uri": "http://data.europa.eu/esco/skill/73de691d-d112-444b-a99f-606888fa9414"
+    },
+    {
+      "title": "apply numeracy skills",
+      "uri": "http://data.europa.eu/esco/skill/5dd01a1e-7ba0-4b7f-a76c-ed811c12bfde"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    },
+    {
+      "title": "prepare purchasing reportings",
+      "uri": "http://data.europa.eu/esco/skill/bf987b9a-64f3-44b7-98f1-a60e4585b69b"
+    },
+    {
+      "title": "identify new business opportunities",
+      "uri": "http://data.europa.eu/esco/skill/d207a30b-2f80-4138-9b77-f88d549b8768"
+    },
+    {
+      "title": "manage purchasing cycle",
+      "uri": "http://data.europa.eu/esco/skill/c7d64df4-7af3-4269-add6-97833bd5448e"
+    },
+    {
+      "title": "negotiate buying conditions",
+      "uri": "http://data.europa.eu/esco/skill/fde186df-c9c4-49f5-b2a5-d66adc7c43a5"
+    },
+    {
+      "title": "track price trends",
+      "uri": "http://data.europa.eu/esco/skill/31eecea5-c1ef-4e5c-96a9-808ff4e43813"
+    },
+    {
+      "title": "supply chain management",
+      "uri": "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c"
+    },
+    {
+      "title": "export control principles",
+      "uri": "http://data.europa.eu/esco/skill/66dd1398-6be6-4a0d-a0d0-4a8b3941963a"
+    },
+    {
+      "title": "have computer literacy",
+      "uri": "http://data.europa.eu/esco/skill/d15ce60f-ddab-41ce-ba56-398451b77b60"
+    }
+  ],
+  "optional": [
+    {
+      "title": "create solutions to problems",
+      "uri": "http://data.europa.eu/esco/skill/03b9b491-fc9b-4868-914a-bf7cd47b5041"
+    },
+    {
+      "title": "manufacturer's recommended price",
+      "uri": "http://data.europa.eu/esco/skill/8c2674cc-685e-4e86-94ee-c23dd84a0783"
+    },
+    {
+      "title": "analyse logistic changes",
+      "uri": "http://data.europa.eu/esco/skill/5d26851b-270a-4fbe-abeb-2bfd6eba3e2d"
+    },
+    {
+      "title": "show diplomacy",
+      "uri": "http://data.europa.eu/esco/skill/ece25f2f-e91a-4186-a221-caa715195fd7"
+    },
+    {
+      "title": "carry out statistical forecasts",
+      "uri": "http://data.europa.eu/esco/skill/be727774-46d7-43d7-aee9-1a51b5cd8c71"
+    },
+    {
+      "title": "report accounts of the professional activity",
+      "uri": "http://data.europa.eu/esco/skill/bf9879fa-f1fc-4f17-8dcb-ece29ea61682"
+    },
+    {
+      "title": "communicate with customers",
+      "uri": "http://data.europa.eu/esco/skill/0da516ee-e70e-4384-be13-f5ff80be8127"
+    },
+    {
+      "title": "check shipments",
+      "uri": "http://data.europa.eu/esco/skill/0b3ee7c8-dc29-48de-a54b-2c91560161a4"
+    },
+    {
+      "title": "manage standard enterprise resource planning system",
+      "uri": "http://data.europa.eu/esco/skill/f0393af3-bcd9-41af-a36e-0cfb83b60081"
+    },
+    {
+      "title": "negotiate sales contracts",
+      "uri": "http://data.europa.eu/esco/skill/71152876-b629-4a99-b9ea-0f25a0d07e4e"
+    },
+    {
+      "title": "analyse consumer buying trends",
+      "uri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+    }
+  ]
+}

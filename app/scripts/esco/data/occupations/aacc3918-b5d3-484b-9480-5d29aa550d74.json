@@ -1,0 +1,380 @@
+{
+  "id": "aacc3918-b5d3-484b-9480-5d29aa550d74",
+  "uri": "http://data.europa.eu/esco/occupation/aacc3918-b5d3-484b-9480-5d29aa550d74",
+  "title": "supply chain manager",
+  "de": "Supply-Chain-Manager/Supply-Chain-Managerin",
+  "code": "1324.3.4",
+  "description": "Supply chain managers plan, manage and coordinate all activities related to the sourcing and procurement of supplies needed to run manufacturing operations from the acquisition of raw materials to the distribution of finished products. The supplies can be raw materials or finished products, and it can be for internal or external use. Moreover, they plan and commission all the activities needed to be performed in manufacturing plants and adjust operations to changing levels of demand for a company's products.",
+  "essential": [
+    {
+      "title": "order supplies",
+      "uri": "http://data.europa.eu/esco/skill/210827e3-3129-45a2-8683-70399f3f561f"
+    },
+    {
+      "title": "estimate costs of required supplies",
+      "uri": "http://data.europa.eu/esco/skill/d1724ca5-ebd3-472a-bea9-fad9fe9004bf"
+    },
+    {
+      "title": "supply chain principles",
+      "uri": "http://data.europa.eu/esco/skill/cf579543-272b-43c8-b942-555836ae4241"
+    },
+    {
+      "title": "corporate social responsibility",
+      "uri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61"
+    },
+    {
+      "title": "strive for company growth",
+      "uri": "http://data.europa.eu/esco/skill/2a2fa8e8-aaf3-4abf-a60b-af6415f1c6d4"
+    },
+    {
+      "title": "analyse supply chain strategies",
+      "uri": "http://data.europa.eu/esco/skill/96d549bb-3e62-4c45-92a7-f114df089581"
+    },
+    {
+      "title": "analyse logistic changes",
+      "uri": "http://data.europa.eu/esco/skill/5d26851b-270a-4fbe-abeb-2bfd6eba3e2d"
+    },
+    {
+      "title": "supplier management",
+      "uri": "http://data.europa.eu/esco/skill/fe1ec582-d63b-466c-9149-e7fc4fe93e22"
+    },
+    {
+      "title": "manage supplies",
+      "uri": "http://data.europa.eu/esco/skill/020b3c27-bae1-4b85-9d6f-eccee0f5ed99"
+    },
+    {
+      "title": "manage inventory",
+      "uri": "http://data.europa.eu/esco/skill/ab6265f2-a9bf-49e8-a9a5-67cbab4de38b"
+    },
+    {
+      "title": "follow company standards",
+      "uri": "http://data.europa.eu/esco/skill/f5f5b244-6cea-4fbc-8a50-8f712791bc09"
+    },
+    {
+      "title": "supply chain management",
+      "uri": "http://data.europa.eu/esco/skill/f929c89e-c363-4132-a918-e021d57b307c"
+    },
+    {
+      "title": "assess supplier risks",
+      "uri": "http://data.europa.eu/esco/skill/96ec2d53-4f41-4172-8ef2-70742c4bb540"
+    },
+    {
+      "title": "maintain relationship with suppliers",
+      "uri": "http://data.europa.eu/esco/skill/3cd35f5d-ce6d-4f14-9a09-53d7a28d834c"
+    },
+    {
+      "title": "analyse supply chain trends",
+      "uri": "http://data.europa.eu/esco/skill/b7e57889-a84f-440c-9e60-459aa69979e9"
+    },
+    {
+      "title": "liaise with managers",
+      "uri": "http://data.europa.eu/esco/skill/f14ff4b7-be1e-4b55-b39b-520005f8a97e"
+    },
+    {
+      "title": "maintain relationship with customers",
+      "uri": "http://data.europa.eu/esco/skill/2239694b-771a-4586-8b54-2794e361a9ae"
+    }
+  ],
+  "optional": [
+    {
+      "title": "project management",
+      "uri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388"
+    },
+    {
+      "title": "analyse consumer buying trends",
+      "uri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+    },
+    {
+      "title": "negotiate sales contracts",
+      "uri": "http://data.europa.eu/esco/skill/71152876-b629-4a99-b9ea-0f25a0d07e4e"
+    },
+    {
+      "title": "attend trade fairs",
+      "uri": "http://data.europa.eu/esco/skill/53cc0cc2-a9ce-4803-ae55-3cc0d7a5fc2c"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "accurately estimate work hours",
+      "uri": "http://data.europa.eu/esco/skill/bd556223-d9af-434b-a6bf-e70fa3ed3d12"
+    },
+    {
+      "title": "analyse logistic needs",
+      "uri": "http://data.europa.eu/esco/skill/8029637c-00eb-4764-ae88-387611176c4b"
+    },
+    {
+      "title": "market pricing",
+      "uri": "http://data.europa.eu/esco/skill/d5111703-c344-484d-bef1-9565a278166a"
+    },
+    {
+      "title": "estimate duration of work",
+      "uri": "http://data.europa.eu/esco/skill/e207163b-7963-4c3e-9494-7a4bb000211b"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "ensure equipment availability",
+      "uri": "http://data.europa.eu/esco/skill/69f23426-9279-4fe6-a283-24c2aa4c855d"
+    },
+    {
+      "title": "manage standard enterprise resource planning system",
+      "uri": "http://data.europa.eu/esco/skill/f0393af3-bcd9-41af-a36e-0cfb83b60081"
+    },
+    {
+      "title": "manage warehouse operations",
+      "uri": "http://data.europa.eu/esco/skill/fa7be6bf-f906-4b8e-857d-48a9a7da901c"
+    },
+    {
+      "title": "issue sales invoices",
+      "uri": "http://data.europa.eu/esco/skill/e3e42d54-78bd-4337-aa87-bb31a7670c9a"
+    },
+    {
+      "title": "develop professional network",
+      "uri": "http://data.europa.eu/esco/skill/bf5d77ad-e18c-48d8-83f0-bc79c011c74a"
+    },
+    {
+      "title": "manage staff",
+      "uri": "http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb"
+    },
+    {
+      "title": "recruit employees",
+      "uri": "http://data.europa.eu/esco/skill/496932f1-0b6b-4f73-9432-d95c7ddcd43b"
+    },
+    {
+      "title": "manage sub-contract labour",
+      "uri": "http://data.europa.eu/esco/skill/a5735dd9-2e74-4fb1-b785-50b98498fc25"
+    },
+    {
+      "title": "perform project management",
+      "uri": "http://data.europa.eu/esco/skill/cd5efa8c-e44d-4cbc-91c6-796018dbed68"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "forecast products' demand",
+      "uri": "http://data.europa.eu/esco/skill/68e73bf6-2838-4705-86f4-e4bda4ac8a6f"
+    },
+    {
+      "title": "train employees",
+      "uri": "http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e"
+    },
+    {
+      "title": "forecast production quantities",
+      "uri": "http://data.europa.eu/esco/skill/e5c108c3-d6b6-4018-a34f-763e7793e746"
+    },
+    {
+      "title": "plan future capacity requirements",
+      "uri": "http://data.europa.eu/esco/skill/2c5cbddf-3393-452f-abb0-8e734d1b61be"
+    },
+    {
+      "title": "maintain contract administration",
+      "uri": "http://data.europa.eu/esco/skill/a703b581-ad64-4791-8bb3-624aea569fa5"
+    },
+    {
+      "title": "human resource management",
+      "uri": "http://data.europa.eu/esco/skill/e437eba1-3e22-41f2-8703-741e94785cba"
+    },
+    {
+      "title": "estimate profitability",
+      "uri": "http://data.europa.eu/esco/skill/56c59e98-f133-48ad-9d01-f357a8e2c218"
+    },
+    {
+      "title": "forecast workload",
+      "uri": "http://data.europa.eu/esco/skill/875eeec4-fc70-4e6a-80ef-4d18356976e3"
+    },
+    {
+      "title": "economics",
+      "uri": "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    },
+    {
+      "title": "transportation software related to an ERP system",
+      "uri": "http://data.europa.eu/esco/skill/09f4c52b-ac72-4f0e-a8ae-78bb1d7bffba"
+    },
+    {
+      "title": "control financial resources",
+      "uri": "http://data.europa.eu/esco/skill/2d008d5a-b7bd-46f7-bbb1-5d70a0af9c84"
+    },
+    {
+      "title": "ensure cross-department cooperation",
+      "uri": "http://data.europa.eu/esco/skill/b216d9a2-7d4e-4312-8d05-e375f4ab44d8"
+    },
+    {
+      "title": "pricing strategies",
+      "uri": "http://data.europa.eu/esco/skill/1c460d2d-90c6-4fc9-ad49-febb6e15605a"
+    },
+    {
+      "title": "perform resource planning",
+      "uri": "http://data.europa.eu/esco/skill/f5dd06b8-5d17-4932-9d03-957d0c4f5051"
+    },
+    {
+      "title": "study sales levels of products",
+      "uri": "http://data.europa.eu/esco/skill/171eee55-19b9-46d6-aded-33193ba8ccf1"
+    },
+    {
+      "title": "multimodal transport logistics",
+      "uri": "http://data.europa.eu/esco/skill/4d6a1837-93df-4a81-b424-74e1a8ed2f03"
+    },
+    {
+      "title": "risk management",
+      "uri": "http://data.europa.eu/esco/skill/6eff134b-e34f-4d6e-a6e8-5e47cf2228d0"
+    },
+    {
+      "title": "manage logistics",
+      "uri": "http://data.europa.eu/esco/skill/953c0b65-537a-42fe-a90b-26cd36c64361"
+    },
+    {
+      "title": "monitor stock level",
+      "uri": "http://data.europa.eu/esco/skill/44f6a65f-6be7-4818-9a66-73908797283f"
+    },
+    {
+      "title": "analyse business objectives",
+      "uri": "http://data.europa.eu/esco/skill/408fcc8e-d4e6-43e7-ab27-b617a1dced98"
+    },
+    {
+      "title": "manage human resources",
+      "uri": "http://data.europa.eu/esco/skill/279a4b1d-21df-4d78-9f4d-324c73fd7536"
+    },
+    {
+      "title": "manage budgets",
+      "uri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea"
+    },
+    {
+      "title": "control trade commercial documentation",
+      "uri": "http://data.europa.eu/esco/skill/39d92981-7b68-47de-bfc0-5374c067dba9"
+    },
+    {
+      "title": "visit suppliers",
+      "uri": "http://data.europa.eu/esco/skill/2c02fb07-de47-46d3-8a99-b916137951ef"
+    },
+    {
+      "title": "monitor ingredient storage",
+      "uri": "http://data.europa.eu/esco/skill/1c8a92d4-18b9-4279-898c-ad89233bb511"
+    },
+    {
+      "title": "financial forecasting",
+      "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e"
+    },
+    {
+      "title": "negotiate supplier arrangements",
+      "uri": "http://data.europa.eu/esco/skill/c842be42-81b3-40f2-904c-ea8790ac88bd"
+    },
+    {
+      "title": "forecast future levels of business",
+      "uri": "http://data.europa.eu/esco/skill/ab167ae1-dfd8-4607-8dc4-d6d500622e1d"
+    },
+    {
+      "title": "use sales forecasting softwares",
+      "uri": "http://data.europa.eu/esco/skill/ae57a9c3-f761-4b03-be2b-99a781704c73"
+    },
+    {
+      "title": "forecast sales over periods of time",
+      "uri": "http://data.europa.eu/esco/skill/146eccdc-c52a-4d61-9406-3af617caa7d6"
+    },
+    {
+      "title": "forecast dividend trends",
+      "uri": "http://data.europa.eu/esco/skill/a448126c-69a1-45a2-bd76-a8eafd86f9c5"
+    },
+    {
+      "title": "programme work according to incoming orders",
+      "uri": "http://data.europa.eu/esco/skill/53103efa-a525-4a5b-81e5-282c4331e72c"
+    },
+    {
+      "title": "warehouse operations",
+      "uri": "http://data.europa.eu/esco/skill/089ddb19-1c7a-43ff-ba64-070f7ce4787a"
+    },
+    {
+      "title": "coordinate purchasing activities",
+      "uri": "http://data.europa.eu/esco/skill/650f44e2-cb4c-41ba-9095-581fe6bea4b1"
+    },
+    {
+      "title": "geographical routes",
+      "uri": "http://data.europa.eu/esco/skill/7bf0c60a-9303-414b-a43c-21c28a98d4ff"
+    },
+    {
+      "title": "handle conflicts",
+      "uri": "http://data.europa.eu/esco/skill/96de2e86-e287-41f2-88ab-15a2343afc6f"
+    },
+    {
+      "title": "statistics",
+      "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833"
+    },
+    {
+      "title": "promote sustainable management",
+      "uri": "http://data.europa.eu/esco/skill/6742977a-aa00-4c8c-9861-898b0373907e"
+    },
+    {
+      "title": "assess financial viability",
+      "uri": "http://data.europa.eu/esco/skill/e95058a6-e139-42e7-a470-72038a606649"
+    },
+    {
+      "title": "business strategy concepts",
+      "uri": "http://data.europa.eu/esco/skill/bd698bbe-7003-4508-b422-46c2ff4d5e95"
+    },
+    {
+      "title": "negotiate buying conditions",
+      "uri": "http://data.europa.eu/esco/skill/fde186df-c9c4-49f5-b2a5-d66adc7c43a5"
+    },
+    {
+      "title": "manage contracts",
+      "uri": "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+    },
+    {
+      "title": "identify suppliers",
+      "uri": "http://data.europa.eu/esco/skill/11747665-0e98-4f27-bd0d-536862cd5746"
+    },
+    {
+      "title": "advise on risk management",
+      "uri": "http://data.europa.eu/esco/skill/0efbe2dc-2770-47ec-b8f4-d1bdff6ac0a4"
+    },
+    {
+      "title": "carry out statistical forecasts",
+      "uri": "http://data.europa.eu/esco/skill/be727774-46d7-43d7-aee9-1a51b5cd8c71"
+    },
+    {
+      "title": "apply change management",
+      "uri": "http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca"
+    },
+    {
+      "title": "conflict management",
+      "uri": "http://data.europa.eu/esco/skill/afd49651-9119-4327-91fc-844a6dda1254"
+    },
+    {
+      "title": "track price trends",
+      "uri": "http://data.europa.eu/esco/skill/31eecea5-c1ef-4e5c-96a9-808ff4e43813"
+    },
+    {
+      "title": "manage rented goods returns",
+      "uri": "http://data.europa.eu/esco/skill/aafb8d62-1592-4488-bd40-7bdfb751ff98"
+    },
+    {
+      "title": "apply for government funding",
+      "uri": "http://data.europa.eu/esco/skill/c751974d-5d8a-4b16-806a-940bbdaf6a57"
+    },
+    {
+      "title": "carry out tendering",
+      "uri": "http://data.europa.eu/esco/skill/2c4b6914-4b97-4e35-85cb-e6602a8bb04a"
+    },
+    {
+      "title": "calculate purchasing levels of raw materials",
+      "uri": "http://data.europa.eu/esco/skill/47ae7b24-3fe0-47e0-b0ea-825ebc10e18c"
+    },
+    {
+      "title": "assist in planning production scheduling",
+      "uri": "http://data.europa.eu/esco/skill/d63f83f4-648e-4adb-8e4c-b7aa7b3d76c0"
+    },
+    {
+      "title": "forecast economic trends",
+      "uri": "http://data.europa.eu/esco/skill/f2a34d6b-131a-4b8f-a110-898b9c91d18f"
+    },
+    {
+      "title": "labour legislation",
+      "uri": "http://data.europa.eu/esco/skill/08fe5910-8c4c-4679-a988-eb2ded3c4909"
+    }
+  ]
+}

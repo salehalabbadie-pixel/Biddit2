@@ -1,0 +1,208 @@
+{
+  "id": "73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+  "uri": "http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+  "title": "research and development manager",
+  "de": "Forschungs- und Entwicklungsleiter/Forschungs- und Entwicklungsleiterin",
+  "code": "1223.2",
+  "description": "Research and development managers coordinate the efforts of scientists, academical researchers, product developers, and market researchers towards the creation of new products, the improvement of current ones or other research activities, including scientific research. They manage and plan research and development activities of an organisation, specify goals and budget requirements and manage the staff.",
+  "essential": [
+    {
+      "title": "marketing principles",
+      "uri": "http://data.europa.eu/esco/skill/de03f4fd-c147-4477-a048-7109e5ba2d6f"
+    },
+    {
+      "title": "assess the feasibility of implementing developments",
+      "uri": "http://data.europa.eu/esco/skill/21056f6a-8a85-4eb0-b709-468578b809e0"
+    },
+    {
+      "title": "represent the organisation",
+      "uri": "http://data.europa.eu/esco/skill/1a4fdd0e-2cbe-4b77-aa6e-e46efc181b76"
+    },
+    {
+      "title": "work in an economically efficient manner",
+      "uri": "http://data.europa.eu/esco/skill/03ae1add-eecd-46b1-8117-742b4d7666d4"
+    },
+    {
+      "title": "manage staff",
+      "uri": "http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb"
+    },
+    {
+      "title": "analyse internal factors of companies",
+      "uri": "http://data.europa.eu/esco/skill/91816e1a-d026-4d21-9b1c-59ca5cf488de"
+    },
+    {
+      "title": "manage research and development projects",
+      "uri": "http://data.europa.eu/esco/skill/d5dbc342-8e39-4998-8237-ebbe05a381ce"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    },
+    {
+      "title": "project management",
+      "uri": "http://data.europa.eu/esco/skill/7111b95d-0ce3-441a-9d92-4c75d05c4388"
+    },
+    {
+      "title": "analyse external factors of companies",
+      "uri": "http://data.europa.eu/esco/skill/ce5b1446-b5e3-4f05-a5ac-83f2ee142a44"
+    },
+    {
+      "title": "intellectual property law",
+      "uri": "http://data.europa.eu/esco/skill/2ad081e6-0a3f-4612-ac15-7ace75d39e26"
+    },
+    {
+      "title": "corporate social responsibility",
+      "uri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61"
+    },
+    {
+      "title": "innovation processes",
+      "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68"
+    },
+    {
+      "title": "market research",
+      "uri": "http://data.europa.eu/esco/skill/8770350e-746f-4adb-9556-18ca68104be6"
+    },
+    {
+      "title": "manage budgets",
+      "uri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea"
+    },
+    {
+      "title": "report analysis results",
+      "uri": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817"
+    },
+    {
+      "title": "carry out strategic research",
+      "uri": "http://data.europa.eu/esco/skill/0aa02c52-077d-45f8-8c2d-7132c11ac16e"
+    },
+    {
+      "title": "identify new business opportunities",
+      "uri": "http://data.europa.eu/esco/skill/d207a30b-2f80-4138-9b77-f88d549b8768"
+    },
+    {
+      "title": "seek innovation in current practices",
+      "uri": "http://data.europa.eu/esco/skill/f975091a-e5a5-4472-ac17-11680e53e98f"
+    },
+    {
+      "title": "analyse business objectives",
+      "uri": "http://data.europa.eu/esco/skill/408fcc8e-d4e6-43e7-ab27-b617a1dced98"
+    }
+  ],
+  "optional": [
+    {
+      "title": "funding methods",
+      "uri": "http://data.europa.eu/esco/skill/3556c075-eee0-4549-b730-48ae70cb5af9"
+    },
+    {
+      "title": "analyse financial risk",
+      "uri": "http://data.europa.eu/esco/skill/eb8babfb-ab91-4937-a032-6a79f82e9b7f"
+    },
+    {
+      "title": "analyse consumer buying trends",
+      "uri": "http://data.europa.eu/esco/skill/750caee5-12a0-46ba-b8aa-1e56370deaf9"
+    },
+    {
+      "title": "marketing management",
+      "uri": "http://data.europa.eu/esco/skill/5bbaa0e6-0fd7-4df2-9db7-34f78b40dc34"
+    },
+    {
+      "title": "sales strategies",
+      "uri": "http://data.europa.eu/esco/skill/e7219848-a27a-4bf4-8775-d367707be7c9"
+    },
+    {
+      "title": "identify customer's needs",
+      "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d"
+    },
+    {
+      "title": "develop product design",
+      "uri": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6"
+    },
+    {
+      "title": "collaborate with engineers",
+      "uri": "http://data.europa.eu/esco/skill/94b2c46e-6338-4a1d-950a-d44eef018c53"
+    },
+    {
+      "title": "interview techniques",
+      "uri": "http://data.europa.eu/esco/skill/324f0243-1a21-4f5c-9f71-52eebc2596ed"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "interview people",
+      "uri": "http://data.europa.eu/esco/skill/66d47084-9437-48b2-819b-c4c8214ed650"
+    },
+    {
+      "title": "analyse production processes for improvement",
+      "uri": "http://data.europa.eu/esco/skill/f1b5800e-b763-4740-9586-3fef30568e81"
+    },
+    {
+      "title": "risk management",
+      "uri": "http://data.europa.eu/esco/skill/6eff134b-e34f-4d6e-a6e8-5e47cf2228d0"
+    },
+    {
+      "title": "plan product management",
+      "uri": "http://data.europa.eu/esco/skill/29fb886c-6be0-4e93-9ea1-232881f2092a"
+    },
+    {
+      "title": "manage product testing",
+      "uri": "http://data.europa.eu/esco/skill/b7a03115-41c9-4167-a0b6-7e40cf0fd607"
+    },
+    {
+      "title": "keep up with trends",
+      "uri": "http://data.europa.eu/esco/skill/efda73b4-5212-40a7-b2f8-d2f754ffdf2b"
+    },
+    {
+      "title": "create a financial plan",
+      "uri": "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"
+    },
+    {
+      "title": "commercial law",
+      "uri": "http://data.europa.eu/esco/skill/d63c2bad-817d-4116-b4d8-b927cb01212d"
+    },
+    {
+      "title": "cost management",
+      "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0"
+    },
+    {
+      "title": "develop product policies",
+      "uri": "http://data.europa.eu/esco/skill/3d1b1cfe-a182-480a-b4dd-f482c6b4e6a4"
+    },
+    {
+      "title": "keep updated on innovations in various business fields",
+      "uri": "http://data.europa.eu/esco/skill/7f70572d-f0c1-4039-9954-b57dc69981f6"
+    },
+    {
+      "title": "assist scientific research",
+      "uri": "http://data.europa.eu/esco/skill/d6179c4b-ff5a-4bbb-a3c8-e0acf0de1f56"
+    },
+    {
+      "title": "provide improvement strategies",
+      "uri": "http://data.europa.eu/esco/skill/d4cc5022-7801-4885-bcff-166552788d35"
+    },
+    {
+      "title": "apply scientific methods",
+      "uri": "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7"
+    },
+    {
+      "title": "contact scientists",
+      "uri": "http://data.europa.eu/esco/skill/3c6cd54b-e206-47a4-90c8-d19ff4523f34"
+    },
+    {
+      "title": "ensure quality of final product",
+      "uri": "http://data.europa.eu/esco/skill/68269b0a-35c5-4867-bc17-a0b0230fe60c"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "integrate shareholders' interests in business plans",
+      "uri": "http://data.europa.eu/esco/skill/ae23d0a7-6670-4ac2-b165-13c697407763"
+    },
+    {
+      "title": "conduct research interview",
+      "uri": "http://data.europa.eu/esco/skill/896563fc-6255-4419-89c2-ffed30159ad6"
+    }
+  ]
+}

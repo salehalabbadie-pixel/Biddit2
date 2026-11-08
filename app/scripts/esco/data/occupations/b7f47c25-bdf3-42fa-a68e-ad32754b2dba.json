@@ -1,0 +1,136 @@
+{
+  "id": "b7f47c25-bdf3-42fa-a68e-ad32754b2dba",
+  "uri": "http://data.europa.eu/esco/occupation/b7f47c25-bdf3-42fa-a68e-ad32754b2dba",
+  "title": "investment analyst",
+  "de": "Investment Analyst/Investment Analystin",
+  "code": "2413.1.3",
+  "description": "Investment analysts undertake research to make informed recommendations to fund managers. They research investments globally but depending on the nature and field of their employer they can specialise in fields like retail, infrastructure, energy, banking and financial services.  They focus on financial and economical information such as the political and economic developments that can impact financial markets, the financial performance of the target companies and use the interpretation of data from different sources to understand how it affects investment decision making.",
+  "essential": [
+    {
+      "title": "obtain financial information",
+      "uri": "http://data.europa.eu/esco/skill/71ae4f64-6505-4b6f-91b9-5acfa5721798"
+    },
+    {
+      "title": "economics",
+      "uri": "http://data.europa.eu/esco/skill/88af9294-b697-4687-ae19-aefbb6234dfa"
+    },
+    {
+      "title": "funding methods",
+      "uri": "http://data.europa.eu/esco/skill/3556c075-eee0-4549-b730-48ae70cb5af9"
+    },
+    {
+      "title": "analyse financial performance of a company",
+      "uri": "http://data.europa.eu/esco/skill/8a43795b-bb38-4f29-91df-a6c92ad4643c"
+    },
+    {
+      "title": "financial products",
+      "uri": "http://data.europa.eu/esco/skill/0bd4c62a-c309-467e-be76-8403b3f3a1a8"
+    },
+    {
+      "title": "securities",
+      "uri": "http://data.europa.eu/esco/skill/749ce4c2-4dfd-461a-a8f3-0f6914814d3e"
+    },
+    {
+      "title": "actuarial science",
+      "uri": "http://data.europa.eu/esco/skill/c9f4efcd-e16a-4515-a0cb-60c6c479853d"
+    },
+    {
+      "title": "review investment portfolios",
+      "uri": "http://data.europa.eu/esco/skill/56426cfa-6e92-4ed9-a632-f08849864588"
+    },
+    {
+      "title": "financial markets",
+      "uri": "http://data.europa.eu/esco/skill/905b6acd-377b-46b9-9d80-e47e9ca789ca"
+    },
+    {
+      "title": "provide support in financial calculation",
+      "uri": "http://data.europa.eu/esco/skill/6bf6b5bd-6658-4338-b0ee-dc143e68e6d3"
+    },
+    {
+      "title": "analyse market financial trends",
+      "uri": "http://data.europa.eu/esco/skill/292549e6-08ec-456c-b008-eba7a0a68428"
+    },
+    {
+      "title": "international trade",
+      "uri": "http://data.europa.eu/esco/skill/11cbcf7f-8dc3-4c9a-9ec1-37f51b5cbc19"
+    },
+    {
+      "title": "analyse economic trends",
+      "uri": "http://data.europa.eu/esco/skill/5f302d63-048e-451c-b150-97c124a5a26b"
+    },
+    {
+      "title": "stock market",
+      "uri": "http://data.europa.eu/esco/skill/b895bd42-0009-4815-a150-eb9eb5caec21"
+    },
+    {
+      "title": "monitor stock market",
+      "uri": "http://data.europa.eu/esco/skill/b078d38c-7dd4-4efc-b333-7633d8bf6259"
+    },
+    {
+      "title": "modern portfolio theory",
+      "uri": "http://data.europa.eu/esco/skill/bcadc519-00f4-43bc-9373-054f4ac717cb"
+    }
+  ],
+  "optional": [
+    {
+      "title": "corporate social responsibility",
+      "uri": "http://data.europa.eu/esco/skill/66db424f-2abe-420d-8e5b-186607266b61"
+    },
+    {
+      "title": "financial statements",
+      "uri": "http://data.europa.eu/esco/skill/4a460161-eaea-4fe2-bd0e-164ccc635be1"
+    },
+    {
+      "title": "interpret financial statements",
+      "uri": "http://data.europa.eu/esco/skill/5f1d1319-7954-4a9b-90c7-57668e3a0d4b"
+    },
+    {
+      "title": "create a financial plan",
+      "uri": "http://data.europa.eu/esco/skill/56ff27ef-2565-45bf-a70c-f06d78d2a480"
+    },
+    {
+      "title": "budget for financial needs",
+      "uri": "http://data.europa.eu/esco/skill/dccbdbb8-7266-4fb4-a4cf-29056f102f12"
+    },
+    {
+      "title": "credit control processes",
+      "uri": "http://data.europa.eu/esco/skill/e126f782-b4e6-4f7d-8dca-8d2e6778559b"
+    },
+    {
+      "title": "examine credit ratings",
+      "uri": "http://data.europa.eu/esco/skill/68babd52-64d1-4904-a476-173828217fd2"
+    },
+    {
+      "title": "communicate with banking professionals",
+      "uri": "http://data.europa.eu/esco/skill/66baba7d-178e-4c51-935f-03a9049ff2f6"
+    },
+    {
+      "title": "perform stock valuation",
+      "uri": "http://data.europa.eu/esco/skill/16594fea-3004-4730-838f-e35a432b49da"
+    },
+    {
+      "title": "financial forecasting",
+      "uri": "http://data.europa.eu/esco/skill/4b2db903-cd8e-48ce-97fb-a92db4def54e"
+    },
+    {
+      "title": "banking activities",
+      "uri": "http://data.europa.eu/esco/skill/3c209873-c757-47bb-91b5-9b6dc05df116"
+    },
+    {
+      "title": "business valuation techniques",
+      "uri": "http://data.europa.eu/esco/skill/4e02ce5a-7321-426b-a809-6c507f30ef52"
+    },
+    {
+      "title": "assess financial viability",
+      "uri": "http://data.europa.eu/esco/skill/e95058a6-e139-42e7-a470-72038a606649"
+    },
+    {
+      "title": "international financial reporting standards",
+      "uri": "http://data.europa.eu/esco/skill/4a855abe-ac5b-4e95-ac10-3c1adceeee28"
+    },
+    {
+      "title": "analyse financial risk",
+      "uri": "http://data.europa.eu/esco/skill/eb8babfb-ab91-4937-a032-6a79f82e9b7f"
+    }
+  ]
+}

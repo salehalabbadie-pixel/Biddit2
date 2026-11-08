@@ -1,0 +1,172 @@
+{
+  "id": "4a29eab1-5f02-4723-a863-e2d5a0614dfa",
+  "uri": "http://data.europa.eu/esco/occupation/4a29eab1-5f02-4723-a863-e2d5a0614dfa",
+  "title": "healthcare institution manager",
+  "de": "Leiter einer Gesundheitseinrichtung/Leiterin einer Gesundheitseinrichtung",
+  "code": "1342.2",
+  "description": "Healthcare institution managers supervise the operations of healthcare institutions, such as hospitals, rehabilitation facilities, home care services and elderly care institutions to ensure the organisation meets requirements, the patients and residents are cared for, the organisation is maintained and the necessary equipment present. They also supervise the staff and ensure record maintenance.",
+  "essential": [
+    {
+      "title": "contribute to public health campaigns",
+      "uri": "http://data.europa.eu/esco/skill/b77b7ac5-f25f-4baf-8e49-dcd4f31899f2"
+    },
+    {
+      "title": "manage health and safety standards",
+      "uri": "http://data.europa.eu/esco/skill/44e2c4c4-9fd2-42d4-a133-d81360ded4bc"
+    },
+    {
+      "title": "keep task records",
+      "uri": "http://data.europa.eu/esco/skill/43b13058-68d0-40c6-8031-caf5a7b7d20c"
+    },
+    {
+      "title": "hire new personnel",
+      "uri": "http://data.europa.eu/esco/skill/92f983d4-f7fc-412a-be4f-4b76ceb18505"
+    },
+    {
+      "title": "manage healthcare staff",
+      "uri": "http://data.europa.eu/esco/skill/add39442-b8ca-4412-8156-391db53b0c5d"
+    },
+    {
+      "title": "health care legislation",
+      "uri": "http://data.europa.eu/esco/skill/1709f408-9965-489b-9805-8e1e5d9e483b"
+    },
+    {
+      "title": "budgetary principles",
+      "uri": "http://data.europa.eu/esco/skill/74688c5d-2af1-4f7a-9d1c-00e808eaa1e6"
+    },
+    {
+      "title": "manage budgets",
+      "uri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea"
+    },
+    {
+      "title": "advise policy makers in healthcare",
+      "uri": "http://data.europa.eu/esco/skill/1553446e-ee05-435a-91a6-acfe7f848432"
+    },
+    {
+      "title": "manage operations in healthcare institutions",
+      "uri": "http://data.europa.eu/esco/skill/7d77f9d8-4f9e-4b8f-aa93-bcc1c8ac2173"
+    },
+    {
+      "title": "implement strategic planning",
+      "uri": "http://data.europa.eu/esco/skill/f7b5d916-52f0-4865-b6a6-e1a3b711cb5e"
+    },
+    {
+      "title": "communicate effectively in healthcare",
+      "uri": "http://data.europa.eu/esco/skill/7110bf9f-b245-4adc-9159-5081013fd64d"
+    },
+    {
+      "title": "implement policy in healthcare practices",
+      "uri": "http://data.europa.eu/esco/skill/1979dafb-85ce-45da-acfe-d55353930755"
+    },
+    {
+      "title": "health care system",
+      "uri": "http://data.europa.eu/esco/skill/9b63d92b-5a3a-46b0-b2ba-c98b39ea5aaf"
+    },
+    {
+      "title": "comply with legislation related to health care",
+      "uri": "http://data.europa.eu/esco/skill/9fcf9918-fdef-49c3-aedc-518eb1e7e1f5"
+    },
+    {
+      "title": "analyse goal progress",
+      "uri": "http://data.europa.eu/esco/skill/dbfb9dda-48d9-4a10-9821-3237f868071b"
+    },
+    {
+      "title": "set quality assurance objectives",
+      "uri": "http://data.europa.eu/esco/skill/22b8039c-c890-4610-9228-5527e3b98f12"
+    }
+  ],
+  "optional": [
+    {
+      "title": "administrative tasks in a medical environment",
+      "uri": "http://data.europa.eu/esco/skill/49ef9f4c-3577-4780-ba2f-d068d1cde7bb"
+    },
+    {
+      "title": "work within communities",
+      "uri": "http://data.europa.eu/esco/skill/28ca2f0b-9fb2-487a-9f10-9688e5191ec4"
+    },
+    {
+      "title": "delegate activities",
+      "uri": "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9"
+    },
+    {
+      "title": "apply conflict management",
+      "uri": "http://data.europa.eu/esco/skill/0ee94af1-b445-4973-9c3f-459fab250342"
+    },
+    {
+      "title": "set organisational policies",
+      "uri": "http://data.europa.eu/esco/skill/8bad61b8-75f7-4bdc-b994-f7158f4b90f0"
+    },
+    {
+      "title": "medical studies",
+      "uri": "http://data.europa.eu/esco/skill/53d45a18-6c15-4c50-821c-d116ae0611ec"
+    },
+    {
+      "title": "manage fundraising activities",
+      "uri": "http://data.europa.eu/esco/skill/be0b7d07-ffc4-42b6-9f9c-1c643eb81a90"
+    },
+    {
+      "title": "manage staff",
+      "uri": "http://data.europa.eu/esco/skill/339ac029-066a-4985-9f9d-b3d7c8fea0bb"
+    },
+    {
+      "title": "perform quality audits",
+      "uri": "http://data.europa.eu/esco/skill/d83cba15-8511-4d07-b89a-9fde0d1d8241"
+    },
+    {
+      "title": "lead healthcare services changes",
+      "uri": "http://data.europa.eu/esco/skill/30a494f3-117e-4181-949f-9b11ef5da730"
+    },
+    {
+      "title": "recruit employees",
+      "uri": "http://data.europa.eu/esco/skill/496932f1-0b6b-4f73-9432-d95c7ddcd43b"
+    },
+    {
+      "title": "supervise medical office support workers",
+      "uri": "http://data.europa.eu/esco/skill/056f3e1e-ba27-4498-9fd1-c22ae04dbf3a"
+    },
+    {
+      "title": "public health",
+      "uri": "http://data.europa.eu/esco/skill/9570e84e-6699-4c9f-9a12-7bc82d53a231"
+    },
+    {
+      "title": "liaise with local authorities",
+      "uri": "http://data.europa.eu/esco/skill/2839f191-cd94-49a9-ac16-46018066b8b2"
+    },
+    {
+      "title": "promote inclusion",
+      "uri": "http://data.europa.eu/esco/skill/bcd2ce08-ba12-4d66-865f-f4ba36419707"
+    },
+    {
+      "title": "medical terminology",
+      "uri": "http://data.europa.eu/esco/skill/2806260f-6399-4add-8f11-070141423f9d"
+    },
+    {
+      "title": "assess health services within the community",
+      "uri": "http://data.europa.eu/esco/skill/f6ed6d0b-cb2d-4a73-9707-97fdf4288d3c"
+    },
+    {
+      "title": "develop financial statistics reports",
+      "uri": "http://data.europa.eu/esco/skill/4f060129-8b75-4d58-a8dd-515bd8fef349"
+    },
+    {
+      "title": "represent the organisation",
+      "uri": "http://data.europa.eu/esco/skill/1a4fdd0e-2cbe-4b77-aa6e-e46efc181b76"
+    },
+    {
+      "title": "train employees",
+      "uri": "http://data.europa.eu/esco/skill/e54ff029-1ce9-447d-a5b2-eb7283a23e6e"
+    },
+    {
+      "title": "address public health issues",
+      "uri": "http://data.europa.eu/esco/skill/1cebfd4f-2ab3-480a-a3c8-8065a303717d"
+    },
+    {
+      "title": "hygiene in a health care setting",
+      "uri": "http://data.europa.eu/esco/skill/0450eaee-1a00-4622-8f4e-5356fce816d2"
+    },
+    {
+      "title": "negotiate supplier arrangements",
+      "uri": "http://data.europa.eu/esco/skill/c842be42-81b3-40f2-904c-ea8790ac88bd"
+    }
+  ]
+}

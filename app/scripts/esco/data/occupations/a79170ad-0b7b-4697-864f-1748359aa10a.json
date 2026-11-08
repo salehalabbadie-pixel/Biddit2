@@ -1,0 +1,204 @@
+{
+  "id": "a79170ad-0b7b-4697-864f-1748359aa10a",
+  "uri": "http://data.europa.eu/esco/occupation/a79170ad-0b7b-4697-864f-1748359aa10a",
+  "title": "ICT product manager",
+  "de": "IT-Produktmanager/IT-Produktmanagerin",
+  "code": "1330.6",
+  "description": "ICT product managers analyse and define current and target status for ICT products, services or solutions. They estimate the cost effectiveness, points of risk, opportunities, strengths and weaknesses of products or services provided. ICT product managers create structured plans and establish time scales and milestones, ensuring optimisation of activities and resources.",
+  "essential": [
+    {
+      "title": "ICT software specifications",
+      "uri": "http://data.europa.eu/esco/skill/9ce670ec-318c-4a91-9179-03437db728dc"
+    },
+    {
+      "title": "assess ICT knowledge",
+      "uri": "http://data.europa.eu/esco/skill/0dc7aa1b-b5af-4f4b-81ce-ee22ed8b6926"
+    },
+    {
+      "title": "perform market research",
+      "uri": "http://data.europa.eu/esco/skill/fe39d4db-4cb5-4299-bb9f-896c8fd6ab13"
+    },
+    {
+      "title": "cost management",
+      "uri": "http://data.europa.eu/esco/skill/7d35602d-bc94-4975-aa7c-f4e8e05ce8e0"
+    },
+    {
+      "title": "manage schedule of tasks",
+      "uri": "http://data.europa.eu/esco/skill/0e1fe34b-f4e7-4642-8c8b-5a05ac3438e5"
+    },
+    {
+      "title": "manage contracts",
+      "uri": "http://data.europa.eu/esco/skill/92721092-fe7c-4689-96bd-4f02385bc0e7"
+    },
+    {
+      "title": "plan product management",
+      "uri": "http://data.europa.eu/esco/skill/29fb886c-6be0-4e93-9ea1-232881f2092a"
+    },
+    {
+      "title": "provide cost benefit analysis reports",
+      "uri": "http://data.europa.eu/esco/skill/48b68726-0fd6-4e03-a5eb-82236516ee7a"
+    },
+    {
+      "title": "conduct impact evaluation of ICT processes on business",
+      "uri": "http://data.europa.eu/esco/skill/17c9a790-5664-4673-8237-c4cf3c5a8da5"
+    },
+    {
+      "title": "perform product planning",
+      "uri": "http://data.europa.eu/esco/skill/d15ba5cb-9212-4a90-85af-2c560da59925"
+    },
+    {
+      "title": "ICT hardware specifications",
+      "uri": "http://data.europa.eu/esco/skill/3497ebe1-d417-4105-a68f-f7bbcac7ee5f"
+    },
+    {
+      "title": "create project specifications",
+      "uri": "http://data.europa.eu/esco/skill/21fecc8a-392e-49ce-ac26-fb0696ccfead"
+    },
+    {
+      "title": "systems development life-cycle",
+      "uri": "http://data.europa.eu/esco/skill/09f2f811-a3fb-4de3-a70f-6420a6935575"
+    },
+    {
+      "title": "manage budgets",
+      "uri": "http://data.europa.eu/esco/skill/21c5790c-0930-4d74-b3b0-84caf5af12ea"
+    },
+    {
+      "title": "ICT system user requirements",
+      "uri": "http://data.europa.eu/esco/skill/ca73ac82-867a-4afa-9732-834aebe896ff"
+    },
+    {
+      "title": "ICT market",
+      "uri": "http://data.europa.eu/esco/skill/e5609f89-0daf-40bb-bd6b-94f5d7498131"
+    },
+    {
+      "title": "product comprehension",
+      "uri": "http://data.europa.eu/esco/skill/d6d3fee7-47e2-47f4-a0ec-6c75f28c6abd"
+    },
+    {
+      "title": "ICT infrastructure",
+      "uri": "http://data.europa.eu/esco/skill/d0c6d77e-cb25-4770-bf77-2073fc5f7523"
+    },
+    {
+      "title": "monitor technology trends",
+      "uri": "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e"
+    },
+    {
+      "title": "define technical requirements",
+      "uri": "http://data.europa.eu/esco/skill/d9e5349e-8791-49c2-8ba4-839fdd1606c2"
+    },
+    {
+      "title": "perform risk analysis",
+      "uri": "http://data.europa.eu/esco/skill/1dd23dba-dd00-45ab-abf4-642902538317"
+    },
+    {
+      "title": "advertising techniques",
+      "uri": "http://data.europa.eu/esco/skill/aba1f05b-f312-47d8-be71-7c574134de8f"
+    }
+  ],
+  "optional": [
+    {
+      "title": "Iterative development",
+      "uri": "http://data.europa.eu/esco/skill/33d49d4f-31ec-473f-9b8a-b555aa5116bb"
+    },
+    {
+      "title": "Outsourcing model",
+      "uri": "http://data.europa.eu/esco/skill/63f0aa84-5e4c-4eb6-8e8c-876d9feedf1f"
+    },
+    {
+      "title": "manage localisation",
+      "uri": "http://data.europa.eu/esco/skill/a9bf8565-8a09-4118-9922-932d65a79d69"
+    },
+    {
+      "title": "Rapid application development",
+      "uri": "http://data.europa.eu/esco/skill/96eb286a-58b7-45ff-a916-5578d0b79b8c"
+    },
+    {
+      "title": "ICT sales methodologies",
+      "uri": "http://data.europa.eu/esco/skill/628664ec-a63b-4486-8d65-02aba81c82a0"
+    },
+    {
+      "title": "Hybrid model",
+      "uri": "http://data.europa.eu/esco/skill/67a118f4-8a5f-48f7-8e5f-de34b9ca2c37"
+    },
+    {
+      "title": "Spiral development",
+      "uri": "http://data.europa.eu/esco/skill/4840338b-ac6c-486a-be1d-9ddfe00b8bdf"
+    },
+    {
+      "title": "engineering processes",
+      "uri": "http://data.europa.eu/esco/skill/72a74f69-5cf1-43c5-99b9-62a444578919"
+    },
+    {
+      "title": "ICT quality policy",
+      "uri": "http://data.europa.eu/esco/skill/3be6b84a-fa78-42b9-a8df-150cdb40b9d7"
+    },
+    {
+      "title": "ICT security legislation",
+      "uri": "http://data.europa.eu/esco/skill/7814e88f-c133-4c3b-b27f-857afa145d42"
+    },
+    {
+      "title": "DevOps",
+      "uri": "http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4"
+    },
+    {
+      "title": "quality standards",
+      "uri": "http://data.europa.eu/esco/skill/8d4271ca-c9fd-40b3-875f-15f78332a49e"
+    },
+    {
+      "title": "ICT project management",
+      "uri": "http://data.europa.eu/esco/skill/94dd823c-148e-4614-a6e8-99249b16357d"
+    },
+    {
+      "title": "service-oriented modelling",
+      "uri": "http://data.europa.eu/esco/skill/83218cac-3599-417e-93d2-26013cdccd98"
+    },
+    {
+      "title": "ICT process quality models",
+      "uri": "http://data.europa.eu/esco/skill/fafe0b9d-dbd9-46bd-b770-26299539ce66"
+    },
+    {
+      "title": "Agile development",
+      "uri": "http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221"
+    },
+    {
+      "title": "interact with users to gather requirements",
+      "uri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363"
+    },
+    {
+      "title": "Incremental development",
+      "uri": "http://data.europa.eu/esco/skill/00c04e40-35ea-4ed1-824c-82f936c8f876"
+    },
+    {
+      "title": "business process modelling",
+      "uri": "http://data.europa.eu/esco/skill/98301d4a-2cc3-439d-8d7f-0b6ac76302bb"
+    },
+    {
+      "title": "Prototyping development",
+      "uri": "http://data.europa.eu/esco/skill/ed1d8bd4-cd2a-4c64-b665-56d70651026c"
+    },
+    {
+      "title": "perform online data analysis",
+      "uri": "http://data.europa.eu/esco/skill/062320e5-79d1-45e8-8b7e-5deeb53279a2"
+    },
+    {
+      "title": "SaaS (service-oriented modelling)",
+      "uri": "http://data.europa.eu/esco/skill/eeca3780-8049-499f-a268-95a7ad26642c"
+    },
+    {
+      "title": "Open source model",
+      "uri": "http://data.europa.eu/esco/skill/b16200f4-4f39-4b8b-aa9d-3568054d6bdb"
+    },
+    {
+      "title": "Waterfall development",
+      "uri": "http://data.europa.eu/esco/skill/6a876489-7ad8-4a13-b09c-c9b8e97a302e"
+    },
+    {
+      "title": "innovation processes",
+      "uri": "http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68"
+    },
+    {
+      "title": "software design methodologies",
+      "uri": "http://data.europa.eu/esco/skill/8ff015a0-98ea-4d80-a23e-1f68110a919e"
+    }
+  ]
+}
