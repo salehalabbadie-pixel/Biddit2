@@ -68,6 +68,9 @@ node scripts/esco/generate-catalog.mjs scripts/esco/data/catalog-pre-esco.js \
 node scripts/check-skill-data.mjs
 ```
 
+An optional fifth argument takes the AI-exposure values of the HSG expert panel
+into the catalogue; see `scripts/ai-exposure/README.md`.
+
 A new skill or role is added to `data/catalog-pre-esco.js` (id, label,
 aiAutomation, and for roles without ESCO equivalent its skills) and mapped in
 `mapping.mjs`; then regenerate. Edit `catalog.js` only through the generator.

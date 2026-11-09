@@ -1,0 +1,5 @@
+# Generated questionnaires (rebuild with build-questionnaire.mjs)
+out/
+# Returned answers and the local report: contain individual ratings and comments,
+# never commit them. Only the aggregated data/results-r*.json belongs in the repo.
+responses/
