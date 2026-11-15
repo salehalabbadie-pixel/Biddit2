@@ -1,15 +1,15 @@
 import { useRecoilState, useSetRecoilState } from "recoil";
 import { selectionOptionsState } from "../../recoil/selectionOptionsAtom";
 import { smartSearchState } from "../../recoil/smartSearchAtom";
-import { SkillMapperHint } from "../../../features/skillMaster";
 
 const baseStyle =
-  "flex-1 py-1 text-xs font-medium rounded-md transition-colors";
+  "flex flex-1 items-center justify-center gap-1.5 py-1 text-xs font-medium rounded-md transition-colors";
 
+// [mode, label, badge]
 const MODES = [
   ["keyword", "Keyword"],
   ["smart", "Smart ✨"],
-  ["skills", "Skill Mapper"],
+  ["skills", "Skill Mapper", "Neu"],
 ];
 
 /**
@@ -60,7 +60,7 @@ export default function SearchModeToggle() {
         role="group"
         aria-label="Search mode"
       >
-        {MODES.map(([mode, label]) => (
+        {MODES.map(([mode, label, badge]) => (
           <button
             key={mode}
             type="button"
@@ -73,11 +73,15 @@ export default function SearchModeToggle() {
             }`}
           >
             {label}
+            {badge && (
+              <span className="px-1 rounded text-[10px] font-bold uppercase leading-4 bg-yellow-300 text-gray-900">
+                {badge}
+              </span>
+            )}
           </button>
         ))}
       </div>
       {search.mode === "smart" && <SmartSearchHint />}
-      {search.mode === "skills" && <SkillMapperHint />}
     </>
   );
 }

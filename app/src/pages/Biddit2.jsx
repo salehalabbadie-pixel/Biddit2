@@ -25,6 +25,7 @@ import { log } from "../components/helpers/log";
 import "./react-tabs.css";
 import LoadingText from "../components/common/LoadingText";
 import IaChangeNotice from "../components/common/IaChangeNotice";
+import { SkillProfileWizardHost } from "../features/skillMaster";
 import { InformationCircleIcon, XCircleIcon } from "@heroicons/react/solid";
 
 // Tab & Contents
@@ -338,6 +339,9 @@ export default function Biddit2() {
           </Suspense>
         </div>
       </div>
+
+      {/* Skill-Master profile wizard, opened from the course list or the Skill-Gap tab. */}
+      <SkillProfileWizardHost />
 
       {/* Drag overlay - follows cursor during drag */}
       <DragOverlay>

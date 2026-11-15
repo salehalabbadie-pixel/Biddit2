@@ -8,7 +8,9 @@ import {
   indexSkillData,
   levelsWithPlan,
   matchScore,
+  rankSkills,
   roleFit,
+  skillRelevance,
   skillsForCourse,
   targetLevels,
 } from "../domain/match";
@@ -94,5 +96,27 @@ describe("plan coverage", () => {
     const planned = levelsWithPlan(levels, [[{ escoUri: "x", contribution: 20 }]]);
     expect(planned).toEqual({ x: 60 });
     expect(gapCoverage(targets, levels, planned)).toBe(22);
+  });
+});
+
+describe("skillRelevance and rankSkills", () => {
+  const targets = { x: 80, y: 50, z: 80 };
+  const gapMap = { x: 40, y: 10, z: 0 };
+
+  it("separates open essential gaps, open optional gaps and the rest", () => {
+    expect(skillRelevance("x", targets, gapMap)).toBe("core");
+    expect(skillRelevance("y", targets, gapMap)).toBe("optional");
+    expect(skillRelevance("z", targets, gapMap)).toBe("none"); // already at target
+    expect(skillRelevance("w", targets, gapMap)).toBe("none"); // not asked for
+  });
+
+  it("lists open gaps first, then by contribution", () => {
+    const skills = [
+      { escoUri: "w", contribution: 30 },
+      { escoUri: "y", contribution: 10 },
+      { escoUri: "x", contribution: 5 },
+      { escoUri: "z", contribution: 20 },
+    ];
+    expect(rankSkills(skills, targets, gapMap).map((s) => s.escoUri)).toEqual(["x", "y", "w", "z"]);
   });
 });

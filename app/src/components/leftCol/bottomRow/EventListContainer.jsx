@@ -18,9 +18,9 @@
 
 import PropTypes from "prop-types";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { Suspense, memo, useMemo } from "react";
+import { Suspense, memo, useEffect, useMemo, useRef } from "react";
 import { authTokenState } from "../../recoil/authAtom";
-import { FixedSizeList } from "react-window";
+import { VariableSizeList } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 import LoadingText from "../../common/LoadingText";
 
@@ -40,7 +40,9 @@ import {
   smartSearchResultsSelector,
   smartSearchActiveSelector,
   myCoursesSelector,
+  selectedCourseInfoSelector,
 } from "../../recoil/unifiedCourseDataSelectors";
+import { sameCourse } from "../../../domain/course";
 import { smartSearchState } from "../../recoil/smartSearchAtom";
 import {
   examPlanSelector,
@@ -64,10 +66,41 @@ import { LockOpen } from "./LockOpen";
 // Recoil state
 import { isLeftViewVisible } from "../../recoil/isLeftViewVisible";
 import { formatEcts, toEcts } from "../../../domain/credits";
-import { MatchBadge, useSkillMatch } from "../../../features/skillMaster";
+import { useAtomValue } from "jotai";
+import {
+  CourseSkillChips,
+  MATCH_THRESHOLD,
+  MatchRing,
+  onlyStrongMatchAtom,
+  useSkillMatch,
+} from "../../../features/skillMaster";
 
 // Stable fallback so an empty selector result does not invalidate itemData.
 const NO_ITEMS = [];
+
+// Row heights incl. the 10 px gap: the Skill Mapper row adds the skill line.
+const ROW_HEIGHT = 75;
+const SKILL_ROW_HEIGHT = 108;
+const DIVIDER_HEIGHT = 32;
+
+// Skill Mapper: list entry that separates the courses under 50 % match.
+const DIVIDER = Object.freeze({ divider: true });
+
+const DividerRow = ({ style }) => (
+  <div
+    style={style}
+    role="separator"
+    className="flex items-center gap-3 pb-2.5 text-xs text-gray-500"
+  >
+    <span className="flex-1 h-px bg-gray-300" />
+    Unter {MATCH_THRESHOLD} % Match zu deinen Zieljobs
+    <span className="flex-1 h-px bg-gray-300" />
+  </div>
+);
+
+DividerRow.propTypes = {
+  style: PropTypes.object.isRequired,
+};
 
 // filteredCoursesSelector and smartSearchResultsSelector attach `selected`.
 function isEventOrNestedCourseSelected(event) {
@@ -77,7 +110,9 @@ function isEventOrNestedCourseSelected(event) {
 // Row renderer, module scope so react-window keeps row identity across renders.
 // Includes drag capability for CurriculumMap integration.
 const Row = memo(function Row({ index, style, data }) {
-  const event = data.filteredCourses[index];
+  const entry = data.filteredCourses[index];
+  const isDivider = entry === DIVIDER;
+  const event = isDivider ? null : entry;
   const courseId = event?.courseNumber || event?.id || `row-${index}`;
 
   // useDraggable hook for drag-and-drop (must be called unconditionally)
@@ -93,6 +128,7 @@ const Row = memo(function Row({ index, style, data }) {
     });
 
   // Early return after hooks
+  if (isDivider) return <DividerRow style={style} />;
   if (!event) {
     return null;
   }
@@ -118,6 +154,13 @@ const Row = memo(function Row({ index, style, data }) {
     isPlannedCourse(data.myCourses, event)
   );
 
+  // Skill Mapper only: { match, skills } or null when the course has no skill data.
+  const skillResult = data.matchFor ? data.matchFor(event) : null;
+  // The course whose details are open gets a green frame.
+  const isOpen = Boolean(data.openedCourse) && sameCourse(event, data.openedCourse);
+  // Below the divider: greyed, like the rest of the list under 50 % match.
+  const isWeak = data.weakFrom >= 0 && index > data.weakFrom;
+
   return (
     <div
       ref={setNodeRef}
@@ -137,6 +180,7 @@ const Row = memo(function Row({ index, style, data }) {
       <div
         {...listeners}
         {...attributes}
+        aria-current={isOpen ? "true" : undefined}
         onClick={() => {
           data.openCourseDetails(event, { source: "course-list" });
           data.setIsLeftViewVisibleState(false);
@@ -144,8 +188,10 @@ const Row = memo(function Row({ index, style, data }) {
         className={`flex-1 py-2 pl-3 pr-4 rounded-lg shadow-sm overflow-hidden cursor-grab hover:shadow-md transition duration-500 ease-in-out ${
           wasPreviouslyEnrolled
             ? "bg-gray-100 text-gray-500"
+            : isWeak
+            ? "bg-gray-50 text-gray-500"
             : "bg-white text-gray-800"
-        } ${isDragging ? "cursor-grabbing" : ""}`}
+        } ${isOpen ? "ring-2 ring-inset ring-hsg-600" : ""} ${isDragging ? "cursor-grabbing" : ""}`}
       >
         <div className="flex items-center gap-1 pb-2 font-semibold">
           <p className="min-w-0 truncate">
@@ -155,9 +201,6 @@ const Row = memo(function Row({ index, style, data }) {
               has no spare column. Distinct from the lock, which carries the
               lecture-overlap signal. heroicons hide their icons from
               assistive technology; this one is the clash's only carrier. */}
-          {data.matchFor && (
-            <MatchBadge match={data.matchFor(event)?.match ?? null} />
-          )}
           {examClash && (
             <ExclamationIcon
               role="img"
@@ -197,7 +240,34 @@ const Row = memo(function Row({ index, style, data }) {
             {event ? `${event.classification}` : "NA"}
           </p>
         </div>
+        {data.matchFor && (
+          <div className="pt-2">
+            {skillResult ? (
+              <CourseSkillChips skills={skillResult.skills} />
+            ) : (
+              <p className="text-xs text-gray-400">Noch keine Skill-Daten</p>
+            )}
+          </div>
+        )}
       </div>
+
+      {/* Skill Mapper: the match gets its own box between course and lock. */}
+      {data.matchFor && (
+        <div
+          className={`flex shrink-0 justify-center items-center h-full w-custom64 md:w-12 xl:w-custom64 ml-3 md:ml-2 xl:ml-3 rounded-lg shadow-sm ${
+            wasPreviouslyEnrolled ? "bg-gray-100" : "bg-white"
+          }`}
+        >
+          <MatchRing
+            match={skillResult?.match ?? null}
+            reason={
+              skillResult
+                ? "Wähle einen Zieljob, um deinen Match zu sehen"
+                : "Für diesen Kurs gibt es noch keine Skill-Daten"
+            }
+          />
+        </div>
+      )}
 
       {/* Add/Remove Button */}
       <button
@@ -277,6 +347,7 @@ export default function EventListContainer({
   const [, setIsLeftViewVisibleState] = useRecoilState(isLeftViewVisible);
 
   const openCourseDetails = useOpenCourseDetails();
+  const openedCourse = useRecoilValue(selectedCourseInfoSelector);
 
   // Get selected semester object from termListObject
   const selectedSemester = termListObject?.find(
@@ -320,11 +391,28 @@ export default function EventListContainer({
   const { matchFor } = useSkillMatch(
     skillMode ? selectedSemesterShortName : null
   );
-  const listedCourses = useMemo(() => {
-    if (!skillMode) return displayedCourses;
+  // The switch «Nur ≥ 50 % Match» only bites once a role gives courses a match.
+  const onlyStrongMatch = useAtomValue(onlyStrongMatchAtom);
+  // Courses under 50 % follow a divider; courses without a match stay at the end.
+  const { listedCourses, weakFrom } = useMemo(() => {
+    if (!skillMode) return { listedCourses: displayedCourses, weakFrom: -1 };
     const score = (course) => matchFor(course)?.match ?? -1;
-    return [...displayedCourses].sort((a, b) => score(b) - score(a));
-  }, [skillMode, displayedCourses, matchFor]);
+    const sorted = [...displayedCourses].sort((a, b) => score(b) - score(a));
+    const anyMatch = sorted.length > 0 && score(sorted[0]) >= 0;
+    if (!anyMatch) return { listedCourses: sorted, weakFrom: -1 };
+    if (onlyStrongMatch) {
+      return {
+        listedCourses: sorted.filter((course) => score(course) >= MATCH_THRESHOLD),
+        weakFrom: -1,
+      };
+    }
+    const split = sorted.findIndex((course) => score(course) < MATCH_THRESHOLD);
+    if (split === -1) return { listedCourses: sorted, weakFrom: -1 };
+    return {
+      listedCourses: [...sorted.slice(0, split), DIVIDER, ...sorted.slice(split)],
+      weakFrom: split,
+    };
+  }, [skillMode, displayedCourses, matchFor, onlyStrongMatch]);
 
   // Course selection hook (simplified) - now works with unified state
   const { addOrRemoveCourse } = useCourseSelection({
@@ -339,6 +427,8 @@ export default function EventListContainer({
     () => ({
       filteredCourses: listedCourses,
       matchFor: skillMode ? matchFor : null,
+      weakFrom,
+      openedCourse,
       selectedSemesterShortName,
       selectedSemester,
       selectedCourseIds,
@@ -353,6 +443,8 @@ export default function EventListContainer({
       listedCourses,
       skillMode,
       matchFor,
+      weakFrom,
+      openedCourse,
       selectedSemesterShortName,
       selectedSemester,
       selectedCourseIds,
@@ -365,9 +457,23 @@ export default function EventListContainer({
     ]
   );
 
+  // Row heights vary only through the divider; react-window caches them, so
+  // the cache is dropped whenever the list or the mode changes.
+  const rowHeight = skillMode ? SKILL_ROW_HEIGHT : ROW_HEIGHT;
+  const listRef = useRef(null);
+  useEffect(() => {
+    listRef.current?.resetAfterIndex(0);
+  }, [listedCourses, rowHeight, isListLoading]);
+  const itemSize = (index) =>
+    isListLoading
+      ? ROW_HEIGHT
+      : listedCourses[index] === DIVIDER
+      ? DIVIDER_HEIGHT
+      : rowHeight;
+
   const ItemRenderer = isListLoading
     ? LoadingRow
-    : !displayedCourses || displayedCourses.length === 0
+    : listedCourses.length === 0
     ? NoCoursesRow
     : Row;
 
@@ -377,16 +483,18 @@ export default function EventListContainer({
     >
       <AutoSizer>
         {({ height, width }) => (
-          <FixedSizeList
+          <VariableSizeList
+            ref={listRef}
             className="overflow-auto text-sm scrollbar-hide"
             height={height}
-            itemCount={isListLoading ? 1 : displayedCourses?.length || 1}
-            itemSize={75}
+            itemCount={isListLoading ? 1 : listedCourses.length || 1}
+            itemSize={itemSize}
+            estimatedItemSize={rowHeight}
             width={width}
             itemData={itemData}
           >
             {ItemRenderer}
-          </FixedSizeList>
+          </VariableSizeList>
         )}
       </AutoSizer>
       {/* One instance serves every anchor of its id in the list; anchors

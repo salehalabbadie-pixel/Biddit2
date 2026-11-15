@@ -3,7 +3,7 @@ import { ExternalLinkIcon } from "@heroicons/react/outline";
 import { authTokenState } from "../recoil/authAtom";
 import { apiClient } from "../helpers/axiosClient";
 import { UNISG_API } from "../helpers/apiEndpoints";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { examinationTypesState } from "../recoil/examinationTypesAtom";
 import Collapsible from "./Collapsible";
 import { StarIcon } from "@heroicons/react/solid";
@@ -30,7 +30,7 @@ import { log } from "../helpers/log";
 import { formatEcts, toEcts } from "../../domain/credits";
 import { courseKey } from "../../domain/course";
 import { getCourseRatings, getCourseSheet } from "../helpers/courseSheetCache";
-import { SkillMatchCard } from "../../features/skillMaster";
+import { CourseSkillFit, CourseSkillTable } from "../../features/skillMaster";
 
 // The course sheet and the ExaminationTypes lookup are fetched independently, so
 // the sheet can arrive first. Until the lookup lands — or if it has no entry for
@@ -234,25 +234,22 @@ export default function CourseInfo() {
             </div>
           </div>
 
-          <SkillMatchCard course={selectedCourse} semester={selectedSemester} />
-
           {/* // Course Description // */}
 
           {isDegradedMode && selectedCourse && selectedCourse.shortName !== undefined && (
             <DegradedPlaceholder compact feature="Ratings" className="mb-4" />
           )}
 
+          {courseWithRatings && containsCourseRatings &&
+            isExerciseGroup(selectedCourse) && <ExerciseGroupDisclaimer />}
+
+          {/* Ratings beside the Skill-Master fit card (the fit card alone
+              when the course has no ratings, the ratings alone without skill data). */}
+          <div className="grid grid-cols-1 gap-8 pb-4 text-base lg:grid-cols-5">
           {courseWithRatings && containsCourseRatings && (
             <>
-              {/* Exercise Group Disclaimer */}
-              {isExerciseGroup(selectedCourse) && <ExerciseGroupDisclaimer />}
-              
               {/* Course Ratings */}
-              <div
-                className="grid grid-cols-1 lg:grid-cols-5 gap-8 text-base pb-4 "
-                key={courseWithRatings.shortName}
-              >
-              <div className="col-span-2">
+              <div className="lg:col-span-2" key={courseWithRatings.shortName}>
                 <dl className="">
                   <div className="flex text-sm font-medium toggle text-gray-900">
                     <StarIcon className="w-6 h-6 mr-1" color="#386641" />
@@ -341,9 +338,18 @@ export default function CourseInfo() {
                                 <></>
                             )}
                         </div> */}
-            </div>
             </>
           )}
+            <div className="lg:col-span-3">
+              <Suspense fallback={null}>
+                <CourseSkillFit course={selectedCourse} semester={selectedSemester} />
+              </Suspense>
+            </div>
+          </div>
+
+          <Suspense fallback={null}>
+            <CourseSkillTable course={selectedCourse} semester={selectedSemester} />
+          </Suspense>
 
           {/* // Exam Description // */}
           {/* Achievement parts is an empty array in events api --> new api call needed? TODO: */}
@@ -351,6 +357,7 @@ export default function CourseInfo() {
             <h2 className="text-lg font-bold text-gray-700 ">
               Exam Information
             </h2>
+            <p className="mb-2 text-sm text-gray-600">Prüfungsinformationen gemäss Merkblatt.</p>
             {/* A projected semester reuses its reference's cisId, so the
                 lookup above can name HS26 while HS27 is on screen, or while
                 the map opened the course from an HS27 card. Exam dates are

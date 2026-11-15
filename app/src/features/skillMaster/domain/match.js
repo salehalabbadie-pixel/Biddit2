@@ -106,6 +106,27 @@ export function aiBadge(score) {
   return "strong";
 }
 
+/**
+ * How a course skill relates to the chosen roles: "core" when an essential
+ * skill still has a gap, "optional" when an optional one does, otherwise "none"
+ * (not asked for, or already at target).
+ */
+export function skillRelevance(skillId, targets, gapMap) {
+  if (!gapMap[skillId]) return "none";
+  return targets[skillId] >= TARGET_BY_IMPORTANCE.essential ? "core" : "optional";
+}
+
+/** Course skills with the open gaps first, then by contribution. */
+export function rankSkills(skills, targets, gapMap) {
+  const order = { core: 0, optional: 1, none: 2 };
+  return (skills || [])
+    .map((skill) => ({ ...skill, relevance: skillRelevance(skill.escoUri, targets, gapMap) }))
+    .sort(
+      (a, b) =>
+        order[a.relevance] - order[b.relevance] || b.contribution - a.contribution
+    );
+}
+
 /** Levels after the planned courses, capped at 100. */
 export function levelsWithPlan(levels, plannedSkillLists) {
   const result = { ...levels };
