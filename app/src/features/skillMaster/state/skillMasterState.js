@@ -29,6 +29,7 @@ import {
   targetLevels,
 } from "../domain/match";
 import { interestFit, interestSkillSet, matchPastCourses } from "../domain/profile";
+import { journeyState } from "../domain/journey";
 
 /** At most this many target jobs can be chosen at once. */
 export const MAX_ROLES = 3;
@@ -270,6 +271,7 @@ export function useSkillOverview(semester) {
         if (targets[s.escoUri]) verified.add(s.escoUri);
       })
     );
+    const newlyPlanned = planned.filter((entry) => entry.status === "planned");
     const resilient = planned.filter(
       (entry) => aiBadge(aiScore(entry.result.skills)) === "resilient"
     ).length;
@@ -279,7 +281,8 @@ export function useSkillOverview(semester) {
       planned,
       plannedIds: [...enrolledIds, ...selectedIds, ...planIds],
       selectedIds,
-      newlyPlanned: planned.filter((entry) => entry.status === "planned"),
+      newlyPlanned,
+      journey: journeyState({ hasRole: context.hasRole, planned, waiting: newlyPlanned.length }),
       withPlan,
       coverage: gapCoverage(targets, levels, withPlan),
       strongMatches: rated.filter((entry) => (entry.result.match ?? 0) >= MATCH_THRESHOLD)

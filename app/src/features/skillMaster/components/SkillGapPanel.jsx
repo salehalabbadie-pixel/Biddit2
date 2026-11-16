@@ -20,6 +20,7 @@ import {
 } from "../state/skillMasterState";
 import AiBadge from "./AiBadge";
 import MatchRing from "./MatchRing";
+import SkillJourney from "./SkillJourney";
 
 const outlineButton =
   "px-4 py-2 text-sm font-semibold border-2 rounded-lg border-hsg-800 text-hsg-800 hover:bg-green-50";
@@ -104,6 +105,7 @@ export default function SkillGapPanel() {
     verified,
     ects: plannedEcts,
     resilientShare,
+    journey,
   } = useSkillOverview(semester);
   const setWizard = useSetAtom(skillWizardAtom);
   const setPlan = useSetAtom(skillPlanAtom);
@@ -127,11 +129,21 @@ export default function SkillGapPanel() {
     authToken,
   });
 
-  // «Skill-Gap →» in the course list opens this tab at its top.
+  // The course list opens this tab at a section: its top («Skill-Gap →»), the
+  // recommendations or the bidding banner (the journey's next step).
   const topRef = useRef(null);
+  const recommendationsRef = useRef(null);
+  const biddingRef = useRef(null);
+  const scrollTo = (section) => {
+    const target =
+      (section === "recommendations" && recommendationsRef.current) ||
+      (section === "bidding" && biddingRef.current) ||
+      topRef.current;
+    target?.scrollIntoView?.({ behavior: "smooth", block: "start" });
+  };
   useEffect(() => {
     if (!focus) return;
-    topRef.current?.scrollIntoView?.({ behavior: "smooth", block: "start" });
+    scrollTo(focus);
     setFocus(null);
   }, [focus, setFocus]);
 
@@ -201,12 +213,11 @@ export default function SkillGapPanel() {
       <div className="p-4" data-testid="skill-gap-panel" ref={topRef}>
         <h2 className="text-2xl font-bold text-gray-900">Skill-Gap</h2>
         <p className="mt-2 mb-4 text-sm text-gray-600">
-          Lege dein Skill-Profil an: Zieljobs, deine Erfahrung und Interessen. Dann siehst du hier,
-          welche Skills dir noch fehlen und welche Kurse sie schliessen.
+          Hier siehst du, welche Skills dir für deine Zieljobs noch fehlen und welche Kurse sie schliessen.
         </p>
-        <button type="button" className={outlineButton} onClick={openWizard}>
-          Profil anlegen
-        </button>
+        <div className="p-4 border-2 rounded-xl border-hsg-600 bg-green-50">
+          <SkillJourney journey={journey} onAction={openWizard} />
+        </div>
       </div>
     );
   }
@@ -231,6 +242,15 @@ export default function SkillGapPanel() {
           ))}
         </ul>
       </header>
+
+      {journey.current && (
+        <div className="p-4 border-2 rounded-xl border-hsg-600 bg-green-50">
+          <SkillJourney
+            journey={journey}
+            onAction={(step) => (step === "profile" ? openWizard() : scrollTo(step === "courses" ? "recommendations" : "bidding"))}
+          />
+        </div>
+      )}
 
       {status === "none" && (
         <p className="text-sm text-gray-600">Für dieses Semester gibt es noch keine Skill-Daten.</p>
@@ -359,7 +379,7 @@ export default function SkillGapPanel() {
           )}
         </section>
 
-        <section className="p-5 border border-gray-200 rounded-xl">
+        <section ref={recommendationsRef} className="p-5 border border-gray-200 rounded-xl">
           <h3 className="text-lg font-bold text-gray-900">Empfohlen, um Lücken zu schliessen</h3>
           <p className="mb-2 text-sm text-gray-600">Noch nicht geplant, Match ≥ {MATCH_THRESHOLD} %</p>
           {recommendations.length === 0 ? (
@@ -386,6 +406,7 @@ export default function SkillGapPanel() {
       </div>
 
       <section
+        ref={biddingRef}
         className="flex flex-wrap items-center justify-between gap-4 px-5 py-4 text-white rounded-xl bg-hsg-800"
         aria-live="polite"
       >

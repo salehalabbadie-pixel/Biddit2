@@ -68,7 +68,7 @@ const plannedList = () => screen.getByText("Gebucht und geplant").closest("secti
 describe("SkillGapPanel", () => {
   it("asks for a profile while no job is chosen", () => {
     const store = renderPanel({ roleIds: [] });
-    fireEvent.click(screen.getByRole("button", { name: "Profil anlegen" }));
+    fireEvent.click(screen.getByRole("button", { name: "Profil anlegen →" }));
     expect(store.get(skillWizardAtom)).toEqual({ open: true, step: 0 });
   });
 

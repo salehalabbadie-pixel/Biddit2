@@ -1,5 +1,5 @@
 import { useRecoilValue } from "recoil";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Select from "react-select";
 import { useTermSelection } from "../../helpers/useTermSelection";
 import { useUnifiedSemesterState } from "../../helpers/useUnifiedSemesterState";
@@ -148,7 +148,11 @@ export default function SelectSemester() {
 
       {/* Outside the collapsible filters: the profile explains the list order,
           so it stays visible when the filters are hidden. */}
-      {searchMode === "skills" && <SkillMapperHeader />}
+      {searchMode === "skills" && (
+        <Suspense fallback={null}>
+          <SkillMapperHeader />
+        </Suspense>
+      )}
 
       <div className="flex-1 min-h-0">
         <ErrorBoundary>

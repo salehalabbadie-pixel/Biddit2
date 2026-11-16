@@ -6,25 +6,25 @@ import { isLeftViewVisible } from "../../../components/recoil/isLeftViewVisible"
 import { TAB } from "../../../constants/tabs";
 import { MATCH_THRESHOLD } from "../domain/match";
 import {
-  MAX_ROLES,
   chosenRoles,
   onlyStrongMatchAtom,
   skillGapFocusAtom,
   skillWizardAtom,
   useSkillOverview,
 } from "../state/skillMasterState";
-
+import SkillJourney from "./SkillJourney";
 
 const linkStyle = "text-xs font-semibold text-hsg-800 hover:underline whitespace-nowrap";
 
 /**
  * Above the course list while «Skill Mapper» is active: the card «Dein
- * Skill-Profil» (roles, gap coverage, strong matches, verified skills) and the
- * sort line with the switch «Nur ≥ 50 % Match».
+ * Skill-Profil» (roles, gap coverage, strong matches, verified skills) with the
+ * guided journey, and the sort line with the switch «Nur ≥ 50 % Match».
+ * Until the journey is complete the card stands out, so students start here.
  */
 export default function SkillMapperHeader() {
   const semester = useRecoilValue(selectedSemesterSelector);
-  const { profile, status, hasRole, coverage, strongMatches, verifiedSkills } =
+  const { profile, status, hasRole, coverage, strongMatches, verifiedSkills, journey } =
     useSkillOverview(semester);
   const [onlyStrong, setOnlyStrong] = useAtom(onlyStrongMatchAtom);
   const setFocus = useSetAtom(skillGapFocusAtom);
@@ -42,22 +42,46 @@ export default function SkillMapperHeader() {
     setLeftViewVisible(false);
   };
 
+  const act = (step) =>
+    step === "profile" ? openWizard() : openSkillGap(step === "courses" ? "recommendations" : "bidding");
+  const open = journey.current !== null;
+
   return (
     <div className="mb-2" data-testid="skill-mapper-header">
-      <section className="p-3 mb-2 bg-white border border-gray-200 border-l-4 border-l-hsg-800 rounded-lg shadow-sm">
-        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-          <h3 className="text-sm font-semibold text-gray-900">Dein Skill-Profil</h3>
-          <div className="flex gap-4">
-            <button type="button" className={linkStyle} onClick={openWizard}>
-              {hasRole ? "Nachschärfen" : "Profil anlegen"}
-            </button>
-            <button type="button" className={linkStyle} onClick={() => openSkillGap("roles")}>
-              Skill-Gap →
-            </button>
-          </div>
+      <section
+        data-highlight={open ? "true" : undefined}
+        className={`p-3 mb-2 rounded-lg ${
+          open
+            ? "bg-green-50 border-2 border-hsg-600 shadow-md"
+            : "bg-white border border-gray-200 border-l-4 border-l-hsg-800 shadow-sm"
+        }`}
+      >
+        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+          <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-900">
+            Dein Skill-Profil
+            {journey.current === "profile" && (
+              <span className="inline-flex items-center gap-1.5 px-2 py-0.5 text-[10px] font-bold uppercase rounded-full bg-hsg-800 text-white">
+                <span aria-hidden="true" className="relative flex w-1.5 h-1.5">
+                  <span className="absolute inline-flex w-full h-full rounded-full opacity-75 bg-white motion-safe:animate-ping" />
+                  <span className="relative inline-flex w-1.5 h-1.5 rounded-full bg-white" />
+                </span>
+                Start hier
+              </span>
+            )}
+          </h3>
+          {hasRole && (
+            <div className="flex gap-4">
+              <button type="button" className={linkStyle} onClick={openWizard}>
+                Nachschärfen
+              </button>
+              <button type="button" className={linkStyle} onClick={() => openSkillGap("roles")}>
+                Skill-Gap →
+              </button>
+            </div>
+          )}
         </div>
 
-        {hasRole ? (
+        {hasRole && (
           <>
             <ul className="flex flex-wrap gap-1.5 mt-2" aria-label="Deine Zieljobs">
               {roles.map((role) => (
@@ -87,12 +111,11 @@ export default function SkillMapperHeader() {
               </p>
             )}
           </>
-        ) : (
-          <p className="mt-2 text-xs text-gray-600">
-            Lege dein Profil an: bis zu {MAX_ROLES} Zieljobs, deine Erfahrung und Interessen.
-            Dann zeigt die Liste deinen Match pro Kurs.
-          </p>
         )}
+
+        <div className={hasRole ? "pt-3 mt-3 border-t border-green-200" : "mt-2"}>
+          <SkillJourney journey={journey} onAction={act} />
+        </div>
       </section>
 
       <div className="flex items-center justify-between gap-2 px-1 text-xs text-gray-600">

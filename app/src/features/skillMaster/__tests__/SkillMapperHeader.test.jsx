@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { act, fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen, within } from "@testing-library/react";
 import { RecoilRoot, useRecoilValue } from "recoil";
 import { Provider, createStore } from "jotai";
 import { http, HttpResponse } from "msw";
@@ -15,6 +15,7 @@ import {
   onlyStrongMatchAtom,
   skillGapFocusAtom,
   skillProfileAtom,
+  skillWizardAtom,
 } from "../state/skillMasterState";
 
 const SKILL_FILE = {
@@ -69,10 +70,14 @@ const renderHeader = (roleIds) => {
 };
 
 describe("SkillMapperHeader", () => {
-  it("asks for a target role and keeps the switch off until one is chosen", () => {
-    renderHeader([]);
-    expect(screen.getByText(/Lege dein Profil an/)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: "Profil anlegen" })).toBeInTheDocument();
+  it("highlights the card and starts the journey with the profile", () => {
+    const store = renderHeader([]);
+    const card = screen.getByText("Dein Skill-Profil").closest("section");
+    expect(card).toHaveAttribute("data-highlight", "true");
+    expect(within(card).getByText("Start hier")).toBeInTheDocument();
+    expect(within(card).getByText("Starte hier: Lege dein Skill-Profil an")).toBeInTheDocument();
+    fireEvent.click(within(card).getByRole("button", { name: "Profil anlegen →" }));
+    expect(store.get(skillWizardAtom).open).toBe(true);
     expect(screen.getByRole("switch", { name: /Nur ≥ 50 % Match/ })).toBeDisabled();
   });
 
@@ -88,6 +93,15 @@ describe("SkillMapperHeader", () => {
     const inRole = new Set([...role.essential, ...(role.optional || [])]);
     const verified = ["customer-needs", "prototyping"].filter((id) => inRole.has(id)).length;
     expect(await screen.findByText(/verifizierte Skills/)).toHaveTextContent(`${verified} verifizierte Skills`);
+  });
+
+  it("leads to the recommendations once the profile exists", async () => {
+    const store = renderHeader([ROLES[0].id]);
+    expect(screen.queryByText("Start hier")).not.toBeInTheDocument();
+    expect(await screen.findByText("Nächster Schritt: Kurse wählen")).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Empfehlungen ansehen →" }));
+    expect(screen.getByLabelText("tab")).toHaveTextContent(TAB.SKILL_GAP);
+    expect(store.get(skillGapFocusAtom)).toBe("recommendations");
   });
 
   it("toggles «Nur ≥ 50 % Match» from the switch or its label", () => {
