@@ -25,6 +25,9 @@ export const TAB_LABELS = {
   [TAB.SKILL_GAP]: "Skill-Gap",
 };
 
+/** Tabs that carry a «Neu» badge, so students notice and explore them. */
+export const NEW_TABS = new Set([TAB.SKILL_GAP]);
+
 /**
  * Visual grouping of the tab row by scope, read left→right as
  * This-Semester → My-Degree. This is the single source of tab order.

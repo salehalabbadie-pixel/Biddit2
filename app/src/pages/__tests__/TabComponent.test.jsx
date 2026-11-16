@@ -8,7 +8,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { RecoilRoot } from "recoil";
-import { TAB, TAB_GROUPS, TAB_LABELS, TAB_ORDER } from "../../constants/tabs";
+import { NEW_TABS, TAB, TAB_GROUPS, TAB_LABELS, TAB_ORDER } from "../../constants/tabs";
 import { unifiedCourseDataState } from "../../components/recoil/unifiedCourseDataAtom";
 import TabComponent from "../TabComponent";
 
@@ -94,7 +94,16 @@ describe("TabComponent tab row", () => {
     renderTabs();
     const names = tabNames();
     expect(names).toHaveLength(TAB_ORDER.length);
-    expect(names).toEqual(TAB_ORDER.map((tabId) => TAB_LABELS[tabId]));
+    expect(names).toEqual(
+      TAB_ORDER.map((tabId) => TAB_LABELS[tabId] + (NEW_TABS.has(tabId) ? "Neu" : ""))
+    );
+  });
+
+  it("marks new tabs with a «Neu» badge", () => {
+    renderTabs();
+    const skillGap = screen.getAllByRole("tab").find((tab) => tab.textContent.startsWith(TAB_LABELS[TAB.SKILL_GAP]));
+    expect(skillGap).toHaveTextContent("Neu");
+    expect(screen.getAllByText("Neu")).toHaveLength(NEW_TABS.size);
   });
 
   it("uses the selected semester for the summary tab label", () => {

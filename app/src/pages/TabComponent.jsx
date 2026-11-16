@@ -9,6 +9,7 @@ import ErrorBoundary from "../components/errorHandling/ErrorBoundary";
 import { useHorizontalScrollAffordance } from "../components/helpers/useHorizontalScrollAffordance";
 import { lazyWithReload } from "../components/helpers/lazyWithReload";
 import {
+  NEW_TABS,
   TAB,
   TAB_GROUPS,
   TAB_LABELS,
@@ -235,6 +236,12 @@ export default function TabComponent({ selectedTab, onTabSelect }) {
               const tab = (
                 <Tab key={tabId} className={tabStyle}>
                   {labelFor(tabId)}
+                  {/* The same «Neu» badge as the Skill Mapper search mode. */}
+                  {NEW_TABS.has(tabId) && (
+                    <span className="ml-1.5 px-1 rounded text-[10px] font-bold uppercase leading-4 bg-yellow-300 text-gray-900">
+                      Neu
+                    </span>
+                  )}
                 </Tab>
               );
               const before = [];
