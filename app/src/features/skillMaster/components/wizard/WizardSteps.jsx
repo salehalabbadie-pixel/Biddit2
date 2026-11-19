@@ -45,6 +45,17 @@ function Notice({ children }) {
 
 Notice.propTypes = { children: PropTypes.node };
 
+/** A keyboard shortcut, set like a key cap. */
+function Keys({ children }) {
+  return (
+    <kbd className="px-1 py-px font-sans text-[11px] font-semibold text-gray-700 bg-white border border-gray-300 rounded">
+      {children}
+    </kbd>
+  );
+}
+
+Keys.propTypes = { children: PropTypes.node };
+
 /* ------------------------------------------------------------------ 1 */
 
 /** Step 1: target jobs from the catalogue, a typed job title or a pasted job ad. */
@@ -96,11 +107,12 @@ export function StepJobs({ profile, update }) {
     if (isLink(ad)) {
       setAdNote(
         <>
-          Biddit kann die Seite aus dem Browser nicht öffnen.{" "}
+          <span className="font-semibold">Links kann Biddit nicht selbst lesen.</span> So geht es:{" "}
           <a href={ad.trim()} target="_blank" rel="noreferrer" className="font-semibold text-hsg-800 underline">
-            Anzeige öffnen ↗
+            Öffne die Anzeige ↗
           </a>
-          , den Text kopieren und hier einfügen.
+          , markiere den Text mit <Keys>Ctrl+A</Keys>, kopiere ihn mit <Keys>Ctrl+C</Keys> und füge ihn
+          hier mit <Keys>Ctrl+V</Keys> ein. Auf dem Mac: <Keys>Cmd</Keys> statt <Keys>Ctrl</Keys>.
         </>
       );
       return;
@@ -225,7 +237,7 @@ export function StepJobs({ profile, update }) {
           aria-label="Stellenanzeige"
           rows={2}
           className={`${inputStyle} resize-y`}
-          placeholder="Link oder Text einer Stellenanzeige einfügen"
+          placeholder="Text einer Stellenanzeige einfügen"
           value={ad}
           onChange={(e) => setAd(e.target.value)}
         />
@@ -233,7 +245,14 @@ export function StepJobs({ profile, update }) {
           Analysieren
         </button>
       </div>
-      {adNote && <Notice>{adNote}</Notice>}
+      {adNote ? (
+        <Notice>{adNote}</Notice>
+      ) : (
+        <p className="mt-2 text-xs text-gray-500">
+          Öffne die Anzeige, markiere den Text mit <Keys>Ctrl+A</Keys>, kopiere ihn mit <Keys>Ctrl+C</Keys>{" "}
+          und füge ihn hier ein (Mac: <Keys>Cmd</Keys> statt <Keys>Ctrl</Keys>).
+        </p>
+      )}
     </>
   );
 }

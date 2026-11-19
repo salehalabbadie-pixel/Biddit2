@@ -123,6 +123,20 @@ describe("SkillMapperHeader", () => {
     expect(store.get(skillGapFocusAtom)).toBe("roles");
   });
 
+  it("explains how to copy the text when a job ad link is pasted", async () => {
+    const store = renderHeader([ROLES[0].id]);
+    fireEvent.click(screen.getByRole("button", { name: "Nachschärfen" }));
+    const field = await screen.findByLabelText("Stellenanzeige", {}, { timeout: 5000 });
+    expect(screen.getByText(/markiere den Text mit/)).toBeInTheDocument();
+
+    const url = "https://www.jobs.ch/de/stellenangebote/detail/123/";
+    fireEvent.change(field, { target: { value: url } });
+    fireEvent.click(screen.getByRole("button", { name: "Analysieren" }));
+    expect(screen.getByText("Links kann Biddit nicht selbst lesen.")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Öffne die Anzeige ↗" })).toHaveAttribute("href", url);
+    expect(store.get(skillProfileAtom).customRoles ?? []).toHaveLength(0);
+  });
+
   it("walks through the wizard from «Nachschärfen» to the course list", async () => {
     const store = renderHeader([ROLES[0].id]);
     fireEvent.click(screen.getByRole("button", { name: "Nachschärfen" }));
