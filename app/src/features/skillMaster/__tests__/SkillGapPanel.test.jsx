@@ -75,7 +75,7 @@ describe("SkillGapPanel", () => {
   it("shows the jobs, the key figures and a bar per skill", async () => {
     renderPanel();
     expect(screen.getByRole("list", { name: "Deine Zieljobs" })).toHaveTextContent("Product Owner");
-    expect(screen.getByText("deiner Lücken deckt der Plan ab")).toBeInTheDocument();
+    expect(screen.getByText("deiner Lücken schliessen deine gebuchten und geplanten Kurse")).toBeInTheDocument();
     // Every skill the job asks for gets a row.
     const role = ROLES.find((r) => r.id === "product-owner");
     expect(await screen.findByText(SKILLS[role.essential[0]].label)).toBeInTheDocument();

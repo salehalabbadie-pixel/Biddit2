@@ -257,7 +257,7 @@ export default function SkillGapPanel() {
       )}
 
       <section className="grid grid-cols-2 gap-3 xl:grid-cols-4" aria-label="Kennzahlen">
-        <Figure value={`${coverage} %`} text="deiner Lücken deckt der Plan ab" highlight />
+        <Figure value={`${coverage} %`} text="deiner Lücken schliessen deine gebuchten und geplanten Kurse" highlight />
         <Figure
           value={resilientShare === null ? "–" : `${resilientShare} %`}
           text="der geplanten Kurse sind KI-resilient"
